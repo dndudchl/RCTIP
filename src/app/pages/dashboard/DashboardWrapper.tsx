@@ -27,7 +27,7 @@ const DashboardWrapper = () => {
     <>
       
       <PageTitle breadcrumbs={[]}>{intl.formatMessage({id: 'MENU.DASHBOARD'})}</PageTitle>
-      <DashboardPage />
+      <DashboardPage /> hihi
     </>
   )
 }
