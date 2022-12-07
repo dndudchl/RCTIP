@@ -29,7 +29,7 @@ import {Yanluowang} from './components/Yanluowang'
 // const chatBreadCrumbs: Array<PageLink> = [
 //   {
 //     title: 'Darkweb INFO',
-//     path: '/apps/RaaS/TTPs/Avoslocker',
+//     path: '/apps/RaaS/IoC/Avoslocker',
 //     isSeparator: false,
 //     isActive: false,
 //   },
@@ -50,7 +50,7 @@ const TTPsPage = () => {
           path='ALPHV'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>ALPHV</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <ALPHV className=''/>
             </>
           }
@@ -59,7 +59,7 @@ const TTPsPage = () => {
           path='Avoslocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Avoslocker</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Avoslocker className=''/>
             </>
           }
@@ -68,7 +68,7 @@ const TTPsPage = () => {
           path='BlackBasta'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>BlackBasta</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <BlackBasta className=''/>
             </>
           }
@@ -77,7 +77,7 @@ const TTPsPage = () => {
           path='BlackByte'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>BlackByte</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <BlackByte className=''/>
             </>
           }
@@ -86,7 +86,7 @@ const TTPsPage = () => {
           path='Blackcat'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Blackcat</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Blackcat className=''/>
             </>
           }
@@ -95,7 +95,7 @@ const TTPsPage = () => {
           path='Blackmatter'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Blackmatter</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Blackmatter className=''/>
             </>
           }
@@ -104,7 +104,7 @@ const TTPsPage = () => {
           path='Bluesky'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Bluesky</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Bluesky className=''/>
             </>
           }
@@ -113,7 +113,7 @@ const TTPsPage = () => {
           path='Clop'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Clop</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Clop className=''/>
             </>
           }
@@ -122,7 +122,7 @@ const TTPsPage = () => {
           path='Conti'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Conti</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Conti className=''/>
             </>
           }
@@ -131,7 +131,7 @@ const TTPsPage = () => {
           path='Cuba'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Cuba</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Cuba className=''/>
             </>
           }
@@ -140,7 +140,25 @@ const TTPsPage = () => {
           path='Gwisin'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Gwisin</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <Gwisin className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Gwisin'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <Gwisin className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Gwisin'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Gwisin className=''/>
             </>
           }
@@ -149,7 +167,7 @@ const TTPsPage = () => {
           path='Hive'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Hive</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Hive className=''/>
             </>
           }
@@ -158,7 +176,7 @@ const TTPsPage = () => {
           path='Lockbit'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Lockbit3.0</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Lockbit className=''/>
             </>
           }
@@ -167,7 +185,7 @@ const TTPsPage = () => {
           path='LV'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>LV</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <LV className=''/>
             </>
           }
@@ -176,7 +194,7 @@ const TTPsPage = () => {
           path='Quantum'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Quantum</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Quantum className=''/>
             </>
           }
@@ -185,7 +203,7 @@ const TTPsPage = () => {
           path='Ransomexx'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Ransomexx</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Ransomexx className=''/>
             </>
           }
@@ -194,7 +212,7 @@ const TTPsPage = () => {
           path='Vice_Society'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Vice_Society</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Vice_Society className=''/>
             </>
           }
@@ -203,13 +221,13 @@ const TTPsPage = () => {
           path='Yanluowang'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Yanluowang</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
               <Yanluowang className=''/>
             </>
           }
         />
 
-        <Route index element={<Navigate to='/apps/RaaS/TTPs/Avoslocker' />} />
+        <Route index element={<Navigate to='/apps/RaaS/IoC/Avoslocker' />} />
       </Route>
     </Routes>
   )

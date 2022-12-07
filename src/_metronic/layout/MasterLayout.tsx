@@ -34,7 +34,6 @@ const MasterLayout = () => {
           {/* begin::Wrapper */}
           <div className='wrapper d-flex flex-column flex-row-fluid' id='kt_wrapper'>
             <HeaderWrapper />
-            
 
             <Toolbar />
 

@@ -5,11 +5,11 @@ type Propx = {
   className: string
 }
 
-const Hive: React.FC<Propx> = ({className}) => {  
+const Vice_Society: React.FC<Propx> = ({className}) => {  
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
-        <h2 className='card-title fw-bold fs-1 text-center'>MITRE ATT&CK MATRIX
+        <h2 className='card-title fw-bold fs-2'>MITRE tatics and techniques
         </h2>
       </div>
       <div className='card-body py-3'>
@@ -22,10 +22,8 @@ const Hive: React.FC<Propx> = ({className}) => {
                <th className='border min-w-125px'>Persistence</th>
                <th className='border min-w-125px'>Privilege-Escalation</th>
                <th className='border min-w-125px'>Defense-Evasion</th>
-               <th className='border min-w-125px'>Credential-Access</th>
-               <th className='border min-w-125px'>Discovery</th>
                <th className='border min-w-125px'>Lateral-Movement</th>
-               <th className='border min-w-125px'>Command-and-Control</th>
+               <th className='border min-w-125px'>Exfiltration</th>
                <th className='border-end border-dark min-w-125px'>Impact</th>
               </tr>
             </thead>
@@ -50,11 +48,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1204.002</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1078</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- User Execution: Malicious File
+												- Valid Accounts
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -66,11 +64,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1136.002</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1047</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Create Account: Domain Account
+												- Windows Management Instrumentation
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -82,11 +80,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1078.002</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1053.005</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Valid Account: Domain Accounts
+												- Scheduled Task/Job: Scheduled Task
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -98,11 +96,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1140</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1543.003</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Deobfuscate/Decode Files or Information
+												- Create or Modify System Process: Windows Service
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -114,11 +112,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1070.001</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1547.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Indicator Removal: Clear Windows Event Logs
+												- Registry Run Keys / Startup Folder
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -130,11 +128,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1003.005</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1574.002</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- OS Credential Dumping: Cached Domain Credentials
+												- Hijack Execution Flow: DLL Side-Loading
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -146,43 +144,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1018</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1055</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote System Discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1021.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote Services: Remote Desktop Protocol
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1071.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Application Layer Protocol: Web Protocolse
+												- Process Injection
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -194,6 +160,86 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1036</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Masquerading
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1055</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Process Injection
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1497</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Virtualization/Sandbox Evasion
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1080</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Taint Shared Content
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
 										<span className='badge badge-secondary fs-8 fw-bold '></span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
@@ -223,6 +269,22 @@ const Hive: React.FC<Propx> = ({className}) => {
 									</div>
 								</td>
               
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>Technique_ID</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Technique_Name
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>							<tr className=''>              
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
@@ -290,11 +352,11 @@ const Hive: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1531</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
+												- Account Access Removal
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -358,4 +420,4 @@ const Hive: React.FC<Propx> = ({className}) => {
   )
 }
 
-export {Hive}
+export {Vice_Society}

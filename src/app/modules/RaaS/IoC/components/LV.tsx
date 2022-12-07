@@ -5,7 +5,7 @@ type Propx = {
   className: string
 }
 
-const Avoslocker: React.FC<Propx> = ({className}) => {  
+const LV: React.FC<Propx> = ({className}) => {  
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
@@ -38,7 +38,7 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Exploit public-facing application
+												- Exploit Public-Facing Application
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -50,11 +50,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1072</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1059.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Software deployment tools
+												- Command and Scripting Interpreter: Powershell
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -66,11 +66,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1136</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1059.003</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Create account
+												- Command and Scripting Interpreter:Windows Command Shell
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -82,11 +82,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1547</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1078.002</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Boot or logon autostart execution
+												- Valid Accounts: Domain Accounts
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -98,11 +98,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1112</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1505.003</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Modify registry
+												- Server Software Component: Web Shell
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -114,11 +114,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1562</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1547.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Impair defenses
+												- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -130,11 +130,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1140</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1078.002</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Deobfuscate/Decode files or information
+												- Valid Accounts: Domain Accounts
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -146,11 +146,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1070</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1036.004</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Indicator removal on host
+												- Masquerading: Masquerade Task or Service
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -162,11 +162,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1003</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1027.002</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- OS credential dumping
+												- Obfuscated Files or Information: Software Packing
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -178,11 +178,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1552</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1484.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Unsecured credentials
+												- Domain Policy Modification: Group Policy Modification
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -210,6 +210,38 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1562.001</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Impair Defenses: Disable or Modify Tools
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1070.004</span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												- Indicator Removal: File Deletion
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
 										<span className='badge badge-secondary fs-8 fw-bold '></span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
@@ -226,11 +258,107 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1555</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1003.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Credentials from password stores
+												- OS Credential Dumping
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>							<tr className=''>              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -262,55 +390,7 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- File and directory discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1135</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Network share discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1057</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Process discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1018</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote system discovery
+												- Network Service Discover
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -338,11 +418,91 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1021</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1021.001</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote services
+												- Remote Services: Remote Desktop Protocol
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -418,11 +578,11 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1072</span>
+										<span className='badge badge-secondary fs-8 fw-bold '>T1105</span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Software deployment tools
+												- Ingress Tool Transfer
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -434,11 +594,139 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 			   					<td className='border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1219</span>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote access software
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>							<tr className=''>              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
+											</div>
+											<div className='text-muted fw-semibold text-muted d-block fs-7'>
+
+											</div>
+										</div>
+									</div>
+								</td>
+              
+			   					<td className='border-start border-end border-dark'>
+									<div className='px-2 d-flex align-items-baseline'>
+										<div className='symbol symbol-50px me-2'>
+										<span className='badge badge-secondary fs-8 fw-bold '></span>
+										</div>
+										<div className='d-flex justify-content-baseline flex-column'>
+											<div className='text-dark fw-semibold mb-1 fs-7'>
+												
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -454,71 +742,7 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 										</div>
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Data encrypted for impact
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1489</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Service stop
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
+												- Data Encrypted for Impact
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -599,70 +823,6 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
 										<div className='d-flex justify-content-baseline flex-column'>
 											<div className='text-dark fw-semibold mb-1 fs-7'>
 												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1490</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Inhibit system recovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1491</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Defacement
 											</div>
 											<div className='text-muted fw-semibold text-muted d-block fs-7'>
 
@@ -675,8 +835,7 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
         </div>
       </div>
     </div>
-	
   )
 }
 
-export {Avoslocker}
+export {LV}

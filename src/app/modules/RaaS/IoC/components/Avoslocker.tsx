@@ -675,7 +675,6 @@ const Avoslocker: React.FC<Propx> = ({className}) => {
         </div>
       </div>
     </div>
-	
   )
 }
 

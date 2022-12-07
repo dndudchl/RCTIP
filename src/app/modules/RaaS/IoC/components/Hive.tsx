@@ -9,7 +9,7 @@ const Hive: React.FC<Propx> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
-        <h2 className='card-title fw-bold fs-1 text-center'>MITRE ATT&CK MATRIX
+        <h2 className='card-title fw-bold fs-2'>MITRE tatics and techniques
         </h2>
       </div>
       <div className='card-body py-3'>

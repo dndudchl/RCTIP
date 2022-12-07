@@ -5,6 +5,7 @@ import TopBarProgress from 'react-topbar-progress-indicator'
 import {getCSSVariableValue} from '../../_metronic/assets/ts/_utils'
 import {WithChildren} from '../../_metronic/helpers'
 import TTPsPage from '../modules/RaaS/TTPs/TTPspage'
+import IoCPage from '../modules/RaaS/IoC/IoCpage'
 
 const PrivateRoutes2 = () => {
   
@@ -36,6 +37,15 @@ const PrivateRoutes2 = () => {
           element={
             <SuspensedView>
               <TTPsPage />
+            </SuspensedView>
+          }
+        />
+
+        <Route
+          path='ioc/*'
+          element={
+            <SuspensedView>
+              <IoCPage />
             </SuspensedView>
           }
         />
