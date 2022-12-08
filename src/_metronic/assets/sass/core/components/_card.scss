@@ -16,7 +16,8 @@
     // Header
     .card-header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        // justify-content: space-between;
         align-items: stretch;
         flex-wrap: wrap;
         min-height: $card-header-height;
@@ -31,6 +32,7 @@
             align-items: center;
             margin: $card-header-py;
             margin-left: 0;
+            // justify-content: center;
 
             &.flex-column {
                 align-items: flex-start;

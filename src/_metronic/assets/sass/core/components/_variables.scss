@@ -108,6 +108,7 @@ $warning-inverse: 				$white !default;
 
 // Danger colors
 $danger: 						#F64E60 !default; 
+$danger1: 						#f00920 !default; 
 $danger-active: 				#EE2D41 !default;
 $danger-light: 					#FFE2E5 !default;
 $danger-light-dark:				#3A2434 !default;
@@ -133,6 +134,7 @@ $theme-colors: (
 	"info": $info,
 	"warning": $warning,
 	"danger": $danger,
+	"danger1": $danger1,
 	"dark": $dark
 ) !default;
 	
