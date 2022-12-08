@@ -1,18 +1,19 @@
-
 import React from 'react'
 
 type Propx = {
   className: string
 }
 
-const Hive: React.FC<Propx> = ({className}) => {  
+const Hive: React.FC<Propx> = ({className}) => { 
   return (
-	
+	<>
     <div className={`card ${className}`}>
-      <div className='card-header border-0 pt-5'>
+      {/* <div className='card-header border-0 pt-5'>
         <h1 className='card-title fw-bold fs-2qx'>MITRE ATT&CK MATRIX
         </h1>
-      </div>
+      </div> */}
+        <h1 className='card-title fw-bold fs-2qx pt-6'>MITRE ATT&CK MATRIX
+        </h1>
       <div className='card-body pt-3 pb-6'>
         <div className='table-responsive border-start border-end border-white'>
           <table className='table align-baseline gx-1 gy-4 table-striped border border-dark'>
@@ -32,20 +33,25 @@ const Hive: React.FC<Propx> = ({className}) => {
             </thead>
             <tbody>
 							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
+			   					<td className='align-items-baseline border-start border-end border-dark'>
 									<div className='px-2 d-flex flex-column'>
-										<div className='symbol symbol-50px'>
+										<div className='symbol symbol-50px pb-1'>
 										<span className='badge badge-dark text-white fs-8 fw-bold me-1'>T1190</span>
 										<span className='text-dark fw-semibold mb-1 fs-7'>- Exploit Public-Facing Application</span>
 										</div>
 										{/* <div className='d-flex justify-content-baseline flex-column'> */}
-										<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-4 pb-1 '>
-											<div className='text-white fw-semibold d-block fs-7'> hihi hihihihi hihihihi hihihihi hihihihi </div>
+										<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-3 pb-1 pe-1 fst-italic'>
+											<div className='text-white fw-semibold d-block fs-7'> 
+											<div></div>
+											<div>- CVE-2021-34473</div>
+											<div>- CVE-2021-34473</div>
+											<div>- CVE-2021-34473</div>
+											</div>
 										</div>
 									</div>
 								</td>
               
-			   					<td className='border-start border-end border-dark'>
+			   					<td className='align-items-baseline border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
 										<span className='badge badge-secondary fs-8 fw-bold '>T1204.002</span>
@@ -253,7 +259,7 @@ const Hive: React.FC<Propx> = ({className}) => {
 									</div>
 								</td>
               
-			   					<td className='border-start border-end border-dark'>
+			   					<td className='align-items-baseline border-start border-end border-dark'>
 									<div className='px-2 d-flex align-items-baseline'>
 										<div className='symbol symbol-50px me-2'>
 										<span className='badge badge-secondary fs-8 fw-bold '>T1486</span>
@@ -353,6 +359,8 @@ const Hive: React.FC<Propx> = ({className}) => {
         </div>
       </div>
     </div>
+	<div>hihi</div>
+	</>
   )
 }
 

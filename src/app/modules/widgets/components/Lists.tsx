@@ -8,6 +8,7 @@ import {
   ListsWidget6,
   ListsWidget7,
   ListsWidget8,
+  ListsWidget9
 } from '../../../../_metronic/partials/widgets'
 
 const Lists: FC = () => {
@@ -50,6 +51,7 @@ const Lists: FC = () => {
           <ListsWidget8 className='card-xl-stretch mb-5 mb-xl-8' />
         </div>
       </div>
+      <ListsWidget9 className=''/>
       {/* end::Row */}
     </>
   )

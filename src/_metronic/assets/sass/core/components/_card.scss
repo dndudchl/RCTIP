@@ -16,8 +16,8 @@
     // Header
     .card-header {
         display: flex;
-        justify-content: center;
-        // justify-content: space-between;
+        // justify-content: center;
+        justify-content: space-between;
         align-items: stretch;
         flex-wrap: wrap;
         min-height: $card-header-height;
@@ -27,62 +27,62 @@
         border-bottom: $card-border-width $card-border-style var(--kt-card-border-color);
 
         // Title
-        .card-title {
-            display: flex;
-            align-items: center;
-            margin: $card-header-py;
-            margin-left: 0;
-            // justify-content: center;
+        // .card-title {
+        //     display: flex;
+        //     align-items: center;
+        //     margin: $card-header-py;
+        //     margin-left: 0;
+        //     // justify-content: center;
 
-            &.flex-column {
-                align-items: flex-start;
-                justify-content: center;
-            }
+        //     &.flex-column {
+        //         align-items: flex-start;
+        //         justify-content: center;
+        //     }
 
-            .card-icon {
-                margin-right: 0.75rem;
-                line-height: 0;
+        //     .card-icon {
+        //         margin-right: 0.75rem;
+        //         line-height: 0;
 
-                i {
-                    font-size: 1.25rem;
-                    color: var(--kt-gray-600);
-                    line-height: 0;
+        //         i {
+        //             font-size: 1.25rem;
+        //             color: var(--kt-gray-600);
+        //             line-height: 0;
 
-                    &:after,
-                    &:before {
-                        line-height: 0;
-                    }
-                }
+        //             &:after,
+        //             &:before {
+        //                 line-height: 0;
+        //             }
+        //         }
 
-                .svg-icon {
-                    color: var(--kt-gray-600);
-                    @include svg-icon-size(24px);
-                }
-            }
+        //         .svg-icon {
+        //             color: var(--kt-gray-600);
+        //             @include svg-icon-size(24px);
+        //         }
+        //     }
 
-            &,
-            .card-label {
-                font-weight: 500;
-                font-size: 1.275rem;
-                color: var(--kt-text-dark);
-            }
+        //     &,
+        //     .card-label {
+        //         font-weight: 500;
+        //         font-size: 1.275rem;
+        //         color: var(--kt-text-dark);
+        //     }
 
-            .card-label {
-                margin: 0 0.75rem 0 0;
-                flex-wrap: wrap;
-            }
+        //     .card-label {
+        //         margin: 0 0.75rem 0 0;
+        //         flex-wrap: wrap;
+        //     }
 
-            // Description
-            small {
-                color: var(--kt-text-muted);
-                font-size: 1rem;
-            }
+        //     // Description
+        //     small {
+        //         color: var(--kt-text-muted);
+        //         font-size: 1rem;
+        //     }
 
-            // Headings
-            h1, h2, h3, h4, h5, h6 {
-                margin-bottom: 0;
-            }
-        }
+        //     // Headings
+        //     h1, h2, h3, h4, h5, h6 {
+        //         margin-bottom: 0;
+        //     }
+        // }
 
         // Toolbar
         .card-toolbar {
@@ -90,6 +90,62 @@
             align-items: center;
             margin: $card-header-py 0;
             flex-wrap: wrap;
+        }
+    }
+    .card-title {
+        display: flex;
+        align-items: center;
+        margin: $card-header-py;
+        margin-left: 0;
+        justify-content: center;
+
+        &.flex-column {
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .card-icon {
+            margin-right: 0.75rem;
+            line-height: 0;
+
+            i {
+                font-size: 1.25rem;
+                color: var(--kt-gray-600);
+                line-height: 0;
+
+                &:after,
+                &:before {
+                    line-height: 0;
+                }
+            }
+
+            .svg-icon {
+                color: var(--kt-gray-600);
+                @include svg-icon-size(24px);
+            }
+        }
+
+        &,
+        .card-label {
+            font-weight: 500;
+            font-size: 1.275rem;
+            color: var(--kt-text-dark);
+        }
+
+        .card-label {
+            margin: 0 0.75rem 0 0;
+            flex-wrap: wrap;
+        }
+
+        // Description
+        small {
+            color: var(--kt-text-muted);
+            font-size: 1rem;
+        }
+
+        // Headings
+        h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 0;
         }
     }
 
