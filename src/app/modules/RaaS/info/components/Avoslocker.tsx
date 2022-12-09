@@ -7,7 +7,7 @@ const Avoslocker: FC = () => {
   return (
     <>
       <div className='d-flex flex-wrap flex-stack mb-7'>
-        <h1 className='text-danger lh-xxl fw-bolder my-2'>
+        <h1 className='fs-2x text-danger lh-xxl fw-bolder my-2'>
           Avoslocker
         </h1>
 
