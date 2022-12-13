@@ -17,7 +17,7 @@ import {Clop} from './components/Clop'
 import {Conti} from './components/Conti'
 import {Cuba} from './components/Cuba'
 import {Gwisin} from './components/Gwisin'
-import {Hive} from './components/Hive'
+import {HIVE} from './components/Hive'
 import {Lockbit} from './components/Lockbit3.0'
 import {LV} from './components/LV'
 import {Quantum} from './components/Quantum'
@@ -150,7 +150,7 @@ const TTPsPage = () => {
           element={
             <>
               <PageTitle breadcrumbs={[]} description='TTPs'>Hive</PageTitle>
-              <Hive className=''/>
+              <HIVE className=''/>
             </>
           }
         />

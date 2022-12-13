@@ -6,24 +6,34 @@ import {Navigate, Route, Routes, Outlet} from 'react-router-dom'
 // import {PageLink} from '../../../../_metronic/layout/core'
 import {PageTitle} from '../../../../_metronic/layout/core'
 
-import {ALPHV} from './components/ALPHV'
-import {Avoslocker} from './components/Avoslocker'
-import {BlackBasta} from './components/BlackBasta'
-import {BlackByte} from './components/BlackByte'
-import {Blackcat} from './components/Blackcat'
-import {Blackmatter} from './components/Blackmatter'
-import {Bluesky} from './components/Bluesky'
-import {Clop} from './components/Clop'
-import {Conti} from './components/Conti'
-import {Cuba} from './components/Cuba'
-import {Gwisin} from './components/Gwisin'
-import {Hive} from './components/Hive'
-import {Lockbit} from './components/Lockbit3.0'
-import {LV} from './components/LV'
-import {Quantum} from './components/Quantum'
-import {Ransomexx} from './components/Ransomexx'
-import {Vice_Society} from './components/Vice_Society'
-import {Yanluowang} from './components/Yanluowang'
+import {Alphv} from './components/alphv'
+import {Avoslocker} from './components/avoslocker'
+import {Babuk} from './components/babuk'
+import {Blackbasta} from './components/blackbasta'
+import {Blackbyte} from './components/blackbyte'
+import {Blackcat} from './components/blackcat'
+import {Bluesky} from './components/bluesky'
+import {Clop} from './components/clop'
+import {Conti} from './components/conti'
+import {Cuba} from './components/cuba'
+import {Darkangels} from './components/darkangels'
+import {Darkside} from './components/darkside'
+import {Hellokitty} from './components/hellokitty'
+import {Hive} from './components/hive'
+import {Lockbit} from './components/lockbit'
+import {Lv} from './components/lv'
+import {Maze} from './components/maze'
+import {Medusalocker} from './components/medusalocker'
+import {Netwalker} from './components/netwalker'
+import {Quantum} from './components/quantum'
+import {Ragnarlocker} from './components/ragnarlocker'
+import {Ransomexx} from './components/ransomexx'
+import {Redalert} from './components/redalert'
+import {Revil} from './components/revil'
+import {Snatch} from './components/snatch'
+import {Vicesociety} from './components/vicesociety'
+import {Yanluowang} from './components/yanluowang'
+import {Zeppelin} from './components/zeppelin'
 
 
 // const chatBreadCrumbs: Array<PageLink> = [
@@ -47,185 +57,249 @@ const TTPsPage = () => {
     <Routes>
       <Route element={<Outlet />}>
         <Route
-          path='ALPHV'
+          path='alphv'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <ALPHV className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>ALPHV</PageTitle>
+              <Alphv className=''/>
             </>
           }
         /> 
         <Route
-          path='Avoslocker'
+          path='avoslocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Avoslocker</PageTitle>
               <Avoslocker className=''/>
             </>
           }
         />
         <Route
-          path='BlackBasta'
+          path='blackbasta'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <BlackBasta className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Blackbasta</PageTitle>
+              <Blackbasta className=''/>
             </>
           }
         />
         <Route
-          path='BlackByte'
+          path='babuk'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <BlackByte className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Babuk</PageTitle>
+              <Babuk className=''/>
             </>
           }
         />
         <Route
-          path='Blackcat'
+          path='blackbyte'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Blackbyte</PageTitle>
+              <Blackbyte className=''/>
+            </>
+          }
+        />
+        <Route
+          path='blackcat'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Blackcat</PageTitle>
               <Blackcat className=''/>
             </>
           }
         />
         <Route
-          path='Blackmatter'
+          path='bluesky'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <Blackmatter className=''/>
-            </>
-          }
-        />
-        <Route
-          path='Bluesky'
-          element={
-            <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Bluesky</PageTitle>
               <Bluesky className=''/>
             </>
           }
         />
         <Route
-          path='Clop'
+          path='clop'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Clop</PageTitle>
               <Clop className=''/>
             </>
           }
         />
         <Route
-          path='Conti'
+          path='conti'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Conti</PageTitle>
               <Conti className=''/>
             </>
           }
         />
         <Route
-          path='Cuba'
+          path='cuba'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Cuba</PageTitle>
               <Cuba className=''/>
             </>
           }
         />
         <Route
-          path='Gwisin'
+          path='darkangels'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <Gwisin className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Darkangels</PageTitle>
+              <Darkangels className=''/>
             </>
           }
         />
         <Route
-          path='Gwisin'
+          path='darkside'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <Gwisin className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Darkside</PageTitle>
+              <Darkside className=''/>
             </>
           }
         />
         <Route
-          path='Gwisin'
+          path='hellokitty'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <Gwisin className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Hellokitty</PageTitle>
+              <Hellokitty className=''/>
             </>
           }
         />
         <Route
-          path='Hive'
+          path='hive'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Hive</PageTitle>
               <Hive className=''/>
             </>
           }
         />
         <Route
-          path='Lockbit'
+          path='lockbit'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Lockbit</PageTitle>
               <Lockbit className=''/>
             </>
           }
         />
         <Route
-          path='LV'
+          path='lv'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <LV className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>LV</PageTitle>
+              <Lv className=''/>
             </>
           }
         />
         <Route
-          path='Quantum'
+          path='maze'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Maze</PageTitle>
+              <Maze className=''/>
+            </>
+          }
+        />
+        <Route
+          path='medusalocker'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Medusalocker</PageTitle>
+              <Medusalocker className=''/>
+            </>
+          }
+        />
+        <Route
+          path='netwalker'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Netwalker</PageTitle>
+              <Netwalker className=''/>
+            </>
+          }
+        />
+        <Route
+          path='quantum'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Quantum</PageTitle>
               <Quantum className=''/>
             </>
           }
         />
         <Route
-          path='Ransomexx'
+          path='ragnarlocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Ragnarlocker</PageTitle>
+              <Ragnarlocker className=''/>
+            </>
+          }
+        />
+        <Route
+          path='ransomexx'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Ransomexx</PageTitle>
               <Ransomexx className=''/>
             </>
           }
         />
         <Route
-          path='Vice_Society'
+          path='redalert'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
-              <Vice_Society className=''/>
+              <PageTitle breadcrumbs={[]} description='IoC'>Redalert</PageTitle>
+              <Redalert className=''/>
             </>
           }
         />
         <Route
-          path='Yanluowang'
+          path='revil'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='IoC'>RaaS Groups</PageTitle>
+              <PageTitle breadcrumbs={[]} description='IoC'>Revil</PageTitle>
+              <Revil className=''/>
+            </>
+          }
+        />
+        <Route
+          path='snatch'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Snatch</PageTitle>
+              <Snatch className=''/>
+            </>
+          }
+        />
+        <Route
+          path='vicesociety'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Vicesociety</PageTitle>
+              <Vicesociety className=''/>
+            </>
+          }
+        />
+        <Route
+          path='yanluowang'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='IoC'>Yanluowang</PageTitle>
               <Yanluowang className=''/>
             </>
           }
         />
+        
 
         <Route index element={<Navigate to='/apps/RaaS/IoC/Avoslocker' />} />
       </Route>

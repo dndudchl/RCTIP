@@ -1,676 +1,249 @@
-
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import {KTSVG} from '../../../../../_metronic/helpers'
 
-type Propx = {
+type Props = {
   className: string
 }
 
-const BlackBasta: React.FC<Propx> = ({className}) => {  
+const Blackbasta: React.FC<Props> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
-        <h2 className='card-title fw-bold fs-2'>MITRE tatics and techniques
-        </h2>
+        <h3 className='card-title align-items-start flex-column fs-2x fw-semibold'>Indicator Of Compromise (IoCs)</h3>
       </div>
-      <div className='card-body py-3'>
-        <div className='table-responsive border-start border-end border-white'>
-          <table className='table table-fixed align-baseline gx-1 gy-4 table-success table-striped border border-dark'>
+
+      <div className='card-body py-3 pt-5'>
+        <div className='table-responsive'>
+          <table className='table table-row-bordered table-row-gray-200 align-middle gs-0 gy-3'>
             <thead>
-              <tr className='fw-bold text-white bg-dark text-center table-fixed'>
-               <th className='border-start border-dark min-w-125px'>Initial-Access</th>
-               <th className='border min-w-125px'>Execution</th>
-               <th className='border min-w-125px'>Persistence</th>
-               <th className='border min-w-125px'>Privilege-Escalation</th>
-               <th className='border min-w-125px'>Defense-Evasion</th>
-               <th className='border min-w-125px'>Credential-Access</th>
-               <th className='border min-w-125px'>Discovery</th>
-               <th className='border min-w-125px'>Lateral-movement</th>
-               <th className='border min-w-125px'>Exfiltration</th>
-               <th className='border-end border-dark min-w-125px'>Impact</th>
+              <tr className='fw-bold text-muted fs-5'>
+                <th className='w-25px'>
+                  <div className='form-check form-check-sm form-check-custom form-check-solid'>
+                    <input
+                      className='form-check-input'
+                      type='checkbox'
+                      value='1'
+                      data-kt-check='true'
+                      data-kt-check-target='.widget-13-check'
+                    />
+                  </div>
+                </th>
+                <th className='min-w-100px'>TYPE</th>
+                <th className='min-w-200px'>VALUE</th>
+                <th className='min-w-150px'>Label</th>
+                <th className='min-w-125px'>Created date</th>
+                <th className='min-w-10px'>TLP</th>
+                <th className='min-w-10px text-end'></th>
               </tr>
             </thead>
             <tbody>
-							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1078</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Valid accounts
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1566.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Spearphishing Attachment
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>48976d7bf38cca4e952507e9ab27e3874ca01092eed53d0fde89c5966e9533bb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1059.003</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Command and scripting interpreter
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-05</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1569.002</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Service execution
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ce01002614eb7029131a73769db721ac68ef47989d7a8022980d3ae22c82b6f7</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1047</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Windows Management Instrumentation
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-05</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1053.005</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Scheduled Task
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>31103788fae9b988d9d4362b848249b49ea60e15fc5982f26b13447064a13325</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1068</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Exploitation for privilege escalation
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-05</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1112</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Modify registry
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e28188e516db1bda9015c30de59a2e91996b67c2e2b44989a6b0f562577fd757</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1484.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Group policy modification
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-02</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1562.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Disable or modify tools
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c4c8be0c939e4c24e11bad90549e3951b7969e78056d819425ca53e87af8d8ed</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										
 									</div>
 								</td>
-							</tr>							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1620</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Reflective code loading
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-02</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1003</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- OS credential dumping
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>51eb749d6cbd08baf9d43c2f83abd9d4d86eb5206f62ba43b768251a98ce9d3e</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-02</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>350ba7fca67721c74385faff083914ecdd66ef107a765dfb7ac08b38d5c9c0bd</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1082</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- System information discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-02</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>07117c02a09410f47a326b52c7f17407e63ba5e6ff97277446efc75b862d2799</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>blackbasta</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										
 									</div>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1018</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- System information discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
+								<td><div className='text-dark fw-bold fs-6'>2022-12-02</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1083</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- File and directory discovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
 								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1570</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Lateral tool transfer
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1021.001</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Remote Desktop Protocol
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1041</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Exfiltration over C2 channel
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1567</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Exfiltration over web service
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1490</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Inhibit system recovery
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1489</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Service stop
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>							<tr className=''>              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1486</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Data encrypted for impact
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '></span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-              
-			   					<td className='border-start border-end border-dark'>
-									<div className='px-2 d-flex align-items-baseline'>
-										<div className='symbol symbol-50px me-2'>
-										<span className='badge badge-secondary fs-8 fw-bold '>T1491</span>
-										</div>
-										<div className='d-flex justify-content-baseline flex-column'>
-											<div className='text-dark fw-semibold mb-1 fs-7'>
-												- Defacement
-											</div>
-											<div className='text-muted fw-semibold text-muted d-block fs-7'>
-
-											</div>
-										</div>
-									</div>
-								</td>
-							</tr>            </tbody>
+							</tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -678,4 +251,4 @@ const BlackBasta: React.FC<Propx> = ({className}) => {
   )
 }
 
-export {BlackBasta}
+export {Blackbasta}

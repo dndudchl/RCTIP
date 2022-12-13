@@ -1,317 +1,341 @@
-
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+import {KTSVG, toAbsoluteUrl} from '../../../helpers'
 
-type Propx = {
+type Props = {
   className: string
 }
 
-const TablesWidget11: React.FC<Propx> = ({className}) => {  
+const TablesWidget11: React.FC<Props> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       {/* begin::Header */}
-      <div className='card-header text-center border-0 pt-5'>
-        <h2 className='card-title fw-bold fs-2 text-center'>MITRE tatics and techniques -&nbsp;  <mark>  BlackCat</mark>
-        </h2>
-		
+      <div className='card-header border-0 pt-5'>
+        <h3 className='card-title align-items-start flex-column'>
+          <span className='card-label fw-bold fs-3 mb-1'>New Arrivals</span>
+          <span className='text-muted mt-1 fw-semibold fs-7'>Over 500 new products</span>
+        </h3>
+        <div className='card-toolbar'>
+          <a href='#' className='btn btn-sm btn-light-primary'>
+            <KTSVG path='/media/icons/duotune/arrows/arr075.svg' className='svg-icon-2' />
+            New Member
+          </a>
+        </div>
       </div>
       {/* end::Header */}
       {/* begin::Body */}
       <div className='card-body py-3'>
         {/* begin::Table container */}
-        <div className='table-responsive border-start border-end border-white'>
+        <div className='table-responsive'>
           {/* begin::Table */}
-          <table className='table table-fixed align-baseline gx-1 gy-4 table-success table-striped border border-dark'>
+          <table className='table align-middle gs-0 gy-4'>
             {/* begin::Table head */}
             <thead>
-              <tr className='fw-bold text-white bg-dark text-center table-fixed'>
-                <th className='border-start border-dark min-w-125px'>Initial Access</th>
-                <th className='border min-w-125px'>Execution</th>
-                <th className='border min-w-125px'>Defense Evasion</th>
-                <th className='border min-w-125px'>CredentialAccess</th>
-                <th className='border min-w-125px'>Discovery</th>
-                <th className='border min-w-125px'>Lateral Movement</th>
-                <th className='border min-w-125px'>Exfiltration</th>
-                <th className='border-end border-dark min-w-125px'>Impact</th>                
+              <tr className='fw-bold text-muted bg-light'>
+                <th className='ps-4 min-w-325px rounded-start'>Product</th>
+                <th className='min-w-125px'>Price</th>
+                <th className='min-w-125px'>Deposit</th>
+                <th className='min-w-200px'>Agent</th>
+                <th className='min-w-150px'>Status</th>
+                <th className='min-w-200px text-end rounded-end'></th>
               </tr>
             </thead>
             {/* end::Table head */}
             {/* begin::Table body */}
             <tbody>
-              <tr className=''>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1078</span>
+              <tr>
+                <td>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-50px me-5'>
+                      <img
+                        src={toAbsoluteUrl('/media/stock/600x400/img-26.jpg')}
+                        className=''
+                        alt=''
+                      />
                     </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        -Vaild Accounts  
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1059</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Command and Scripting Interpreter 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
+                    <div className='d-flex justify-content-start flex-column'>
+                      <a href='#' className='text-dark fw-bold text-hover-primary mb-1 fs-6'>
+                        Sant Extreanet Solution
+                      </a>
+                      <span className='text-muted fw-semibold text-muted d-block fs-7'>
+                        HTML, JS, ReactJS
+                      </span>
                     </div>
                   </div>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1562.001</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Impair Defense: Disable or Modify Tools 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $2,790
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Paid</span>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1003.001</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - OS Credential Dumping: LSASS Memory 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $520
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Rejected</span>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1087</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Account Discovery 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    Bradly Beal
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Insurance</span>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1021.002</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Remote Services: SMB/Windows Admin Shares 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
+                <td>
+                  <span className='badge badge-light-primary fs-7 fw-semibold'>Approved</span>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1048</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Exfiltration Over Alternative Protocol 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
+                <td className='text-end'>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/general/gen019.svg' className='svg-icon-3' />
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+                  </a>
+                  <a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm'>
+                    <KTSVG path='/media/icons/duotune/general/gen027.svg' className='svg-icon-3' />
+                  </a>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1489</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Service stop 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>               
-              </tr>
-              <tr className=''>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-stretch'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1190</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Exploit Public-Facing Application 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td >
-                <td >
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1562.009</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Impair Defenses: Safe Mode Boot 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td >
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1083</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        -  File and Directory Discovery 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td >
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1567</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Exfiltration Over Web Service 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1490</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Inhibit System Recovery 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>               
               </tr>
               <tr>
-                <td className='border-start border-end border-dark'>
-                </td>
-                <td className='border-start border-end border-dark'>
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1070.001</span>
-                    
+                <td>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-50px me-5'>
+                      <img
+                        src={toAbsoluteUrl('/media/stock/600x400/img-3.jpg')}
+                        className=''
+                        alt=''
+                      />
                     </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Indicator Removal on Host: Clear Windows Event Logs 
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td className='border-start border-end border-dark'>
-                </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1057</span>
-                    
-                    </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Process Discovery
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
+                    <div className='d-flex justify-content-start flex-column'>
+                      <a href='#' className='text-dark fw-bold text-hover-primary mb-1 fs-6'>
+                        Telegram Development
+                      </a>
+                      <span className='text-muted fw-semibold text-muted d-block fs-7'>
+                        C#, ASP.NET, MS SQL
+                      </span>
                     </div>
                   </div>
                 </td>
-                <td className='border-start border-end border-dark'>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $4,790
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Paid</span>
                 </td>
-                <td className='border-start border-end border-dark'>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $240
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Rejected</span>
                 </td>
-                <td className='border-start border-end border-dark'>
-                  <div className='p-2 d-flex align-items-baseline'>
-                    <div className='symbol symbol-50px me-2'>
-                    <span className='badge badge-secondary fs-8 fw-bold '>T1486</span>
-                    
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    Chris Thompson
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>NBA Player</span>
+                </td>
+                <td>
+                  <span className='badge badge-light-danger fs-7 fw-semibold'>In Progress</span>
+                </td>
+                <td className='text-end'>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/general/gen019.svg' className='svg-icon-3' />
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+                  </a>
+                  <a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm'>
+                    <KTSVG path='/media/icons/duotune/general/gen027.svg' className='svg-icon-3' />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-50px me-5'>
+                      <img
+                        src={toAbsoluteUrl('/media/stock/600x400/img-9.jpg')}
+                        className=''
+                        alt=''
+                      />
                     </div>
-                    <div className='d-flex justify-content-baseline flex-column'>
-                      <div className='text-dark fw-semibold mb-1 fs-7'>
-                        - Data Encrypted for Impact
-                      </div>
-                      <div className='text-muted fw-semibold text-muted d-block fs-7'>
-                        
-                      </div>
+                    <div className='d-flex justify-content-start flex-column'>
+                      <a href='#' className='text-dark fw-bold text-hover-primary mb-1 fs-6'>
+                        Payroll Application
+                      </a>
+                      <span className='text-muted fw-semibold text-muted d-block fs-7'>
+                        PHP, Laravel, VueJS
+                      </span>
                     </div>
                   </div>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $4,390
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Paid</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $593
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Rejected</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    Zoey McGee
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Ruby Developer</span>
+                </td>
+                <td>
+                  <span className='badge badge-light-success fs-7 fw-semibold'>Success</span>
+                </td>
+                <td className='text-end'>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/general/gen019.svg' className='svg-icon-3' />
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+                  </a>
+                  <a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm'>
+                    <KTSVG path='/media/icons/duotune/general/gen027.svg' className='svg-icon-3' />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-50px me-5'>
+                      <img
+                        src={toAbsoluteUrl('/media/stock/600x400/img-18.jpg')}
+                        className=''
+                        alt=''
+                      />
+                    </div>
+                    <div className='d-flex justify-content-start flex-column'>
+                      <a href='#' className='text-dark fw-bold text-hover-primary mb-1 fs-6'>
+                        HR Management System
+                      </a>
+                      <span className='text-muted fw-semibold text-muted d-block fs-7'>
+                        Python, PostgreSQL, ReactJS
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $7,990
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Paid</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $980
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Rejected</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    Brandon Ingram
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Insurance</span>
+                </td>
+                <td>
+                  <span className='badge badge-light-info fs-7 fw-semibold'>Rejected</span>
+                </td>
+                <td className='text-end'>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/general/gen019.svg' className='svg-icon-3' />
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+                  </a>
+                  <a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm'>
+                    <KTSVG path='/media/icons/duotune/general/gen027.svg' className='svg-icon-3' />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-50px me-5'>
+                      <img
+                        src={toAbsoluteUrl('/media/stock/600x400/img-8.jpg')}
+                        className=''
+                        alt=''
+                      />
+                    </div>
+                    <div className='d-flex justify-content-start flex-column'>
+                      <a href='#' className='text-dark fw-bold text-hover-primary mb-1 fs-6'>
+                        Telegram Mobile
+                      </a>
+                      <span className='text-muted fw-semibold text-muted d-block fs-7'>
+                        HTML, JS, ReactJS
+                      </span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $5,790
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Paid</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    $750
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Rejected</span>
+                </td>
+                <td>
+                  <a href='#' className='text-dark fw-bold text-hover-primary d-block mb-1 fs-6'>
+                    Natali Trump
+                  </a>
+                  <span className='text-muted fw-semibold text-muted d-block fs-7'>Insurance</span>
+                </td>
+                <td>
+                  <span className='badge badge-light-warning fs-7 fw-semibold'>Approved</span>
+                </td>
+                <td className='text-end'>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/general/gen019.svg' className='svg-icon-3' />
+                  </a>
+                  <a
+                    href='#'
+                    className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'
+                  >
+                    <KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+                  </a>
+                  <a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm'>
+                    <KTSVG path='/media/icons/duotune/general/gen027.svg' className='svg-icon-3' />
+                  </a>
                 </td>
               </tr>
             </tbody>

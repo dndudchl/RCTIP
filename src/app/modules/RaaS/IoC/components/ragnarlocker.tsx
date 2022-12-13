@@ -6,7 +6,7 @@ type Props = {
   className: string
 }
 
-const Bluesky: React.FC<Props> = ({className}) => {
+const Ragnarlocker: React.FC<Props> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
@@ -45,50 +45,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>dcdba086e6d0cd3067d3998bb624be16c805b2cde76a451c0ceaf30d66ba7349</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c3d5248230230e33565c04019801892174a6e5d8f688d61002e369b0b9e441ff</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1de475e958d7a49ebf4dc342f772781a97ae49c834d9d7235546737150c56a9c</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -105,50 +74,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>a9233cb65ab53a08a4cce24a134c5b9296672a32</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c1a5dfd851337cd12770244c97e83b7066dea781</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9fc631bdd0d05d750e343c802e132b56e5121243</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -165,50 +103,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d6386b2747335f7b0d13b1f69d995944ad8e9b71e09b036dbc0b907e583d857a</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e6835959bd22f8810eafd4e60b38a78b74bd4377</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>71e3cc4a53a9cf4cb5e5c3998afe891cd78c09aa</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -225,20 +132,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>961fa85207cdc4ef86a076bbff07a409</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>56de0f37409a6d873f473d050742b8ba7b509026</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -255,20 +161,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>59e756e0da6a82a0f9046a3538d507c75eb95252</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e9393c899a8aaca206e94779739ad887</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -285,238 +190,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0bbb9b0d573a9c6027ca7e0b1f5478bf</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>439ef1ddf569a7d6a8280a229357fcfc</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>IPv4-Addr</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>80.66.75.88</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>remcos</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ccpyeuptrlatb2piua4ukhnhi7lrxgerrcrj4p2b5uhbzqm2xgdjaqid.onion</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/server.txt</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/encoding.txt</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/app1.bin</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/all.txt</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>http://ccpyeuptrlatb2piua4ukhnhi7lrxgerrcrj4p2b5uhbzqm2xgdjaqid.onion</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -533,16 +219,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>fe2e5df2fae90fb90b56e4ea268e8ca68f46dc3365c22b840d865193a48be189</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5b6d755e6c38251625f304acfed58009</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -559,21 +248,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e75717be1633b5e3602827dc3b5788ff691dd325b0eddd2d0d9ddcee29de364f</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0787390a97ba429eb9b1f38c9f1074a6359546f9f1d5de7c2d2f97e44a511227</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -590,21 +277,23 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c75748dc544629a8a5d08c0d8ba7fda3508a3efdaed905ad800ffddbc8d3b8df</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3b43751ed88e4d1f82cf52ca2d4477e3e35c35f08c1b4e3ab21c80720601e804</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -621,16 +310,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>be3e665d389e8b85ceda1e2fc80a41a247de27d1d0b13ee0c2574c1e36ebc6d4</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>20d0eea4da0af3efb506f4d745d515d1271133f9e36538b46d8db28f51b35b42</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -647,21 +339,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b5b105751a2bf965a6b78eeff100fe4c75282ad6f37f98b9adcd15d8c64283ec</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>334f7ac6ff1614bd8a3cb0386ff66723749ccdbc85831d8f137fe9d00ac7787a</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -678,16 +368,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>aecfc82fa44790e0533f0bece0a1ab0860b163838646aa0c019187a37326d477</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>48beee98531b8800afcbf566999c0232cb6f8423</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -704,16 +397,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9ca0e858ff6f163a128fb699d2b801b6b13a2eb1d6cd995302effa5f587cd8d8</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>8831e2fe6929d19dd7d07eac0c5a886f</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -730,16 +426,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>969a4a55bb5cabc96ff003467bd8468b3079f5c95c5823985416c019eb8abe2f</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d333d5eb3fc8fdd2c18e65723400c2ab939988fae9802937af329bb6b3735720</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -756,21 +455,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>840af927adbfdeb7070e1cf73ed195cf48c8d5f35b6de12f58b73898d7056d3d</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ef02cc3dbdff915c9149aef86911b4e780b89ae6</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -787,16 +484,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>624f129189a05897c176e9feb519521c1b6ef528b0b52e1a7a3290e5a2313a6b</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1195d0d18be9362fb8dd9e1738404c9d</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -813,16 +513,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>58db85f0c86640b4c3a2584e9ef5696c526190faf87eaa19085737685bc9e7f5</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>dd79b2abc21e766fe3076038482ded43e5069a1af9e0ad29e06dce387bfae900</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -839,16 +542,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>4d696c106f568b99308565172116933c0e26ce2e9ace003a110e8bde0216ddab</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>4f0268288fb680fbabc48b09a87e828a6e18782516fa9b9bfc23acc2727f6ba9</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -865,21 +571,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>2280898cb29faf1785e782596d8029cb471537ec38352e5c17cc263f1f52b8ef</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>26df0098c8c263854019ddcf0ae0ea31c681938f</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -896,16 +600,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1a30e0d65a8a09abc3feb1c86a0619845fc6ab9bdba3ae8800ecec55a647910e</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>4de21310c2e70fbb143d051179ae44ca</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -922,16 +629,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b213151ab3109c919e6015b5b27eb70a0ad3eebf</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>01fff32c5e016bfd3692072ef0ef5b943f2da110</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -948,21 +658,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>a306aa69d4ac0087c6dad1851c7f500710c829e3</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>64b99b55f0a1ec4f8f30897a460c574300a8acbd</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -979,21 +687,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>720714032a7a8ee72f034ddbb0578b910e6c9885</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5938b9900e0c1978802319dc1cbababd70abf597</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1010,16 +716,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6b8e2243e57c1e9f4ccbdf6b945d26f63e26c635</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5b06303cdf191dae161e849841f8aff4</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1036,21 +745,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>429237548351288fac00e0909616b1518d5487b9</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>77e84f1baf2b6d0dba6ad7169dab07ad</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1067,21 +774,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1bab1913533d5748e9cda388f55c446be6b770ff</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9b2a874de86f10ff992a30febdb6f9e8</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1098,21 +803,23 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>efec04688a493077cea9786243c25656</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5fc6f4cfb0d11e99c439a13b6c247ec3202a9a343df63576ce9f31cffcdbaf76</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1129,16 +836,23 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d78ed5e9762a7ec07b49fa0f75f95199</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1472f5f559f90988f886d515f6d6c52e5d30283141ee2f13f92f7e1f7e6b8e9e</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1155,16 +869,23 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b41896123586665144ccbba47660791d</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>a8ee0fafbd7b84417c0fb31709b2d9c25b2b8a16381b36756ca94609e2a6fcf6</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1181,21 +902,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>848974fba78de7f3f3a0bbec7dd502d4</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>97f45184770693a91054075f8a45290d4d1fc06f</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1212,21 +927,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5ef5cf7dd67af3650824cbc49ffa9999</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>016ef5b9e91eb9a90af39dbb2c66fe527de12f92</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1243,47 +957,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>01d66a03a0de2ee2eacacaa3ac98f0aa</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9f611945f0fe0109fe728f39aad47024</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/sti/sti.bin</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1300,16 +982,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0dfe7a93ff40834c072c7fdd9381771b1086b67f545fa83c766b2d67a911e47b</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>63241a7a39692f90328a72c0e9826afd</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1326,16 +1012,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>50b00f687892a656319aefcecba535459e2d8a2d</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>489a2424d7a14a26bfcfb006de3cd226</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1352,16 +1037,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b48dea0c642487df2482ab8fa55bb923</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>63f5b6ed99c559341cf1ad081baf55b4eacad8e46d056764531bd316bf3c3ee3</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1378,16 +1062,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>aa7ff8badcffdff66df6d30bde51b6e3c960be0a3719b73d3875af8e1173bd94</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1bf68d3d1b89e4f225c947442dc71a4793a3100465c95ae85ce6f7d987100ee1</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1404,16 +1092,24 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ab4d6992c292931c297ca55d3d2ee34df64b7f7b</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>30dcc7a8ae98e52ee5547379048ca1fc90925e09a2a81c055021ba225c1d064c</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1430,16 +1126,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d38aea02881ff45b60e6b2c11cd44916</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3bc8ce79ee7043c9ad70698e3fc2013806244dc5112c8c8d465e96757b57b1e1</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1456,16 +1155,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c4e47cba1c5fedf9ba522bc2d2de54a482e0ac29c98358390af6dadc0a7d65ce</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0f944504eebfca5466b6113853b0d83e38cf885a</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1482,16 +1185,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>efd9b2d0e40fa1db3a194e653aed9f2be0705252</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>7529e3c83618f5e3a4cc6dbf3a8534a6</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1508,16 +1215,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1c6733540b02c1681b21884dd67ce52f</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>60747604d54a18c4e4dc1a2c209e77a793e64dde</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1534,16 +1240,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>cf64c08d97e6dfa5588c5fa016c25c4131ccc61b8deada7f9c8b2a41d8f5a32c</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>af53890ed1d4753e7493d48862bdd7d18a2b11f6</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1560,16 +1270,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>515ee7413883e91b9122c46c78a579802b5f954f</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e22344a92c91b567a6cba7eb66686c438d479462</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1586,16 +1300,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>bf88467ccf7ebf8434fa074016bf7436</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c24fedb9b8a592722d5a9adb34d276fc3b329d6f</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1612,16 +1330,15 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6c94a1bc67af21cedb0bffac03019dbf870649a182e58cc5960969adf4fbdd48</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3ca359f5085bb96a7950d4735b089ffe</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1638,16 +1355,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3e6e83b16cfb0428bc343a30a182d5b7ee01bdf9</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>00fb3f27bccef7c5658ff9f5ce487cec</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1664,16 +1385,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>4032a356d0bb5dd476209a641a5e0275</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1ee5456c1226affd7b72bcdf3db443b7</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1690,185 +1415,20 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>08f491d46a9d05f1aebc83d724ca32c8063a2613250d50ce5b7e8ba469680605</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0fbbc59d4fe280a55c1fb6f5502c1e73</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-08-12</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/l.exe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/start.ps1</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>apt</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/spooler.exe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/potato.exe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Url</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>https://kmsauto.us/someone/ghost.exe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>kmsauto.us</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>apt</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1885,22 +1445,19 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3e035f2d7d30869ce53171ef5a0f761bfb9c14d94d9fe6da385e20b8d96dc2fb</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>7af61ce420051640c50b0e73e718dd8c55dddfcb58917a3bead9d3ece2f3e929</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1917,22 +1474,24 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d8369cb0d8ccec95b2a49ba34aa7749b60998661</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>dd5d4cf9422b6e4514d49a3ec542cffb682be8a24079010cda689afbb44ac0f4</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1949,22 +1508,453 @@ const Bluesky: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d8a44d2ed34b5fee7c8e24d998f805d9</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>63096f288f49b25d50f4aea52dc1fc00871b3927fa2a81fa0b0d752b261a3059</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>conti</span>
-										<span className='badge badge-light-info me-2 mb-1'>redline</span>
-										<span className='badge badge-light-info me-2 mb-1'>lateral movement</span>
-										<span className='badge badge-light-info me-2 mb-1'>trojan</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>phishing</span>
-										<span className='badge badge-light-info me-2 mb-1'>evasion</span>
-										<span className='badge badge-light-info me-2 mb-1'>bluesky</span>
-										<span className='badge badge-light-info me-2 mb-1'>active directory</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-15</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b670441066ff868d06c682e5167b9dbc85b5323f3acfbbc044cabc0e5a594186</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>7c3a082237504d3bf36e47b986e02e014a2b8abc</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>f7c48ee1f3ee1b18d255ad98703a5896</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c2bd70495630ed8279de0713a010e5e55f3da29323b59ef71401b12942ba52f6</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>bbb71391ca40bcebfaadf8e1367412333457d771</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>24b354b142b5046263e91170db92790b</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9706a97ffa43a0258571def8912dc2b8bf1ee207676052ad1b9c16ca9953fc2c</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6171000983cf3896d167e0d8aa9b94ba</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b155264bbfbad7226b5eb3be2ab38c3ecd9f3e18</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ec35c76ad2c8192f09c02eca1f263b406163470ca8438d054db7adcf5bfc0597</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6d122b4bfab5e75f3ae903805cbbc641</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5197d1b54494f8cb043759b35e097c660a9e09ac</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>68eb2d2d7866775d6bf106a914281491d23769a9eda88fc078328150b8432bb3</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9bdd7f965d1c67396afb0a84c78b4d12118ff377db7efdca4a1340933120f376</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar</span>
+										<span className='badge badge-light-info me-2 mb-1'>hostage</span>
+										<span className='badge badge-light-info me-2 mb-1'>locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>mu-000140-mw</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnarlocker</span>
+										<span className='badge badge-light-info me-2 mb-1'>misp-scraper</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>ragnar locker</span>
+										<span className='badge badge-light-info me-2 mb-1'>complete</span>
+										<span className='badge badge-light-info me-2 mb-1'>collection</span>
+										<span className='badge badge-light-info me-2 mb-1'>blog-post</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1982,4 +1972,4 @@ const Bluesky: React.FC<Props> = ({className}) => {
   )
 }
 
-export {Bluesky}
+export {Ragnarlocker}

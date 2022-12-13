@@ -6,7 +6,7 @@ type Props = {
   className: string
 }
 
-const Blackbyte: React.FC<Props> = ({className}) => {
+const Snatch: React.FC<Props> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       <div className='card-header border-0 pt-5'>
@@ -45,17 +45,15 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c2eaca8799d335954ef3d9a1867ec1b629ca4f1a</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3fce013d4eb45a62bfe5b4ed33268491</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -72,420 +70,15 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5483da573c6a239f9a5d6e6552b307b0</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d6136298ea7484a715d40720221233be</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3fb160e1770fafeedff2d77841bf02108c25cca4cb6d77e3fbf759077f356b70</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0097b8722c8c0840e8c1a4dd579438344b3e6b4d630d17b0bbe9c55159f43142</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>aeb1b789395357e8cc8dbd313b95f624fc03e037984040cd7c1704775bfb4bd2</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>477382529659c3452020170d8150820210ab8cbdc6417a0f0ac86a793cd0d9b4</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>eb24370166021f9243fd98c0be7b22ab8cbc22147c15ecef8e75746eb484bb1a</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>f361bafcc00b1423d24a7ea205264f5a0b96011e4928d9a91c2abc9911b433a1</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>20848d28414d4811b63b9645adb549eed0afbd6415d08b75b0a93fbf7cfbf21f</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>754ac79aca0cc1bcf46000ef6c4cbe8bebeb50dae60823a1e844647ac16b6867</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>f157090fd3ccd4220298c06ce8734361b724d80459592b10ac632acc624f455e</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>efc2125e628b116eb0c097c699e473a47a280dfcd3e02cada41bdf6969600b41</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>4877ff7c3c2abd349646db1163814811e69b36374e289f5808cc794113ef55ae</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>351198e557151fa0f4eea2b3bb8771d180fa8432</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>07a9b1fdfb383a2b1d0172802ce01033</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>794a5621fda2106fcb94cbd91b6ab9567fb8383caa7f62febafcf701175f2b91</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>8d2581e5cc6e6fdf17558afe025ff84d9023ea636aca74dee39900d8f523e912</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -502,15 +95,15 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3de8fe5cee8180e93697e4ddca87e721910b9dd922de849cab7b1b3a50e54a00</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ec348684b8d3fbd21669529c6e5cef8b</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -527,15 +120,15 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>91f8592c7e8a3091273f0ccbfe34b2586c5998f7de63130050cb8ed36b4eec3e</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>be4449f1f947c6bd16f668da523f20172ebfc80a</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -552,23 +145,15 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>bb7c575e798ff5243b5014777253635d</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>31731c49cd9243d15a3f41e5993365b4</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>hive</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>cobalt strike</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>mimikatz</span>
-										<span className='badge badge-light-info me-2 mb-1'>proxyshell</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-30</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -585,23 +170,1315 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>2146f04728fe93c393a74331b76799ea8fe0269f</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5b86cf095fe515b590d18b2e976d9e544c43f6ca</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>proxyshell</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>cobalt strike</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>hive</span>
-										<span className='badge badge-light-info me-2 mb-1'>mimikatz</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-30</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>18f963dbee830e64828991d26a06d058326c1ddb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>14b2948a28d16c05fa7237dd8823592a735ef43f</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>89be35c19a65b9e6f7a277e1a9f66ab76d024378</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0882f2e72f1ca4410fe8ae0fa1138800c3d1561d</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c24aee8fa0a81a82fe73bf60e0282b1038d6ea80</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1f7b17cacb0263b84cf3e9d4a5429ef9</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>54fe4d49d7b4471104c897f187e07f91</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>891708936393b69c212b97604a982fed</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3d33a19bb489dd5857b515882b43de12</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6d9d31414ee2c175255b092440377a88</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3e36d3dc132e3a076539acc9fcd5535c</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>251427c578eaa814f07037fbe6e388b3bc86ed3800d7887c9d24e7b94176e30d</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>a80c7fe1f88cf24ad4c55910a9f2189f1eedad25d7d0fd53dbfe6bdd68912a84</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>116ebe27202905affb94f5c1597d511abcb5b381411431956a03e47b388582bf</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6c9d8c577dddf9cc480f330617e263a6ee4461651b4dec1f7215bda77df911e7</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>2155a029a024a2ffa4eff9108ac15c7db527ca1c8f89ccfd94cc3a70b77cfc57</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3295f5029f9c9549a584fa13bc6c25520b4ff9a4b2feb1d9e935cc9e4e0f0924</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>90035ab418033b39d584c7bc609cab1664460069</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c9a728aa3f5b6f48b68df4bb66b41a5c</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d5a0c796032eda2fe20d1f39bae3fbc4e6407e8c</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1422dae0330c713935d50773680fcb39</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b9e4299239880961a88875e1265db0ec62a8c4ad6baf7a5de6f02ff4c31fcdb1</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>b93d633d379052f0a15b0f9c7094829461a86dbb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>3160b4308dd9434ebb99e5747ec90d63722a640d329384b1ed536b59352dace6</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>844b958cbde1f711b80d6367585fb3d82746f524</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>97bc0e2add9be985aeb5c0b4ca654a6a9e6fca6a6bf712dc26fc454b773212b7</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0cd166b12f8d0f4b620a5819995bbcc2d15385117799fafbc76efd8c1e906662</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c305b75a4333c7fca9d1d71b660530cc98197b171856bf433e4e8f3af0424b11</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>2bbff2111232d73a93cd435300d0a07e</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>f0070935b15a909b9dc00be7997e6112</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>68036895fd169db954b0c048413c6721</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6ed4f5f04d62b18d96b26d6db7c18840</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-25</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Email-Addr</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>doctor666@mail.fr</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Email-Addr</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>doctor666@cock.li</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Email-Addr</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>jimmtheworm@dicksinmyan.us</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Email-Addr</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>newrecoveryrobot@pm.me</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Email-Addr</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>imboristheblade@protonmail.com</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e8931967ed5a4d4e0d7787054cddee8911a7740b80373840b276f14e36bda57d</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ebcded04429c4178d450a28e5e190d6d5e1035abcd0b2305eab9d29ba9c0915a</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>5f24536e48f406177a9a630b0140baadff1e29f36b02095b25e7e21c146098bb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>c0f506e98f416412b3a9dcd018341afab15e36b15bac89d3b02ff773b6cc85a6</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0ce4c4af321ff02928aacf105f03dead87e85003080586615755f278770f5adb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d0ddc221b958d9b4c7d9612dd2577bec35d157b41aa50210c2ae5052d054ff33</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d22b46ea682838e0b98bc6a1e36fd04f0672fe889c03d227cdeb5dcc5d76ae7c</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>78816ea825209162f0e8a1aae007691f9ce39f1f2c37d930afaf5ac3af78e852</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>fe8ba1eaf69b1eba578784d5ab77e54caae9d90c2fb95ad2baaaef6b69a2d6cb</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>eebc57e9e683a3c5391692c1c3afb37f3cb539647f02ddd09720979426790f56</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ae9cdbb717625506ed0df7af153dc2741395655aeb1da2f91079e3ea616af6a1</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>36a4311ef332b0b5db62f8fcabf004fdcfbbde62f791839a8be0314604d814c4</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>80cc8e51b3b357cfc7115e114cecabc5442c12c143a7a18ab464814de7a66ab4</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>63c2c1ad4286dbad927358f62a449d6e1f9b1aa6436c92a2f6031e9554bed940</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>8c9fab558b3e9e21936a91422d9e2666f210c5fd7d9b0fd08d2353adb64a4c00</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -618,17 +1495,117 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>7oukjxwkbnwyg7cekudzp66okrchbuubde2j3h6fkpis6izywoj2eqad.onion</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>snatch24uldhpwrm.onion</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>mydatasuperhero.com</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>snatch6brk4nfczg.onion</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>Domain-Name</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>mydatassuperhero.com</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
+										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
+										
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
+								<td>
+									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+								</td>
+								<td className='text-end'>
+									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
+											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div className='form-check form-check-sm form-check-custom form-check-solid'>
+										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
+									</div>
+								</td>
+								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ab6b0d00ba8f8553c015743b9da8761a9b1fca750d3f73bda573a8fbc47dafa1</div></td>
+								<td>
+									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>malware</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-24</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -645,98 +1622,17 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ffc4d94a26ea7bcf48baffd96d33d3c3d53df1bb2c59567f6d04e02e7e2e5aaa</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>329f295b8aa879bedd68cf700cecc51f67feee8fd526e2a7eab27e216aa8fcaa</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>e434ec347a8ea1f0712561bccf0153468a943e16d2cd792fbc72720bd0a8002e</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d81493cdca5da915bf6b60d14f74e22fd94de483519a69f5942416cd98647d0b</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9103194d32a15ea9e8ede1c81960a5ba5d21213de55df52a6dac409f2e58bcfe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										<span className='badge badge-light-info me-2 mb-1'>golang</span>
+										<span className='badge badge-light-info me-2 mb-1'>malware</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-23</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -753,622 +1649,17 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 									</div>
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6f36a4a1364cfb063a0463d9e1287248700ccf1e0d8e280e034b02cf3db3c442</div></td>
+								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>28125dae3ab7b11bd6b0cbf318fd85ec51e75bca5be7efb997d5b950094cd184</div></td>
 								<td>
 									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>534f5fbb7669803812781e43c30083e9197d03f97f0d860ae7d9a59c0484ace4</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>44a5e78fce5455579123af23665262b10165ac710a9f7538b764af76d7771550</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>388163c9ec1458c779849db891e17efb16a941ca598c4c3ac3a50a77086beb69</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
+										<span className='badge badge-light-info me-2 mb-1'>malware</span>
 										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
 										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
+										<span className='badge badge-light-info me-2 mb-1'>snatch</span>
 										
 									</div>
 								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>de9d361c8e00cf8fa1c1f96844a74cdc121809da</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0f7e3c94b2d3df1722950ff472a06b3f96f65399</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>0d37ce479d988c2e12f6760c44f0de2d42d44502</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>47870de17eb7d1758d705b593ac75cce</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>6dd6e0a972ffb921915cbde2727052ab</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>03011da0f7f2e04ddfc9b8d2356dc4cb</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>1df11bc19aa52b623bdf15380e3fded56d8eb6fb7b53a2240779864b1a6474ad</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>ee1fa399ace734c33b77c62b6fb010219580448f</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9344afc63753cd5e2ee0ff9aed43dc56</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>IPv4-Addr</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>185.93.6.31</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>cobaltstrike</span>
-										<span className='badge badge-light-info me-2 mb-1'>golang</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>on-line-data server location - netherlands dronten</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>7273bf0db30a12428f7046ef99ebe3e7472cdfbe</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>eef977108c7a7aef512532cc6e2f49cc</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>572d88c419c6ae75aeb784ceab327d040cb589903d6285bbffa77338111af14b</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>hive</span>
-										<span className='badge badge-light-info me-2 mb-1'>cobalt strike</span>
-										<span className='badge badge-light-info me-2 mb-1'>raas</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>exbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>mimikatz</span>
-										<span className='badge badge-light-info me-2 mb-1'>infostealer</span>
-										<span className='badge badge-light-info me-2 mb-1'>proxyshell</span>
-										<span className='badge badge-light-info me-2 mb-1'>exfiltration</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>IPv4-Addr</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>45.9.148.114</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>f8efe348ee2df7262ff855fb3984884b3f53e9a39a8662a6b5e843480a27bd93</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>d3efaf6dbfd8b583babed67046faed28c6132eafe303173b4ae586a2ca7b1e90</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>9bff421325bed6f1989d048edb4c9b1450f71d4cb519afc5c2c90af8517f56f3</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>92ffb5921e969a03981f2b6991fc85fe45e07089776a810b7dd7504ca61939a3</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
-								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
-								</td>
-								<td className='text-end'>
-									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
-											<KTSVG path='/media/icons/duotune/art/art005.svg' className='svg-icon-3' />
-									</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<div className='form-check form-check-sm form-check-custom form-check-solid'>
-										<input className='form-check-input widget-13-check' type='checkbox' value='1' />
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>File hash</div></td>
-								<td><div className='text-dark fw-bold d-block mb-1 fs-6'>884e96a75dc568075e845ccac2d4b4ccec68017e6ef258c7c03da8c88a597534</div></td>
-								<td>
-									<div className='text-dark fw-bold d-block mb-1 fs-6'>
-										<span className='badge badge-light-info me-2 mb-1'>blackbyte</span>
-										<span className='badge badge-light-info me-2 mb-1'>jscript launcher</span>
-										<span className='badge badge-light-info me-2 mb-1'>ransomware</span>
-										
-									</div>
-								</td>
-								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
+								<td><div className='text-dark fw-bold fs-6'>2022-05-23</div></td>
 								<td>
 									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
@@ -1386,4 +1677,4 @@ const Blackbyte: React.FC<Props> = ({className}) => {
   )
 }
 
-export {Blackbyte}
+export {Snatch}
