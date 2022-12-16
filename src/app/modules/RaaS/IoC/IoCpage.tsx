@@ -33,25 +33,10 @@ import {Revil} from './components/revil'
 import {Snatch} from './components/snatch'
 import {Vicesociety} from './components/vicesociety'
 import {Yanluowang} from './components/yanluowang'
-import {Zeppelin} from './components/zeppelin'
+// import {Zeppelin} from './components/zeppelin'
 
 
-// const chatBreadCrumbs: Array<PageLink> = [
-//   {
-//     title: 'Darkweb INFO',
-//     path: '/apps/RaaS/IoC/Avoslocker',
-//     isSeparator: false,
-//     isActive: false,
-//   },
-//   {
-//     title: '',
-//     path: '',
-//     isSeparator: true,
-//     isActive: false,
-//   },
-// ]
-
-const TTPsPage = () => {
+const IOCsPage = () => {
   return (
     
     <Routes>
@@ -307,4 +292,4 @@ const TTPsPage = () => {
   )
 }
 
-export default TTPsPage
+export default IOCsPage

@@ -6,41 +6,21 @@ import {Card1} from '../../../../../_metronic/partials/content/cards/Card1'
 const Babuk: FC = () => {
   return (
     <>
-      <div className='d-flex flex-wrap flex-stack mb-7'>
-        <h1 className='text-danger lh-xxl fw-bolder my-2'>
-          Babuk
-        </h1>
+      
+      <h1 className='text-danger lh-xxl fw-bolder my-2 fs-2x'>Babuk</h1>
 
-        {/* <div className='d-flex my-2'>
-          <select
-            name='status'
-            data-control='select2'
-            data-hide-search='true'
-            className='form-select form-select-white form-select-sm w-125px'
-            defaultValue='Online'
-          >
-            <option value='Online'>22.1 Patch</option>
-            <option value='Pending'>22.0 Patch</option>
-            <option value='Declined'>22.0 Patch</option>
-            <option value='Accepted'>22.0 Patch</option>
-          </select>
-        </div> */}
-        
-        <h2 className='fs-3 fw-light ms-1 me-20 '>
+      <h2 className='fs-3 fw-light ms-1 me-20 '>
           Babuk ransomware, which first appeared in January 2021, has been actively attacking companies and specific individuals around the world until April. 
-        </h2>
-      </div>
-
+      </h2>
+      
       <div className='mb-10 ms-1'>
-        
         <div className='fw-normal fs-4'>onion_address: http://nq4zyac4ukl4tykmidbzgdlvaboqeqsemkp4t35bzvjeve6zm2lqcjid.onion </div>
         <div className='fw-normal fs-4'>Wallet: </div>
-        
       </div>
 
       <h2 className='fw-bolder my-0 mb-3'>
       Recent Targets
-        </h2>
+      </h2>
 
 
       <div className='row g-6 g-xl-9'>
