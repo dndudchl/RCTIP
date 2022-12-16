@@ -41,7 +41,13 @@ export function AsideMenuMain() {
 
         <AsideMenuItem to='#' title='Groups Name' hasBullet={false}></AsideMenuItem>
 
-        <AsideMenuItemWithSub to='/raas' title='A ~ E' hasBullet={true}>
+        <AsideMenuItemWithSub to='/raas' title='A - E' hasBullet={true}>
+          <AsideMenuItem
+            to='/raas/info/Alphv'
+            title='Alphv'
+            bsTitle='Alphv'
+            hasBullet={true}
+          />
           <AsideMenuItem
             to='/raas/info/Avoslocker'
             title='Avoslocker'
@@ -67,6 +73,18 @@ export function AsideMenuMain() {
             hasBullet={true}
           />
           <AsideMenuItem
+            to='/raas/info/Blackcat'
+            title='Blackcat'
+            bsTitle='Blackcat'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Bluesky'
+            title='Bluesky'
+            bsTitle='Bluesky'
+            hasBullet={true}
+          />
+          <AsideMenuItem
             to='/raas/info/Clop'
             title='Clop'
             bsTitle='Clop'
@@ -84,16 +102,42 @@ export function AsideMenuMain() {
             bsTitle='Cuba'
             hasBullet={true}
           />
-          <AsideMenuItem
+          {/* <AsideMenuItem
             to='/raas/info/Everest'
             title='Everest'
             bsTitle='Everest'
+            hasBullet={true}
+          /> */}
+          <AsideMenuItem
+            to='/raas/info/Darkangels'
+            title='Darkangels'
+            bsTitle='Darkangels'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Darkside'
+            title='Darkside'
+            bsTitle='Darkside'
             hasBullet={true}
           />
         </AsideMenuItemWithSub>
 
         <AsideMenuItemWithSub to='/crafted/accounts' title='F - J' hasBullet={true}>
-          
+
+          <AsideMenuItem
+            to='/raas/info/Hellokitty'
+            title='Hellokitty'
+            bsTitle='Hellokitty'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Hive'
+            title='Hive'
+            bsTitle='Hive'
+            hasBullet={true}
+          />
+
+
         </AsideMenuItemWithSub>
 
         <AsideMenuItemWithSub to='/raas' title='K - O' hasBullet={true}>
@@ -103,10 +147,34 @@ export function AsideMenuMain() {
             bsTitle='Lockbit'
             hasBullet={true}
           />
-          <AsideMenuItem
+          {/* <AsideMenuItem
             to='/raas/info/Omega'
             title='Omega'
             bsTitle='Omega'
+            hasBullet={true}
+          /> */}
+          <AsideMenuItem
+            to='/raas/info/Lv'
+            title='Lv'
+            bsTitle='Lv'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Maze'
+            title='Maze'
+            bsTitle='Maze'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Medusalocker'
+            title='Medusalocker'
+            bsTitle='Medusalocker'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Netwalker'
+            title='Netwalker'
+            bsTitle='Netwalker'
             hasBullet={true}
           />
         </AsideMenuItemWithSub>
@@ -119,17 +187,23 @@ export function AsideMenuMain() {
             hasBullet={true}
           />
           <AsideMenuItem
-            to='/raas/info/RansomExx'
-            title='RansomExx'
-            bsTitle='RansomExx'
+            to='/raas/info/Ragnarlocker'
+            title='Ragnarlocker'
+            bsTitle='Ragnarlocker'
             hasBullet={true}
           />
           <AsideMenuItem
+            to='/raas/info/Ransomexx'
+            title='Ransomexx'
+            bsTitle='Ransomexx'
+            hasBullet={true}
+          />
+          {/* <AsideMenuItem
             to='/raas/info/RansomHouse'
             title='RansomHouse'
             bsTitle='RansomHouse'
             hasBullet={true}
-          />
+          /> */}
           <AsideMenuItem
             to='/raas/info/Redalert'
             title='Redalert'
@@ -137,9 +211,21 @@ export function AsideMenuMain() {
             hasBullet={true}
           />
           <AsideMenuItem
+            to='/raas/info/Revil'
+            title='Revil'
+            bsTitle='Revil'
+            hasBullet={true}
+          />
+          <AsideMenuItem
             to='/raas/info/Snatch'
             title='Snatch'
             bsTitle='Snatch'
+            hasBullet={true}
+          />
+          <AsideMenuItem
+            to='/raas/info/Sugar'
+            title='Sugar'
+            bsTitle='Sugar'
             hasBullet={true}
           />
           <AsideMenuItem
@@ -151,15 +237,27 @@ export function AsideMenuMain() {
         </AsideMenuItemWithSub>
         <AsideMenuItemWithSub to='/error' title='U - Z' hasBullet={true}>
           <AsideMenuItem
-            to='/raas/info/Vice_Society'
+            to='/raas/info/ViceSociety'
             title='Vice_Society'
             bsTitle='Vice_Society'
             hasBullet={true}
           />
           <AsideMenuItem
+            to='/raas/info/Yanluowang'
+            title='Yanluowang'
+            bsTitle='Yanluowang'
+            hasBullet={true}
+          />
+          {/* <AsideMenuItem
             to='/raas/info/VSOP'
             title='VSOP'
             bsTitle='VSOP'
+            hasBullet={true}
+          /> */}
+          <AsideMenuItem
+            to='/raas/info/Zeppelin'
+            title='Zeppelin'
+            bsTitle='Zeppelin'
             hasBullet={true}
           />
         </AsideMenuItemWithSub>

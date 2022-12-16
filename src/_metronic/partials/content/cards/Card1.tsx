@@ -6,6 +6,7 @@ type Props = {
   color?: string
   online?: boolean
   name: string
+  Site?: string
   Region: string
   Sector: string
   date : string
@@ -15,14 +16,15 @@ const Card1: FC<Props> = ({
   color = '',
   online = false,
   name,
+  Site,
   Region,
   Sector,
   date
 }) => {
   return (
-    <div className='card'>
+    <div className='card shadow-sm'>
       <div className='card-body d-flex flex-column p-5'>
-        <div className='mb-5'>
+        <div className='mb-2'>
           {/* <div className='symbol symbol-75px symbol-circle'>
             {color ? (
               <span className={`symbol-label bg-light-${color} text-${color} fs-5 fw-bolder`}>
@@ -41,11 +43,13 @@ const Card1: FC<Props> = ({
           {name}
         </div>
         
-        <div className='flex-wrap mb-5'>
-          
-            <div className='fs-6 fw-bolder text-gray-700'>Resion : {Region}</div>
-            <div className='fs-6 fw-bolder text-gray-700'>Sector : {Sector}</div>
-            <div className='fs-6 fw-bolder text-gray-700'>date : {date}</div>
+        <div className='flex-wrap mb-2'>
+
+            <div className='fs-6 fw-bolder text-gray-800'>Country : {Region}</div>
+            <div className='fs-6 fw-bolder text-gray-800'>Sector : {Sector}</div>
+            
+            <div className='fs-6 fw-bolder text-gray-800'>Date : {date}</div>
+            <div className='fs-6 fw-bolder text-gray-800'>Site : {Site}</div>
           </div>
 
         

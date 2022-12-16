@@ -4,17 +4,17 @@ import {Card1} from '../../../../../_metronic/partials/content/cards/Card1'
 import {KTSVG} from '../../../../../_metronic/helpers'
 
 
-const Redalert: FC = () => {
+const Yanluowang: FC = () => {
   return (
     <>
       <div className='mb-12'>
-        <h1 className='text-danger lh-xxl fw-bolder my-2 fs-2qx '>Redalert</h1>
-        <h2 className='fs-3 fw-light ms-2 me-20 fst-italic'>This ransomware is multi-platform; the Windows variant is known as RedAlert, while the Linux VMware ESXi server-targeting version is known as N13V.</h2>
+        <h1 className='text-danger lh-xxl fw-bolder my-2 fs-2qx '>Yanluowang</h1>
+        <h2 className='fs-3 fw-light ms-2 me-20 fst-italic'>Yanluowang ransomware, also known as Dryxiphia, was first spotted in October 2021 by Symantec’s Threat Hunter Team. The group has been known for successfully ransoming organisations globally, particularly those in the financial, manufacturing, IT services, consultancy, and engineering sectors. The name “Yanluowang” comes from Chinese mythology (Yanluo Wang is a Chinese deity), suggesting the ransomware gang is potentially of Chinese origin. However, all the communications in the leaked chats were in Russian language and it appears that the name was chosen deliberately to masquerade as a Chinese threat actor.</h2>
       </div>
 
       <div className='mb-12'>
         <h1 className='my-0 mb-5'>Onion Address</h1>
-        <div className='fs-3 fw-semibold ms-2 me-20 fst-italic'>http://blog2hkbm6gogpv2b3uytzi3bj5d5zmc4asbybumjkhuqhas355janyd.onion</div>
+        <div className='fs-3 fw-semibold ms-2 me-20 fst-italic'>http://jukswsxbh3jsxuddvidrjdvwuohtsy4kxg2axbppiyclomt2qciyfoad.onion</div>
 		
       </div>
 
@@ -24,47 +24,74 @@ const Redalert: FC = () => {
       <div className='row g-6 g-xl-9'>
         <div className='col-md-6 col-xl-3'>
 					<Card1
-						name='groupg4.com'
-						Region='Spain'
-						Sector='Industrials'
-						date='2022-09-14'
-						Site='groupg4.com'
+						name='Timios Inc.'
+						Region='USA'
+						Sector='Real Estate'
+						date='2022-07-02'
+						Site='www.timios.com'
 					/>
 				</div>
 				<div className='col-md-6 col-xl-3'>
 					<Card1
-						name='coarc.org'
+						name='boxerproperty'
+						Region='USA'
+						Sector='Real Estate'
+						date='2022-07-02'
+						Site='www.boxerproperty.com'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='Shorr.com'
+						Region='USA'
+						Sector='Materials'
+						date='2022-07-02'
+						Site='shorr.com'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='tmsw.com'
+						Region='USA'
+						Sector='Industrials'
+						date='2022-07-02'
+						Site='tmsw.com'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='havi.com'
+						Region='USA'
+						Sector='Industrials'
+						date='2022-07-02'
+						Site='havi.com'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='various organizations'
+						Region='Unknown'
+						Sector='Unknown'
+						date='2022-07-02'
+						Site='Unknown'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='Walmart'
+						Region='USA'
+						Sector='Consumer Discretionary'
+						date='2022-07-02'
+						Site='www.walmart.com'
+					/>
+				</div>
+				<div className='col-md-6 col-xl-3'>
+					<Card1
+						name='Cincinnati bell'
 						Region='USA'
 						Sector='Communication Services'
-						date='2022-07-28'
-						Site='coarc.org'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='keystonelegal.co.uk'
-						Region='UK'
-						Sector='Industrials'
-						date='2022-07-19'
-						Site='keystonelegal.co.uk'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='vahanen.com'
-						Region='Finland'
-						Sector='Industrials'
-						date='2022-07-09'
-						Site='vahanen.com'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='syredis.fr'
-						Region='France'
-						Sector='Information Technology'
-						date='2022-07-06'
-						Site='syredis.fr'
+						date='2022-07-02'
+						Site='my.cincinnatibell.com'
 					/>
 				</div>
 				
@@ -127,4 +154,4 @@ const Redalert: FC = () => {
   )
 }
 
-export {Redalert}
+export {Yanluowang}

@@ -4,17 +4,17 @@ import {Card1} from '../../../../../_metronic/partials/content/cards/Card1'
 import {KTSVG} from '../../../../../_metronic/helpers'
 
 
-const Redalert: FC = () => {
+const Sugar: FC = () => {
   return (
     <>
       <div className='mb-12'>
-        <h1 className='text-danger lh-xxl fw-bolder my-2 fs-2qx '>Redalert</h1>
-        <h2 className='fs-3 fw-light ms-2 me-20 fst-italic'>This ransomware is multi-platform; the Windows variant is known as RedAlert, while the Linux VMware ESXi server-targeting version is known as N13V.</h2>
+        <h1 className='text-danger lh-xxl fw-bolder my-2 fs-2qx '>Sugar</h1>
+        <h2 className='fs-3 fw-light ms-2 me-20 fst-italic'>SugarLocker (also known as Encoded01 ransomware) is written in Delphi and offers more options than other RaaS offerings. So far, no connection with other known ransomware groups has been confirmed. Their ransom note followed REvil’s, and their negotiation page followed CLOP’s.</h2>
       </div>
 
       <div className='mb-12'>
         <h1 className='my-0 mb-5'>Onion Address</h1>
-        <div className='fs-3 fw-semibold ms-2 me-20 fst-italic'>http://blog2hkbm6gogpv2b3uytzi3bj5d5zmc4asbybumjkhuqhas355janyd.onion</div>
+        <div className='fs-3 fw-semibold ms-2 me-20 fst-italic'>http://hiveleakdbtnp76ulyhi52eag6c6tyc3xw7ez7iqy6wc34gd2nekazyd.onion</div>
 		
       </div>
 
@@ -24,47 +24,11 @@ const Redalert: FC = () => {
       <div className='row g-6 g-xl-9'>
         <div className='col-md-6 col-xl-3'>
 					<Card1
-						name='groupg4.com'
-						Region='Spain'
-						Sector='Industrials'
-						date='2022-09-14'
-						Site='groupg4.com'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='coarc.org'
+						name='Florida Sugar Cane League'
 						Region='USA'
 						Sector='Communication Services'
-						date='2022-07-28'
-						Site='coarc.org'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='keystonelegal.co.uk'
-						Region='UK'
-						Sector='Industrials'
-						date='2022-07-19'
-						Site='keystonelegal.co.uk'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='vahanen.com'
-						Region='Finland'
-						Sector='Industrials'
-						date='2022-07-09'
-						Site='vahanen.com'
-					/>
-				</div>
-				<div className='col-md-6 col-xl-3'>
-					<Card1
-						name='syredis.fr'
-						Region='France'
-						Sector='Information Technology'
-						date='2022-07-06'
-						Site='syredis.fr'
+						date='2021-07-17'
+						Site='floridasugarcaneleague.org'
 					/>
 				</div>
 				
@@ -127,4 +91,4 @@ const Redalert: FC = () => {
   )
 }
 
-export {Redalert}
+export {Sugar}
