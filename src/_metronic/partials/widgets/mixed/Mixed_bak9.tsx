@@ -12,7 +12,7 @@ type Props = {
   chartHeight: string
 }
 
-const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => {
+const Mixedbak9: React.FC<Props> = ({className, chartColor, chartHeight}) => {
   const chartRef = useRef<HTMLDivElement | null>(null)
   const {mode} = useThemeMode()
   const refreshChart = () => {
@@ -43,10 +43,25 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
       {/* begin::Beader */}
       <div className='card-header border-0 py-5'>
         <h3 className='card-title align-items-start flex-column'>
-          <span className='card-label fw-bold fs-3 mb-1'>Top 4 Bitcoin Earnings in a Year</span>
+          <span className='card-label fw-bold fs-3 mb-1'>Sales Statistics</span>
 
-          <span className='text-muted fw-semibold fs-7'></span>
+          <span className='text-muted fw-semibold fs-7'>Recent sales statistics</span>
         </h3>
+
+        <div className='card-toolbar'>
+          {/* begin::Menu */}
+          <button
+            type='button'
+            className='btn btn-sm btn-icon btn-color-primary btn-active-light-primary'
+            data-kt-menu-trigger='click'
+            data-kt-menu-placement='bottom-end'
+            data-kt-menu-flip='top-end'
+          >
+            <KTSVG path='/media/icons/duotune/general/gen024.svg' className='svg-icon-2' />
+          </button>
+          <Dropdown1 />
+          {/* end::Menu */}
+        </div>
       </div>
       {/* end::Header */}
 
@@ -72,8 +87,8 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
 
                 {/* begin::Title */}
                 <div>
-                  <div className='fs-4 text-dark fw-bold'>$20,359,523.16</div>
-                  <div className='fs-6 text-muted fw-semibold'>Cuba</div>
+                  <div className='fs-4 text-dark fw-bold'>$2,034</div>
+                  <div className='fs-7 text-muted fw-semibold'>Author Sales</div>
                 </div>
                 {/* end::Title */}
               </div>
@@ -96,8 +111,8 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
 
                 {/* begin::Title */}
                 <div>
-                  <div className='fs-4 text-dark fw-bold'>$1,463,379.32</div>
-                  <div className='fs-6 text-muted fw-semibold'>DarkAngels</div>
+                  <div className='fs-4 text-dark fw-bold'>$706</div>
+                  <div className='fs-7 text-muted fw-semibold'>Commision</div>
                 </div>
                 {/* end::Title */}
               </div>
@@ -124,8 +139,8 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
 
                 {/* begin::Title */}
                 <div>
-                  <div className='fs-4 text-dark fw-bold'>$119,120.45</div>
-                  <div className='fs-6 text-muted fw-semibold'>LockBit</div>
+                  <div className='fs-4 text-dark fw-bold'>$49</div>
+                  <div className='fs-7 text-muted fw-semibold'>Average Bid</div>
                 </div>
                 {/* end::Title */}
               </div>
@@ -148,8 +163,8 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
 
                 {/* begin::Title */}
                 <div>
-                  <div className='fs-4 text-dark fw-bold'>$54,614.70</div>
-                  <div className='fs-6 text-muted fw-semibold'>MedusaLocker</div>
+                  <div className='fs-4 text-dark fw-bold'>$5.8M</div>
+                  <div className='fs-7 text-muted fw-semibold'>All Time Sales</div>
                 </div>
                 {/* end::Title */}
               </div>
@@ -178,7 +193,7 @@ const chartOptions = (chartColor: string, chartHeight: string): ApexOptions => {
   return {
     series: [
       {
-        name: '',
+        name: 'Net Profit',
         data: [30, 25, 45, 30, 55, 55],
       },
     ],
@@ -279,7 +294,7 @@ const chartOptions = (chartColor: string, chartHeight: string): ApexOptions => {
       },
       y: {
         formatter: function (val) {
-          return ''
+          return '$' + val + ' thousands'
         },
       },
     },
@@ -292,4 +307,4 @@ const chartOptions = (chartColor: string, chartHeight: string): ApexOptions => {
   }
 }
 
-export {MixedWidget9}
+export {Mixedbak9}

@@ -7,7 +7,7 @@ type Props = {
   className: string
 }
 
-const FeedsWidget2: React.FC<Props> = ({className}) => {
+const Twit2: React.FC<Props> = ({className}) => {
   return (
     <div className={`card ${className}`}>
       <div className='card-body pb-0'>
@@ -23,19 +23,18 @@ const FeedsWidget2: React.FC<Props> = ({className}) => {
               </span>
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bold'>
-                Arkbird_SOLG
+              TheHackersNews
               </a>
-              <span className='text-gray-400 fw-semibold'>Fri Dec 02 02:43:25</span>
+              <span className='text-gray-400 fw-semibold'>Fri Dec 02 06:05:44 2022</span>
             </div>
           </div>
         </div>
         <div className='mb-5'>
           <p className='text-gray-800 fw-normal mb-5'>
-          I share yara rules and the samples of the new variant of #blackbasta ransomware.
-          Samples:
+          U.S. cybersecurity agency warns of an increasing number of Cuba #ransomware attacks that has extorted more than $60… 
           </p>
-          <a href='https://t.co/rNYWROjxb0\nY… '>https://t.co/rNYWROjxb0\nY… </a>
-          <a href='https://t.co/fMGP9VsU6s'>https://t.co/fMGP9VsU6s</a>
+          <a href='https://t.co/Q8hiHZ7fpe '>https://t.co/Q8hiHZ7fpe </a>
+          
         </div>
         <div className='separator mb-4'></div>
       </div>
@@ -43,4 +42,4 @@ const FeedsWidget2: React.FC<Props> = ({className}) => {
   )
 }
 
-export {FeedsWidget2}
+export {Twit2}

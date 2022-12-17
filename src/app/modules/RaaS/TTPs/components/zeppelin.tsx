@@ -4,7 +4,7 @@ type Propx = {
   className: string
 }
 
-const Cuba: React.FC<Propx> = ({className}) => { 
+const Zeppelin: React.FC<Propx> = ({className}) => { 
   return (
 	<>
     <div className={`card mb-6 ${className}`}>
@@ -19,9 +19,8 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			    	<th className='min-w-175px border-end border-white'>Persistence</th>
 			    	<th className='min-w-175px border-end border-white'>Privilege-Escalation</th>
 			    	<th className='min-w-175px border-end border-white'>Defense-Evasion</th>
-			    	<th className='min-w-175px border-end border-white'>Credential-Access</th>
-			    	<th className='min-w-175px border-end border-white'>Lateral-Movement</th>
-			    	<th className='min-w-175px border-end border-white'>Exfiltration</th>
+			    	<th className='min-w-175px border-end border-white'>Discovery</th>
+			    	<th className='min-w-175px border-end border-white'>Command-and-Control</th>
 			    	<th className='min-w-175px border-end border-white'>Impact</th>
                </tr>
             </thead>
@@ -30,16 +29,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1190</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exploit Public-Facing Application</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1133</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>External Remote Services</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>- CVE-2021-34473
-- CVE-2021-34523
-- CVE-2021-31207
-- CVE-2021-26855
-</div>
+									<div>Exploit RDP to gain access</div>
 								</div>
 							</div>
 						</div>
@@ -48,12 +43,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: PowerShell</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1204.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>User Execution: Malicious Link</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Early Bird injection</div>
+									<div>Trick users to click a malicious link</div>
 								</div>
 							</div>
 						</div>
@@ -62,12 +57,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1136.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Create Account: Local Account</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1543.003</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Create or Modify System Process: Windows Service</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Creates a new user Mysql</div>
+									<div>Encrypt Windows Operating function</div>
 								</div>
 							</div>
 						</div>
@@ -76,12 +71,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1068</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exploitation for Privilege Escalation</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1547.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Zerologon vulnerability</div>
+									<div>UAC prompt option of the registry key is set to run with elevated privileges.</div>
 								</div>
 							</div>
 						</div>
@@ -90,12 +85,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1564.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Hide Artifacts: Hidden Window</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1027</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Obfuscated Files or Information</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Cuba has executed hidden PowerShell windows.</div>
+									<div>Encrypt with a 32-byte RC4 key</div>
 								</div>
 							</div>
 						</div>
@@ -104,12 +99,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping: LSASS Memory</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1012</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Query Registry</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>SEKURLSA::LogonPasswords module</div>
+									<div>Read the registry to gain information</div>
 								</div>
 							</div>
 						</div>
@@ -118,26 +113,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021.002</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Services: SMB/Windows Admin Shares</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1071.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Application Layer Protocol: Web Protocols</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>PsExec was used to move files between the infected hosts</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1041</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over C2 Channel</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The exfiltrated data is published on a dedicated Cuba DLS (Data Leak Site).</div>
+									<div>Communicate with its C2 server</div>
 								</div>
 							</div>
 						</div>
@@ -151,10 +132,7 @@ const Cuba: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>- ChaCha20
-- RSA-4096
-- .cuba
-</div>
+									<div>Encrypt data on target system</div>
 								</div>
 							</div>
 						</div>
@@ -164,52 +142,64 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1036.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Masquerading: Match Legitimate Name or Location</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1190</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Exploit Public-Facing Application</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>360-antivirus icon and metadata, OpenVPN</div>
+									<div>Exploit vulnerabilities in internet-facing systems</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1204.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>User Execution: Malicious File Attachment</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Trick user to click a malicious attachment</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1547.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Establish persistence by adding malicious binaries</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1070.004</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Indicator Removal: File Deletion</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Delete its artifacts to avoid further detection</div>
 								</div>
 							</div>
 						</div>
@@ -238,20 +228,14 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1490</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Inhibit System Recovery</span>
 							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Deltes volume shadow copies</div>
+								</div>
 							</div>
-							
 						</div>
 					</td>          
 				</tr>
@@ -259,52 +243,26 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1027</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Obfuscated Files or Information</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Base64 encoded payload</div>
+									<div>phishing and spear phishing</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Use Windows Command Prompt (cmd.exe)</div>
 								</div>
 							</div>
 						</div>
@@ -333,85 +291,14 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1620</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Reflective Code Loading</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1497.003</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Virtualization/Sandbox Evasion: Time Based Evasion</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Cuba loaded the payload into memory using PowerShell.</div>
+									<div>Use the sleep function to identify whether the host is a virtual machine</div>
 								</div>
 							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
 						</div>
 					</td>          
 				
@@ -456,22 +343,45 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1133</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- External Remote Services</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors exploit RDP to gain access to victim networks.</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1190</span>
 						<span className='text-dark fw-bold mb-1 fs-3'>- Exploit Public-Facing Application</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba leverage ProxyLogon and ProxyShell vulnerabilities to gain initial access.</div>
-					<div className='fs-2 fw-bold pb-3'>Vulnerability</div>
-					<div className='fs-4 fw-semebold pb-5 ms-5 text-dark fst-italic'>
-						<div>&deg;&nbsp;CVE-2021-34473</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors exploit vulnerabilities in internet-facing systems to gain access to systems.</div>
 					
-						<div>&deg;&nbsp;CVE-2021-34523</div>
 					
-						<div>&deg;&nbsp;CVE-2021-31207</div>
 					
-						<div>&deg;&nbsp;CVE-2021-26855</div>
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing</span>
 					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors have used phishing and spear phishing to gain access to victims' networks.</div>
+					
 					
 					
 				</div>
@@ -484,29 +394,46 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: PowerShell</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1204.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- User Execution: Malicious Link</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>afk.ttf uses an injection technique that allows the injected code to run before the entry point of the main thread of the process.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors trick users to click a malicious link to execute malicious macros.</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;w3wp.exe -ap "MSExchangeOWAAppPool" -v "v4.0" -c "C:\Program Files\Microsoft\Exchange Server\V15\bin\GenericAppPoolConfiwithGCServerEnabledFalse.config" -a \\. pipe\############################# -h "C:\inetpub\temp\apppools\MSExchangeOWAAppPool\MSExchangeOWAAppPool.config" -w " -m 0</div>
-							
-						</div>
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1204.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- User Execution: Malicious File Attachment</span>
 					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors trick users to click a malicious attachment disguised as advertisements to execute malicious macros.</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware uses Windows Command Prompt (cmd.exe) to execute its malicious command. Also, a batch file named "temp001.bat" deletes volume shadow copies to inhibit system recovery.</div>
+					
+					
 					
 				</div>
 			</div>
@@ -518,27 +445,43 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1136.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Create Account: Local Account</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1543.003</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Create or Modify System Process: Windows Service</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Creates a new user Mysql, sets the password to KJaoifhLOaiwdhadx1@!, and sets no expiration date (0x2Au). Adds this user to the previously enumerated local administrative and RDP groups. Sets the SpecialAccounts\UserList regkey for this user to hide the user from login screens and the control panel. Enables RDP by setting the `fDenyTSConnections` value to false in the Registry.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors encrypt Windows Operating functions to preserve compromised system functions.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>winodws</span>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;net user /add "Mysql" "KJaoifhLOaiwdhadx1@!"</div>
-							<div>&deg;&nbsp;hide_accountName(Mysql); regkey</div>
+							<div>&deg;&nbsp;sc.exe create #service_name binPath= #binary_path</div>
+							<div>&deg;&nbsp;sc.exe start #service_name</div>
 							
 						</div>
 					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1547.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware establishes persistence by adding malicious binaries to registries below. This malicious action allows ransomware to be executed each time a user logs in to an infected host.</div>
+					
+					
 					
 				</div>
 			</div>
@@ -550,12 +493,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1068</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exploitation for Privilege Escalation</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1547.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Threat actors attempted to use a file called zero.exe, which is used to exploit the Zerologon vulnerability to escalate privileges.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Also, the UAC prompt option of the registry key is set to run with elevated privileges. HKCU\SOFTWARE\MICROSOFT\WINDOWS\CURRENTVERSION\RUN is the key.</div>
 					
 					
 					
@@ -569,59 +512,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1564.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Hide Artifacts: Hidden Window</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba has executed hidden PowerShell windows.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>winodws</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;Start-Process #powershell_command</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1036.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Masquerading: Match Legitimate Name or Location</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>It uses the 360-antivirus icon and metadata to trick the user. In a more recent sample, the ransomware is using the OpenVPN metadata.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1027</span>
 						<span className='text-dark fw-bold mb-1 fs-3'>- Obfuscated Files or Information</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba has used multiple layers of obfuscation to avoid analysis, including its Base64 encoded payload.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Strings in Zeppelin binaries are encrypted with a 32-byte RC4 key. Also, Zeppelin uses a Delphi packer to pack malicious files. These actions make detecting and analyzing malicious files difficult for defenders.</div>
 					
 					
 					
@@ -632,31 +528,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1620</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Reflective Code Loading</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1070.004</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Indicator Removal: File Deletion</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba loaded the payload into memory using PowerShell.</div>
-					
-					
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Credential-Access</div>
-	<div className='row g-5 g-xl-8 pt-4'>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping: LSASS Memory</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>It uses the SEKURLSA::LogonPasswords module to list all available provider credentials, and this was observed in the Target.process.Ext.memory_region.strings fields.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>After a successful attack, Zeppelin ransomware deletes its artifacts to avoid further detection and investigation.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -667,7 +544,6 @@ const Cuba: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;"sekurlsa::minidump #input_file" "sekurlsa::logonpasswords full" exit</div>
 							
 						</div>
 					</div>
@@ -675,19 +551,35 @@ const Cuba: React.FC<Propx> = ({className}) => {
 				</div>
 			</div>
 		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1497.003</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Virtualization/Sandbox Evasion: Time Based Evasion</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware uses the sleep function to identify whether the infected host is a virtual machine. If the sleep function and timestamps do not match, it does not execute its malicious functions.</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Lateral-Movement</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Discovery</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021.002</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Services: SMB/Windows Admin Shares</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1012</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Query Registry</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>While we cannot validate how specifically PsExec was used because there was not an SMB parser on the infected hosts, we can see that PsExec was used to move files between the infected hosts.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware reads the following registry to gain information about the infected host. It queries about the installation date of the operating system, the computer name, support languages, Windows Trust Settings, and the cryptographic machine GUID of the infected system.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -698,7 +590,25 @@ const Cuba: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;PsExec -u administrator -p 123456 DOMAIN_CONTROLLER cmd</div>
+							<div>&deg;&nbsp;reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce</div>
+							<div>&deg;&nbsp;reg query HKCU\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunServices</div>
+							<div>&deg;&nbsp;reg query HKCU\Software\Microsoft\Windows\CurrentVersion\RunServices</div>
+							<div>&deg;&nbsp;reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify"</div>
+							<div>&deg;&nbsp;reg query "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Userinit"</div>
+							<div>&deg;&nbsp;reg query "HKCU\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\\Shell"</div>
+							<div>&deg;&nbsp;reg query "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\\Shell"</div>
+							<div>&deg;&nbsp;reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\ShellServiceObjectDelayLoad</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnce</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunOnceEx</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Run</div>
+							<div>&deg;&nbsp;reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Run</div>
+							<div>&deg;&nbsp;reg query HKCU\Software\Microsoft\Windows\CurrentVersion\RunOnce</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run</div>
+							<div>&deg;&nbsp;reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run</div>
+							<div>&deg;&nbsp;reg query HKLM\system\currentcontrolset\services /s | findstr ImagePath 2 nul | findstr /Ri ".*\.sys$"</div>
+							<div>&deg;&nbsp;reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Run</div>
 							
 						</div>
 					</div>
@@ -707,18 +617,18 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Exfiltration</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Command-and-Control</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1041</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over C2 Channel</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1071.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Application Layer Protocol: Web Protocols</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The exfiltrated data is published on a dedicated Cuba DLS (Data Leak Site).</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware communicates with its command and control server via shortened URLs addressing its C2 server.</div>
 					
 					
 					
@@ -737,20 +647,49 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Files are encrypted using ChaCha20 with 12-bytes length IV. The keys are encrypted with RSA-4096 algorithm. The RSA implementation is likely copied from the following repository(https://github.com/wolfSSL/wolfssl).</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin actors have encrypted data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources.</div>
 					
 					
 					<div className='fs-2 fw-bold pb-3'>Encryption algorithm</div>
 					<div className='ms-5 mb-5'>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>ChaCha20</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA</span>
 						<span>&nbsp;&nbsp;</span>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA-4096</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>AES</span>
 						<span>&nbsp;&nbsp;</span>
 						
 					</div>
 					<div className='fs-2 fw-bold pb-3'>Added Extension</div>
-					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.cuba</div>
+					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>nine random hexadecimal number</div>
 						
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1490</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Inhibit System Recovery</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Zeppelin ransomware uses PowerShell to bypass execution policy and delete volume shadow copies.</div>
+					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;powershell.exe -ExecutionPolicy ByPass -Command "Get-WmiObject Win32_Shadowcopy | ForEach-Object $_.Delete();"</div>
+							<div>&deg;&nbsp;vssadmin delete shadows /all /quiet</div>
+							
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -759,4 +698,4 @@ const Cuba: React.FC<Propx> = ({className}) => {
   )
 }
 
-export {Cuba}
+export {Zeppelin}

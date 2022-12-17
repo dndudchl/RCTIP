@@ -16,103 +16,98 @@ type Props = {
 const MixedWidget4: React.FC<Props> = ({className, color, image, title, date, progress}) => {
   return (
     <div className={`card ${className}`}>
-      {/* begin::Body */}
       <div className='card-body'>
-        {/* begin::Heading */}
         <div className='d-flex flex-stack'>
-          {/* begin:Info */}
           <div className='d-flex align-items-center'>
-            {/* begin:Image */}
-            <div className='symbol symbol-60px me-5'>
-              <span className={clsx(`symbol-label`, `bg-${color}-light`)}>
-                <img src={toAbsoluteUrl(image)} className='h-50 align-self-center' alt='' />
-              </span>
-            </div>
-            {/* end:Image */}
-
-            {/* begin:Title */}
             <div className='d-flex flex-column flex-grow-1 my-lg-0 my-2 pr-3'>
-              <a href='#' className='text-dark fw-bold text-hover-primary fs-5'>
-                {title}
-              </a>
-
-              <span className='text-muted fw-semibold'>{date}</span>
+              <div className='text-dark fw-bold text-hover-primary fs-3'>
+              Attack Count Ranking for 6 months
+              </div>
             </div>
-            {/* end:Title */}
           </div>
-          {/* begin:Info */}
-
-          {/* begin:Menu */}
-          <div className='ms-1'>
-            <button
-              type='button'
-              className='btn btn-sm btn-icon btn-color-primary btn-active-light-primary'
-              data-kt-menu-trigger='click'
-              data-kt-menu-placement='bottom-end'
-              data-kt-menu-flip='top-end'
-            >
-              <KTSVG path='/media/icons/duotune/general/gen024.svg' className='svg-icon-2' />
-            </button>
-            <Dropdown1 />
-          </div>
-          {/* end::Menu */}
         </div>
-        {/* end::Heading */}
-
-        {/* begin:Stats */}
         <div className='d-flex flex-column w-100 mt-12'>
-          <span className='text-dark me-2 fw-bold pb-3'>Progress</span>
-
+          <span className='text-dark me-2 fw-bold pb-3'>Vicesociety : 37</span>
           <div className='progress h-5px w-100'>
             <div
               className={`progress-bar bg-${color}`}
               role='progressbar'
-              style={{width: progress}}
+              style={{width: 375}}
             ></div>
           </div>
         </div>
-        {/* end:Stats */}
-
-        {/* begin:Team */}
-        <div className='d-flex flex-column mt-10'>
-          <div className='text-dark me-2 fw-bold pb-4'>Team</div>
-
-          <div className='d-flex'>
-            <a
-              href='#'
-              className='symbol symbol-35px me-2'
-              data-bs-toggle='tooltip'
-              title='Ana Stone'
-            >
-              <img src={toAbsoluteUrl('/media/avatars/300-6.jpg')} alt='' />
-            </a>
-
-            <a
-              href='#'
-              className='symbol symbol-35px me-2'
-              data-bs-toggle='tooltip'
-              title='Mark Larson'
-            >
-              <img src={toAbsoluteUrl('/media/avatars/300-5.jpg')} alt='' />
-            </a>
-
-            <a
-              href='#'
-              className='symbol symbol-35px me-2'
-              data-bs-toggle='tooltip'
-              title='Sam Harris'
-            >
-              <img src={toAbsoluteUrl('/media/avatars/300-9.jpg')} alt='' />
-            </a>
-
-            <a href='#' className='symbol symbol-35px' data-bs-toggle='tooltip' title='Alice Micto'>
-              <img src={toAbsoluteUrl('/media/avatars/300-10.jpg')} alt='' />
-            </a>
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>Lockbit : 30</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 350}}
+            ></div>
           </div>
         </div>
-        {/* end:Team */}
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>ALPHV : 23</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 300}}
+            ></div>
+          </div>
+        </div>
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>HIVE : 20</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 250}}
+            ></div>
+          </div>
+        </div>
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>Blackbyte : 17</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 200}}
+            ></div>
+          </div>
+        </div>
+        {/* <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>RagnarLocker : 15</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 150}}
+            ></div>
+          </div>
+        </div>
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>AvosLocker : 13</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 125}}
+            ></div>
+          </div>
+        </div>
+        <div className='d-flex flex-column w-100 mt-12'>
+          <span className='text-dark me-2 fw-bold pb-3'>Cuba : 10</span>
+          <div className='progress h-5px w-100'>
+            <div
+              className={`progress-bar bg-${color}`}
+              role='progressbar'
+              style={{width: 100}}
+            ></div>
+          </div>
+        </div> */}
       </div>
-      {/* end::Body */}
+
     </div>
   )
 }

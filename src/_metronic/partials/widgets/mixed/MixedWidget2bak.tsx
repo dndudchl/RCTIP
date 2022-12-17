@@ -13,7 +13,7 @@ type Props = {
   chartHeight: string
 }
 
-const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, strokeColor}) => {
+const MixedWidgetbak2: React.FC<Props> = ({className, chartColor, chartHeight, strokeColor}) => {
   const chartRef = useRef<HTMLDivElement | null>(null)
   const {mode} = useThemeMode()
   const refreshChart = () => {
@@ -46,8 +46,24 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
     <div className={`card ${className}`}>
       {/* begin::Header */}
       <div className={`card-header border-0 py-5 bg-${chartColor}`}>
-        <h3 className='card-title fw-bold text-gray-200 fs-2'>Popular Techniques by Tactic</h3>
+        <h3 className='card-title fw-bold text-white'>Sales Statistics</h3>
+        <div className='card-toolbar'>
+          {/* begin::Menu */}
+          <button
+            type='button'
+            className='btn btn-sm btn-icon btn-color-white btn-active-white btn-active-color- border-0 me-n3'
+            data-kt-menu-trigger='click'
+            data-kt-menu-placement='bottom-end'
+            data-kt-menu-flip='top-end'
+          >
+            <KTSVG path='/media/icons/duotune/general/gen024.svg' className='svg-icon-2' />
+          </button>
+          <Dropdown1 />
+          {/* end::Menu */}
+        </div>
       </div>
+      {/* end::Header */}
+      {/* begin::Body */}
       <div className='card-body p-0'>
         {/* begin::Chart */}
         <div
@@ -56,107 +72,59 @@ const MixedWidget2: React.FC<Props> = ({className, chartColor, chartHeight, stro
         ></div>
         {/* end::Chart */}
         {/* begin::Stats */}
-        <div className='card-p  position-relative'>
+        <div className='card-p mt-n20 position-relative'>
           {/* begin::Row */}
           <div className='row g-0'>
             {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7 text-center'>
-              <div className='text-primary fw-semibold fs-6'>Initial Access</div>
-              <div className='text-primary fw-bold fs-5'>T1190</div>
-            </div>
-            {/* end::Col */}
-            
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
+            <div className='col bg-light-warning px-6 py-8 rounded-2 me-7 mb-7'>
+              <KTSVG
+                path='/media/icons/duotune/general/gen032.svg'
+                className='svg-icon-3x svg-icon-warning d-block my-2'
+              />
+              <a href='#' className='text-warning fw-semibold fs-6'>
                 Weekly Sales
-              </div>
+              </a>
             </div>
             {/* end::Col */}
             {/* begin::Col */}
             <div className='col bg-light-primary px-6 py-8 rounded-2 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
+              <KTSVG
+                path='/media/icons/duotune/arrows/arr075.svg'
+                className='svg-icon-3x svg-icon-primary d-block my-2'
+              />
+              <a href='#' className='text-primary fw-semibold fs-6'>
                 New Users
-              </div>
+              </a>
             </div>
             {/* end::Col */}
           </div>
+          {/* end::Row */}
           {/* begin::Row */}
           <div className='row g-0'>
             {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
+            <div className='col bg-light-danger px-6 py-8 rounded-2 me-7'>
+              <KTSVG
+                path='/media/icons/duotune/abstract/abs027.svg'
+                className='svg-icon-3x svg-icon-danger d-block my-2'
+              />
+              <a href='#' className='text-danger fw-semibold fs-6 mt-2'>
+                Item Orders
+              </a>
             </div>
             {/* end::Col */}
             {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
+            <div className='col bg-light-success px-6 py-8 rounded-2'>
+              <KTSVG
+                path='/media/icons/duotune/communication/com010.svg'
+                className='svg-icon-3x svg-icon-success d-block my-2'
+              />
+              <a href='#' className='text-success fw-semibold fs-6 mt-2'>
+                Bug Reports
+              </a>
             </div>
             {/* end::Col */}
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            
           </div>
-          {/* begin::Row */}
-          <div className='row g-0'>
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            
-          </div>
-          {/* begin::Row */}
-          <div className='row g-0'>
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            {/* begin::Col */}
-            <div className='col bg-light-primary px-6 py-8 rounded-2 me-7 mb-7'>
-              <div className='text-primary fw-semibold fs-6'>
-                Weekly Sales
-              </div>
-            </div>
-            {/* end::Col */}
-            
-          </div>
-          
+          {/* end::Row */}
         </div>
         {/* end::Stats */}
       </div>
@@ -177,8 +145,8 @@ const chartOptions = (
   return {
     series: [
       {
-        name: 'Tactic',
-        data: [1, 1, 1, 1, 1, 1, 1],
+        name: 'Net Profit',
+        data: [30, 45, 32, 70, 40, 40, 40],
       },
     ],
     chart: {
@@ -248,7 +216,7 @@ const chartOptions = (
     },
     yaxis: {
       min: 0,
-      max: 20,
+      max: 80,
       labels: {
         show: false,
         style: {
@@ -291,8 +259,13 @@ const chartOptions = (
         show: false,
       },
     },
-    
+    colors: ['transparent'],
+    markers: {
+      colors: [color],
+      strokeColors: [strokeColor],
+      strokeWidth: 3,
+    },
   }
 }
 
-export {MixedWidget2}
+export {MixedWidgetbak2}

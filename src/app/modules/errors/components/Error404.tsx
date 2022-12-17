@@ -10,12 +10,15 @@ const Error404: FC = () => {
         <img
           src={toAbsoluteUrl('/media/illustrations/sketchy-1/18.png')}
           alt=''
-          className='mw-100 mb-10 h-lg-450px'
+          className='mw-100 mb-10 h-lg-150px'
         />
         {/* end::Illustration */}
         {/* begin::Message */}
         <h1 className='fw-bold mb-10' style={{color: '#A3A3C7'}}>
-          Seems there is nothing here
+          The classification function was not implemented but we will go further. 
+        </h1>
+        <h1 className='fw-bold mb-10' style={{color: '#A3A3C7'}}>
+          Best of Best Fighting 
         </h1>
         {/* end::Message */}
         {/* begin::Link */}

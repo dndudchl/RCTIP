@@ -265,7 +265,7 @@ export function AsideMenuMain() {
       </AsideMenuItemWithSubMain>
 
       <AsideMenuItem
-        to='/Classification'
+        to='/error/404'
         title='Classification'
         bsTitle='Classification'
         fontIcon='bi-gear'
