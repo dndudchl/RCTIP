@@ -32,118 +32,133 @@ const Darkangels: FC = () => {
               </div>
             </div>
           </div>
-          </div>
           <div className='col-xl-6'>
-          <div className='card shadow-sm card-xl-stretch mb-xl-6 text-white'>
-            <div className='card-body p-0 '>
-              <div className='px-9 pt-7 card-rounded h-275px w-100 bg-dark'>
-                <div className='d-flex flex-stack'>
-                  <div className='m-0 fw-bold fs-2'>Transaction Summary</div>
-                  <div className='ms-1'>
+            <div className='card shadow-sm card-xl-stretch mb-xl-6 text-white'>
+              <div className='card-body p-0 '>
+                <div className='px-9 pt-7 card-rounded h-275px w-100 bg-dark'>
+                  <div className='d-flex flex-stack'>
+                    <div className='m-0 fw-bold fs-2 text-gray-800'>Transaction Summary</div>
+                    <div className='ms-1'></div>
+                  </div>
+                  <div className='d-flex text-center flex-column  pt-8'>
+                    <span className='fw-semibold fs-6 text-gray-800'>Total Payments</span>
+                    <span className='fw-bold fs-2x pt-1 text-gray-800'>$1,463,379.33</span>
                   </div>
                 </div>
-                <div className='d-flex text-center flex-column  pt-8'>
-                  <span className='fw-semibold fs-6'>Total Payments</span>
-                  <span className='fw-bold fs-2x pt-1'>$1,463,379.33</span>
-                </div>
-              </div>
-              <div
-                className='shadow-xs card-rounded mx-9 mb-9 px-6 py-9 position-relative z-index-1 bg-body'
-                style={{marginTop: '-100px'}}
-              >
-                <div className='d-flex align-items-center mb-6'>
-                  <div className='symbol symbol-45px w-40px me-5'>
-                    <span className='symbol-label bg-lighten'>
-                      <KTSVG path='/media/icons/duotune/maps/map004.svg' className='svg-icon-1' />
-                    </span>
-                  </div>
-                  <div className='d-flex align-items-center flex-wrap w-100'>
-                    <div className='mb-1 pe-3 flex-grow-1'>
-                      <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
-                        KRW
-                      </a>
-                      <div className='text-gray-400 fw-semibold fs-7'>(1314.00) 22.12.14 23:51</div>
+                <div
+                  className='shadow-xs card-rounded mx-9 mb-9 px-6 py-9 position-relative z-index-1 bg-body'
+                  style={{marginTop: '-100px'}}
+                >
+                  <div className='d-flex align-items-center mb-6'>
+                    <div className='symbol symbol-45px w-40px me-5'>
+                      <span className='symbol-label bg-lighten'>
+                        <KTSVG path='/media/icons/duotune/maps/map004.svg' className='svg-icon-1' />
+                      </span>
                     </div>
-                    <div className='d-flex align-items-center'>
-                      <div className='fw-bold fs-5 text-gray-800 pe-1'>&#8361;1,899,466,366원</div>
-                      <KTSVG
-                        path='/media/icons/duotune/general/gen024.svg'
-                        className='svg-icon-5 svg-icon-black ms-1'
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className='d-flex align-items-center mb-6'>
-                  <div className='symbol symbol-45px w-40px me-5'>
-                    <span className='symbol-label bg-lighten'>
-                      <KTSVG path='/media/icons/duotune/general/gen024.svg' className='svg-icon-1' />
-                    </span>
-                  </div>
-                  <div className='d-flex align-items-center flex-wrap w-100'>
-                    <div className='mb-1 pe-3 flex-grow-1'>
-                      <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
-                      Count
-                      </a>
-                      <div className='text-gray-400 fw-semibold fs-7'>Total average of 30 groups : 47</div>
-                    </div>
-                    <div className='d-flex align-items-center'>
-                      <div className='fw-bold fs-5 text-gray-800 pe-1'>2</div>
-                      <KTSVG
-                        path='/media/icons/duotune/arrows/arr065.svg'
-                        className='svg-icon-5 svg-icon-danger ms-1'
-                      />
+                    <div className='d-flex align-items-center flex-wrap w-100'>
+                      <div className='mb-1 pe-3 flex-grow-1'>
+                        <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
+                          KRW
+                        </a>
+                        <div className='text-gray-400 fw-semibold fs-7'>
+                          (1314.00) 22.12.14 23:51
+                        </div>
+                      </div>
+                      <div className='d-flex align-items-center'>
+                        <div className='fw-bold fs-5 text-gray-800 pe-1'>
+                          &#8361;1,899,466,366원
+                        </div>
+                        <KTSVG
+                          path='/media/icons/duotune/general/gen024.svg'
+                          className='svg-icon-5 svg-icon-black ms-1'
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className='d-flex align-items-center mb-6'>
-                  <div className='symbol symbol-45px w-40px me-5'>
-                    <span className='symbol-label bg-lighten'>
-                      <KTSVG path='/media/icons/duotune/electronics/elc005.svg' className='svg-icon-1' />
-                    </span>
-                  </div>
-                  <div className='d-flex align-items-center flex-wrap w-100'>
-                    <div className='mb-1 pe-3 flex-grow-1'>
-                      <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
-                        Average Payments
-                      </a>
-                      <div className='text-gray-400 fw-semibold fs-7'>Total average of 30 groups : $102,925.81</div>
+                  <div className='d-flex align-items-center mb-6'>
+                    <div className='symbol symbol-45px w-40px me-5'>
+                      <span className='symbol-label bg-lighten'>
+                        <KTSVG
+                          path='/media/icons/duotune/general/gen024.svg'
+                          className='svg-icon-1'
+                        />
+                      </span>
                     </div>
-                    <div className='d-flex align-items-center '>
-                      <div className='fw-bold fs-5 text-gray-800 pe-1'>$731,689.66 </div>
-                      <KTSVG
-                        path='/media/icons/duotune/arrows/arr066.svg'
-                        className='svg-icon-5 svg-icon-success ms-1'
-                      />
+                    <div className='d-flex align-items-center flex-wrap w-100'>
+                      <div className='mb-1 pe-3 flex-grow-1'>
+                        <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
+                          Count
+                        </a>
+                        <div className='text-gray-400 fw-semibold fs-7'>
+                          Total average of 30 groups : 47
+                        </div>
+                      </div>
+                      <div className='d-flex align-items-center'>
+                        <div className='fw-bold fs-5 text-gray-800 pe-1'>2</div>
+                        <KTSVG
+                          path='/media/icons/duotune/arrows/arr065.svg'
+                          className='svg-icon-5 svg-icon-danger ms-1'
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className='d-flex align-items-center'>
-                  <div className='symbol symbol-45px w-40px me-5'>
-                    <span className='symbol-label bg-lighten'>
-                      <KTSVG path='/media/icons/duotune/general/gen005.svg' className='svg-icon-1' />
-                    </span>
-                  </div>
-                  <div className='d-flex align-items-center flex-wrap w-100'>
-                    <div className='mb-1 pe-3 flex-grow-1'>
-                      <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
-                        Recent Payments
-                      </a>
-                      <div className='text-gray-400 fw-semibold fs-7'>22.05.04</div>
+                  <div className='d-flex align-items-center mb-6'>
+                    <div className='symbol symbol-45px w-40px me-5'>
+                      <span className='symbol-label bg-lighten'>
+                        <KTSVG
+                          path='/media/icons/duotune/electronics/elc005.svg'
+                          className='svg-icon-1'
+                        />
+                      </span>
                     </div>
-                    <div className='d-flex align-items-center'>
-                      <div className='fw-bold fs-5 text-gray-800 pe-1'>$1,463,374.59</div>
-                      <KTSVG
-                        path='/media/icons/duotune/arrows/arr066.svg'
-                        className='svg-icon-5 svg-icon-success ms-1'
-                      />
+                    <div className='d-flex align-items-center flex-wrap w-100'>
+                      <div className='mb-1 pe-3 flex-grow-1'>
+                        <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
+                          Average Payments
+                        </a>
+                        <div className='text-gray-400 fw-semibold fs-7'>
+                          Total average of 30 groups : $102,925.81
+                        </div>
+                      </div>
+                      <div className='d-flex align-items-center '>
+                        <div className='fw-bold fs-5 text-gray-800 pe-1'>$731,689.66 </div>
+                        <KTSVG
+                          path='/media/icons/duotune/arrows/arr066.svg'
+                          className='svg-icon-5 svg-icon-success ms-1'
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className='d-flex align-items-center'>
+                    <div className='symbol symbol-45px w-40px me-5'>
+                      <span className='symbol-label bg-lighten'>
+                        <KTSVG
+                          path='/media/icons/duotune/general/gen005.svg'
+                          className='svg-icon-1'
+                        />
+                      </span>
+                    </div>
+                    <div className='d-flex align-items-center flex-wrap w-100'>
+                      <div className='mb-1 pe-3 flex-grow-1'>
+                        <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bold'>
+                          Recent Payments
+                        </a>
+                        <div className='text-gray-400 fw-semibold fs-7'>22.05.04</div>
+                      </div>
+                      <div className='d-flex align-items-center'>
+                        <div className='fw-bold fs-5 text-gray-800 pe-1'>$1,463,374.59</div>
+                        <KTSVG
+                          path='/media/icons/duotune/arrows/arr066.svg'
+                          className='svg-icon-5 svg-icon-success ms-1'
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          </div>
-        </div> 
+        </div>
       </div>
 
       {/* <h1 className='my-0 mb-10'>Recent Targets</h1>
