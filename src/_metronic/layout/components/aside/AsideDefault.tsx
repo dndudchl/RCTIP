@@ -42,9 +42,9 @@ const AsideDefault: FC = () => {
 
         {/* end::Aside menu */}
       </div>
-      {/* begin::Footer */}
-      <div className='aside-footer flex-column-auto' id='kt_aside_footer'>
-        {/* begin::Menu */}
+    
+      {/* <div className='aside-footer flex-column-auto' id='kt_aside_footer'>
+       
         <div className='d-flex justify-content-center'>
           <button
             type='button'
@@ -64,9 +64,9 @@ const AsideDefault: FC = () => {
           </button>
           <Dropdown2 />
         </div>
-        {/* end::Menu */}
-      </div>
-      {/* end::Footer */}
+     
+      </div> */}
+     
     </div>
   )
 }

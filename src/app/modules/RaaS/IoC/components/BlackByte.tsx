@@ -57,7 +57,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -84,7 +84,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -111,7 +111,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -138,7 +138,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -165,7 +165,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -192,7 +192,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -219,7 +219,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -246,7 +246,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -273,7 +273,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -300,7 +300,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -327,7 +327,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -354,7 +354,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -381,7 +381,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -408,7 +408,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -435,7 +435,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -462,7 +462,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-10-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -487,7 +487,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -512,7 +512,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -537,7 +537,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-07-11</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -570,7 +570,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-30</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -603,7 +603,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-30</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -630,7 +630,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -657,7 +657,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -684,7 +684,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -711,7 +711,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -738,7 +738,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -765,7 +765,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -792,7 +792,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -822,7 +822,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -849,7 +849,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -876,7 +876,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -903,7 +903,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -930,7 +930,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -957,7 +957,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -984,7 +984,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1011,7 +1011,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1041,7 +1041,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1071,7 +1071,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1101,7 +1101,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1130,7 +1130,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1156,7 +1156,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1182,7 +1182,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-29</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1215,7 +1215,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1240,7 +1240,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1266,7 +1266,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1292,7 +1292,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1318,7 +1318,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1344,7 +1344,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>
@@ -1370,7 +1370,7 @@ const Blackbyte: React.FC<Props> = ({className}) => {
 								</td>
 								<td><div className='text-dark fw-bold fs-6'>2022-05-26</div></td>
 								<td>
-									<span className='bg-dark text-white fw-semibold p-1'>TLP:CLEAR</span>
+									<span className='bg-dark text-gray-100 fw-semibold p-1'>TLP:CLEAR</span>
 								</td>
 								<td className='text-end'>
 									<a href='#' className='btn btn-icon btn-bg-light btn-active-color-primary btn-sm me-1'>

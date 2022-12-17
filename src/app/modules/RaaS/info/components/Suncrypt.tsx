@@ -39,7 +39,7 @@ const Suncrypt: FC = () => {
           </div>
           </div>
           <div className='col-xl-6'>
-          <div className='card shadow-sm card-xl-stretch mb-xl-6 text-white'>
+          <div className='card shadow-sm card-xl-stretch mb-xl-6 text-gray-100'>
             <div className='card-body p-0 '>
               <div className='px-9 pt-7 card-rounded h-275px w-100 bg-dark'>
                 <div className='d-flex flex-stack'>

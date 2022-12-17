@@ -44,7 +44,7 @@ const MasterLayout = () => {
               </Content>
             </div>
             {/* end::Content */}
-            <Footer />
+            {/* <Footer /> */}
           </div>
           {/* end::Wrapper */}
         </div>

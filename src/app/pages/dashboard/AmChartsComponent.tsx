@@ -36,6 +36,7 @@ function AmChartsComponent() {
         id: 'US',
         polygonSettings: {
           fill: am5.color(0xfc0303),
+          // name: "h"
         },
       },
       {

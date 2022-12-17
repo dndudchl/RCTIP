@@ -29,7 +29,7 @@ const Toolbar2: FC = () => {
           }
         >
           {/* begin::Wrapper */}
-          <div className='flex-shrink-0 me-2'>
+          {/* <div className='flex-shrink-0 me-2'>
             <ul className='nav'>
               <li className='nav-item'>
                 <a
@@ -61,7 +61,7 @@ const Toolbar2: FC = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* end::Wrapper */}
 
           {/* begin::Wrapper */}

@@ -26,9 +26,9 @@ const Topbar: FC = () => {
   return (
     <div className='d-flex align-items-stretch flex-shrink-0'>
       {/* Search */}
-      <div className={clsx('d-flex align-items-stretch', itemClass)}>
+      {/* <div className={clsx('d-flex align-items-stretch', itemClass)}>
         <Search />
-      </div>
+      </div> */}
 
       {/* Activities :Drawer toggle */ }
       {/* <div className={clsx('d-flex align-items-center', itemClass)}>
@@ -72,8 +72,8 @@ const Topbar: FC = () => {
       {/* end::Theme mode */}
 
       {/* NOTIFICATIONS */}
-      <div className={clsx('d-flex align-items-center', itemClass)}>
-        {/* begin::Menu- wrapper */}
+      {/* <div className={clsx('d-flex align-items-center', itemClass)}>
+        
         <div
           className={clsx(btnClass, 'position-relative')}
           data-kt-menu-trigger='click'
@@ -83,8 +83,8 @@ const Topbar: FC = () => {
           <i className='bi bi-grid fs-2' />
         </div>
         <HeaderNotificationsMenu />
-        {/* end::Menu wrapper */}
-      </div>
+        
+      </div> */}
 
 
       {/* begin::User Toggle */}
@@ -102,7 +102,7 @@ const Topbar: FC = () => {
       {/* end::User */}
 
       {/* begin::Aside Toggler */}
-      {config.header.left === 'menu' && (
+      {/* {config.header.left === 'menu' && (
         <div className='d-flex align-items-center d-lg-none ms-2' title='Show header menu'>
           <div
             className='btn btn-icon btn-active-color-primary w-30px h-30px w-md-40px h-md-40px'
@@ -111,7 +111,7 @@ const Topbar: FC = () => {
             <KTSVG path='/media/icons/duotune/text/txt001.svg' className='svg-icon-1' />
           </div>
         </div>
-      )}
+      )} */}
     </div>
   )
 }
