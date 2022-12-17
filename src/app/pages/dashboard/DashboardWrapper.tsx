@@ -4,6 +4,8 @@ import {useIntl} from 'react-intl'
 import {PageTitle} from '../../../_metronic/layout/core'
 // import {TablesWidget11} from '../../../_metronic/partials/widgets'
 
+
+
 const DashboardPage = () => {
   return (
     <>
@@ -13,6 +15,14 @@ const DashboardPage = () => {
 
       {/* begin::Row */}
       <div className='g-5 gx-xxl-8'>
+        <div className='col-xl-6'>
+         
+
+      
+
+
+
+          </div>
         <h1> Main Page</h1>
         {/* <TablesWidget11 className='' /> */}
       </div>
@@ -27,7 +37,7 @@ const DashboardWrapper = () => {
     <>
       
       <PageTitle breadcrumbs={[]}>{intl.formatMessage({id: 'MENU.DASHBOARD'})}</PageTitle>
-      <DashboardPage /> hihi
+      <DashboardPage /> 
     </>
   )
 }
