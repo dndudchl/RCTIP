@@ -310,6 +310,11 @@ function AmChartsComponent() {
       },
     ])
   }, [])
-  return <div id='chartdiv' style={{width: '100%', height: '500px'}}></div>
+  return (
+  <div id='chartdiv' style={{width: '100%', height: '500px'}}>
+    {/* <div className='card'></div> */}
+
+  </div>
+  )
 }
 export default AmChartsComponent

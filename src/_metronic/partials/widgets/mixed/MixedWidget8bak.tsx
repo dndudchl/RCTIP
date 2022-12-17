@@ -12,7 +12,7 @@ type Props = {
   chartHeight: string
 }
 
-const MixedWidget8: React.FC<Props> = ({className, chartColor, chartHeight}) => {
+const MixedWidget8bak: React.FC<Props> = ({className, chartColor, chartHeight}) => {
   const chartRef = useRef<HTMLDivElement | null>(null)
   const {mode} = useThemeMode()
   const refreshChart = () => {
@@ -78,14 +78,24 @@ const MixedWidget8: React.FC<Props> = ({className, chartColor, chartHeight}) => 
           <div className='d-flex flex-stack mb-5'>
             {/* begin::Section */}
             <div className='d-flex align-items-center me-2'>
-              
+              {/* begin::Symbol */}
+              <div className='symbol symbol-50px me-3'>
+                <div className='symbol-label bg-light'>
+                  <img
+                    src={toAbsoluteUrl('/media/svg/brand-logos/plurk.svg')}
+                    alt=''
+                    className='h-50'
+                  />
+                </div>
+              </div>
+              {/* end::Symbol */}
 
               {/* begin::Title */}
               <div>
                 <a href='#' className='fs-6 text-gray-800 text-hover-primary fw-bold'>
-                  Sunscrypt
+                  Top Authors
                 </a>
-                <div className='fs-7 text-muted fw-semibold mt-1'></div>
+                <div className='fs-7 text-muted fw-semibold mt-1'>Ricky Hunt, Sandra Trepp</div>
               </div>
               {/* end::Title */}
             </div>
@@ -102,7 +112,15 @@ const MixedWidget8: React.FC<Props> = ({className, chartColor, chartHeight}) => 
             {/* begin::Section */}
             <div className='d-flex align-items-center me-2'>
               {/* begin::Symbol */}
-              
+              <div className='symbol symbol-50px me-3'>
+                <div className='symbol-label bg-light'>
+                  <img
+                    src={toAbsoluteUrl('/media/svg/brand-logos/figma-1.svg')}
+                    alt=''
+                    className='h-50'
+                  />
+                </div>
+              </div>
               {/* end::Symbol */}
 
               {/* begin::Title */}
@@ -126,7 +144,17 @@ const MixedWidget8: React.FC<Props> = ({className, chartColor, chartHeight}) => 
           <div className='d-flex flex-stack'>
             {/* begin::Section */}
             <div className='d-flex align-items-center me-2'>
-              
+              {/* begin::Symbol */}
+              <div className='symbol symbol-50px me-3'>
+                <div className='symbol-label bg-light'>
+                  <img
+                    src={toAbsoluteUrl('/media/svg/brand-logos/vimeo.svg')}
+                    alt=''
+                    className='h-50'
+                  />
+                </div>
+              </div>
+              {/* end::Symbol */}
 
               {/* begin::Title */}
               <div className='py-1'>
@@ -296,4 +324,4 @@ const chart1Options = (chartColor: string, chartHeight: string): ApexOptions => 
   }
 }
 
-export {MixedWidget8}
+export {MixedWidget8bak}

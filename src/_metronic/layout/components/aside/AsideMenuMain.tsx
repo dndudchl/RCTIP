@@ -264,20 +264,13 @@ export function AsideMenuMain() {
         
       </AsideMenuItemWithSubMain>
 
-      {/* <AsideMenuItemWithSubMain
-        to='/builder'
-        title='Binary'
-        bsTitle='Resources'
+      <AsideMenuItem
+        to='/Classification'
+        title='Classification'
+        bsTitle='Classification'
         fontIcon='bi-gear'
-      >
-        <AsideMenuItem to='/builder' title='Layout builder' fontIcon='bi-layers fs-3' />
-        <AsideMenuItem
-          to={process.env.REACT_APP_PREVIEW_DOCS_URL + '/docs/changelog'}
-          outside={true}
-          title={`Changelog ${process.env.REACT_APP_VERSION}`}
-          fontIcon='bi-card-text fs-3'
-        />
-      </AsideMenuItemWithSubMain> */}
+      />
+        
     </>
   )
 }

@@ -3,7 +3,7 @@ import {FC} from 'react'
 import SVG from 'react-inlinesvg'
 import {toAbsoluteUrl} from '../../_metronic/helpers'
 
-const MenuTestPage: FC = () => {
+const Classification: FC = () => {
   return (
     <div className='row'>
       <div className='card card-custom'>
@@ -1049,4 +1049,4 @@ const MenuTestPage: FC = () => {
   )
 }
 
-export {MenuTestPage}
+export {Classification}
