@@ -5,36 +5,36 @@ import {PageTitle} from '../../../../_metronic/layout/core'
 import {Alphv} from './components/Alphv'
 import {Avoslocker} from './components/Avoslocker'
 import {Babuk} from './components/Babuk'
-import {Blackbasta} from './components/Blackbasta'
-import {Blackbyte} from './components/Blackbyte'
-import { Blackcat } from './components/Blackcat'
-import { Bluesky } from './components/Bluesky'
+import {Blackbasta} from './components/BlackBasta'
+import {Blackbyte} from './components/BlackByte'
+import {Blackcat} from './components/Blackcat'
+import {Bluesky} from './components/Bluesky'
 import {Clop} from './components/Clop'
 import {Conti} from './components/Conti'
-import { Cuba } from './components/Cuba'
-import { Darkangels } from './components/Darkangels'
-import { Darkside } from './components/Darkside'
-import { Hellokitty } from './components/Hellokitty'
-import { Hive } from './components/Hive'
+import {Cuba} from './components/Cuba'
+import {Darkangels} from './components/Darkangels'
+import {Darkside} from './components/Darkside'
+import {Hellokitty} from './components/Hellokitty'
+import {Hive} from './components/Hive'
 // import {Everest} from './components/Everest'
 import {Lockbit} from './components/Lockbit'
 // import {Omega} from './components/Omega'
-import { Lv } from './components/Lv'
-import { Maze } from './components/Maze'
-import { Medusalocker } from './components/Medusalocker'
-import { Netwalker } from './components/Netwalker'
+import {Lv} from './components/Lv'
+import {Maze} from './components/Maze'
+import {Medusalocker} from './components/Medusalocker'
+import {Netwalker} from './components/Netwalker'
 import {Quantum} from './components/Quantum'
-import { Ragnarlocker } from './components/Ragnarlocker'
-import {Ransomexx} from './components/Ransomexx'
+import {Ragnarlocker} from './components/Ragnarlocker'
+import {Ransomexx} from './components/RansomExx'
 // import {RansomHouse} from './components/RansomHouse'
 import {Redalert} from './components/Redalert'
-import { Revil } from './components/Revil'
+import {Revil} from './components/Revil'
 import {Snatch} from './components/Snatch'
-import { Sugar } from './components/Sugar'
+import {Sugar} from './components/Sugar'
 import {Suncrypt} from './components/Suncrypt'
 import {Vicesociety} from './components/Vicesociety'
-import { Yanluowang } from './components/Yanluowang'
-import { Zeppelin } from './components/Zeppelin'
+import {Yanluowang} from './components/Yanluowang'
+import {Zeppelin} from './components/Zeppelin'
 
 // import {VSOP} from './components/VSOP'
 
@@ -61,7 +61,9 @@ const InfoPage = () => {
           path='Alphv'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Alphv</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Alphv
+              </PageTitle>
               <Alphv />
             </>
           }
@@ -70,7 +72,9 @@ const InfoPage = () => {
           path='Avoslocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Avoslocker</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Avoslocker
+              </PageTitle>
               <Avoslocker />
             </>
           }
@@ -79,7 +83,9 @@ const InfoPage = () => {
           path='Babuk'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Babuk</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Babuk
+              </PageTitle>
               <Babuk />
             </>
           }
@@ -88,7 +94,9 @@ const InfoPage = () => {
           path='Blackbasta'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Blackbasta</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Blackbasta
+              </PageTitle>
               <Blackbasta />
             </>
           }
@@ -97,7 +105,9 @@ const InfoPage = () => {
           path='Blackbyte'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Blackbyte</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Blackbyte
+              </PageTitle>
               <Blackbyte />
             </>
           }
@@ -106,7 +116,9 @@ const InfoPage = () => {
           path='Blackcat'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Blackcat</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Blackcat
+              </PageTitle>
               <Blackcat />
             </>
           }
@@ -115,7 +127,9 @@ const InfoPage = () => {
           path='Bluesky'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Bluesky</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Bluesky
+              </PageTitle>
               <Bluesky />
             </>
           }
@@ -124,7 +138,9 @@ const InfoPage = () => {
           path='Clop'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Clop</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Clop
+              </PageTitle>
               <Clop />
             </>
           }
@@ -133,7 +149,9 @@ const InfoPage = () => {
           path='Conti'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Conti</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Conti
+              </PageTitle>
               <Conti />
             </>
           }
@@ -142,7 +160,9 @@ const InfoPage = () => {
           path='Cuba'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Cuba</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Cuba
+              </PageTitle>
               <Cuba />
             </>
           }
@@ -151,7 +171,9 @@ const InfoPage = () => {
           path='Darkangels'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Darkangels</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Darkangels
+              </PageTitle>
               <Darkangels />
             </>
           }
@@ -160,7 +182,9 @@ const InfoPage = () => {
           path='Darkside'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Darkside</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Darkside
+              </PageTitle>
               <Darkside />
             </>
           }
@@ -169,7 +193,9 @@ const InfoPage = () => {
           path='Hellokitty'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Hellokitty</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Hellokitty
+              </PageTitle>
               <Hellokitty />
             </>
           }
@@ -178,7 +204,9 @@ const InfoPage = () => {
           path='Hive'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Hive</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Hive
+              </PageTitle>
               <Hive />
             </>
           }
@@ -196,7 +224,9 @@ const InfoPage = () => {
           path='Lockbit'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Lockbit</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Lockbit
+              </PageTitle>
               <Lockbit />
             </>
           }
@@ -205,7 +235,9 @@ const InfoPage = () => {
           path='Lv'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Lv</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Lv
+              </PageTitle>
               <Lv />
             </>
           }
@@ -214,7 +246,9 @@ const InfoPage = () => {
           path='Maze'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Maze</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Maze
+              </PageTitle>
               <Maze />
             </>
           }
@@ -223,7 +257,9 @@ const InfoPage = () => {
           path='Medusalocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Medusalocker</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Medusalocker
+              </PageTitle>
               <Medusalocker />
             </>
           }
@@ -232,7 +268,9 @@ const InfoPage = () => {
           path='Netwalker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Netwalker</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Netwalker
+              </PageTitle>
               <Netwalker />
             </>
           }
@@ -250,7 +288,9 @@ const InfoPage = () => {
           path='Quantum'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Quantum</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Quantum
+              </PageTitle>
               <Quantum />
             </>
           }
@@ -259,7 +299,9 @@ const InfoPage = () => {
           path='Ragnarlocker'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Ragnarlocker</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Ragnarlocker
+              </PageTitle>
               <Ragnarlocker />
             </>
           }
@@ -268,7 +310,9 @@ const InfoPage = () => {
           path='Ransomexx'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Ransomexx</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Ransomexx
+              </PageTitle>
               <Ransomexx />
             </>
           }
@@ -286,7 +330,9 @@ const InfoPage = () => {
           path='Redalert'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Redalert</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Redalert
+              </PageTitle>
               <Redalert />
             </>
           }
@@ -295,7 +341,9 @@ const InfoPage = () => {
           path='Revil'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>REvil</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                REvil
+              </PageTitle>
               <Revil />
             </>
           }
@@ -304,7 +352,9 @@ const InfoPage = () => {
           path='Snatch'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Snatch</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Snatch
+              </PageTitle>
               <Snatch />
             </>
           }
@@ -313,7 +363,9 @@ const InfoPage = () => {
           path='Sugar'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Sugar</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Sugar
+              </PageTitle>
               <Sugar />
             </>
           }
@@ -322,7 +374,9 @@ const InfoPage = () => {
           path='Suncrypt'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Suncrypt</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Suncrypt
+              </PageTitle>
               <Suncrypt />
             </>
           }
@@ -331,7 +385,9 @@ const InfoPage = () => {
           path='Vicesociety'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Vicesociety</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Vicesociety
+              </PageTitle>
               <Vicesociety />
             </>
           }
@@ -349,7 +405,9 @@ const InfoPage = () => {
           path='Yanluowang'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Yanluowang</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Yanluowang
+              </PageTitle>
               <Yanluowang />
             </>
           }
@@ -358,12 +416,13 @@ const InfoPage = () => {
           path='Zeppelin'
           element={
             <>
-              <PageTitle breadcrumbs={[]} description='Darkweb Info'>Zeppelin</PageTitle>
+              <PageTitle breadcrumbs={[]} description='Darkweb Info'>
+                Zeppelin
+              </PageTitle>
               <Zeppelin />
             </>
           }
         />
-        
 
         <Route index element={<Navigate to='/apps/RaaS/info/Avoslocker' />} />
       </Route>
