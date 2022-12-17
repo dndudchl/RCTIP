@@ -10,7 +10,7 @@ type Props = {
   className: string
 }
 
-const ChartsWidget1: React.FC<Props> = ({className}) => {
+const ChartsWidget0: React.FC<Props> = ({className}) => {
   const chartRef = useRef<HTMLDivElement | null>(null)
   const {mode} = useThemeMode()
 
@@ -43,10 +43,30 @@ const ChartsWidget1: React.FC<Props> = ({className}) => {
     <div className={`card ${className}`}>
       {/* begin::Header */}
       <div className='card-header border-0 pt-5'>
+        {/* begin::Title */}
         <h3 className='card-title align-items-start flex-column'>
-          <span className='card-label fw-bold fs-2 mb-1'>Targeted Sector</span>
-          <span className='text-muted fw-semibold fs-6'>Global Industry Classification Standard(GICS)</span>
+          <span className='card-label fw-bold fs-3 mb-1'>Top Sector</span>
+
+          <span className='text-muted fw-semibold fs-7'>Global Industry Classification Standard</span>
         </h3>
+        {/* end::Title */}
+
+        {/* begin::Toolbar */}
+        <div className='card-toolbar'>
+          {/* begin::Menu */}
+          <button
+            type='button'
+            className='btn btn-sm btn-icon btn-color-primary btn-active-light-primary'
+            data-kt-menu-trigger='click'
+            data-kt-menu-placement='bottom-end'
+            data-kt-menu-flip='top-end'
+          >
+            <KTSVG path='/media/icons/duotune/general/gen024.svg' className='svg-icon-2' />
+          </button>
+          <Dropdown1 />
+          {/* end::Menu */}
+        </div>
+        {/* end::Toolbar */}
       </div>
       {/* end::Header */}
 
@@ -61,21 +81,24 @@ const ChartsWidget1: React.FC<Props> = ({className}) => {
   )
 }
 
-export {ChartsWidget1}
+export {ChartsWidget0}
 
 function getChartOptions(height: number): ApexOptions {
-  const labelColor = getCSSVariableValue('--kt-gray-800')
+  const labelColor = getCSSVariableValue('--kt-gray-500')
   const borderColor = getCSSVariableValue('--kt-gray-200')
-  const baseColor = getCSSVariableValue('--kt-danger')
+  const baseColor = getCSSVariableValue('--kt-primary')
   const secondaryColor = getCSSVariableValue('--kt-gray-300')
 
   return {
     series: [
       {
-        name: 'Target',
-        data: [82, 58, 55, 24, 22, 17, 16, 12, 10, 7, 2],
+        name: 'Net Profit',
+        data: [44, 55, 57, 56, 61, 58],
       },
-      
+    //   {
+    //     name: 'Revenue',
+    //     data: [76, 85, 101, 98, 87, 105],
+    //   },
     ],
     chart: {
       fontFamily: 'inherit',
@@ -104,7 +127,7 @@ function getChartOptions(height: number): ApexOptions {
       colors: ['transparent'],
     },
     xaxis: {
-      categories: ['Industrials', 'Consumer Discretionary', 'Materials', 'Communication Services', 'Information Technology', 'Health Care','Utilities','Financials','Energy','Real Estate','Consumer Staples'],
+      categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
       axisBorder: {
         show: false,
       },
@@ -114,7 +137,7 @@ function getChartOptions(height: number): ApexOptions {
       labels: {
         style: {
           colors: labelColor,
-          fontSize: '14px',
+          fontSize: '12px',
         },
       },
     },
@@ -122,7 +145,7 @@ function getChartOptions(height: number): ApexOptions {
       labels: {
         style: {
           colors: labelColor,
-          fontSize: '15px',
+          fontSize: '12px',
         },
       },
     },
@@ -156,7 +179,7 @@ function getChartOptions(height: number): ApexOptions {
       },
       y: {
         formatter: function (val) {
-          return + val + ' Counts'
+          return '$' + val + ' thousands'
         },
       },
     },

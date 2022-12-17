@@ -36,16 +36,12 @@ const Darkangels: FC = () => {
             </div>
           </div>
           <div className='col-xl-6'>
-            <div className='card shadow-sm card-xl-stretch mb-xl-6 text-white'>
-              <div className='card-body p-0 '>
-                <div className='px-9 pt-7 card-rounded h-275px w-100 bg-dark'>
-                  <div className='d-flex flex-stack'>
-                    <div className='m-0 fw-bold fs-2 text-gray-100'>Transaction Summary</div>
-                    <div className='ms-1'></div>
-                  </div>
-                  <div className='d-flex text-center flex-column  pt-8'>
-                    <span className='fw-semibold fs-6 text-gray-100'>Total Payments</span>
-                    <span className='fw-bold fs-2x pt-1 text-gray-100'>$1,463,379.33</span>
+          <div className='card shadow-sm card-xl-stretch mb-xl-6 text-gray-100'>
+            <div className='card-body p-0 '>
+              <div className='px-9 pt-7 card-rounded h-275px w-100 bg-dark'>
+                <div className='d-flex flex-stack'>
+                  <div className='m-0 fw-bold fs-2'>Transaction Summary</div>
+                  <div className='ms-1'>
                   </div>
                 </div>
                 <div
