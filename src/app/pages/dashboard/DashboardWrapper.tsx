@@ -72,7 +72,7 @@ const DashboardPage = () => {
         <Test className=''/>
         </div>
       <div className='col-xl-6'>
-        {/* <FeedsWidget2 className=''/> */}
+        <FeedsWidget2 className=''/>
         <Twit2 className=''/>
         <Twit3 className=''/>
         <Twit4 className=''/>

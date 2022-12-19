@@ -115,7 +115,7 @@ const MixedWidget9: React.FC<Props> = ({className, chartColor, chartHeight}) => 
                 <div className='symbol symbol-50px me-3'>
                   <div className='symbol-label bg-light-success'>
                     <KTSVG
-                      path='/media/icons/duotune/ecommerce/ecm002.svg'
+                      path='/media/icons/duotune/ecommerce/ecm003.svg'
                       className='svg-icon-1 svg-icon-success'
                     />
                   </div>

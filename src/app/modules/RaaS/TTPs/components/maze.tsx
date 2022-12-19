@@ -10,158 +10,158 @@ const MAZE: React.FC<Propx> = ({className}) => {
     <div className={`card mb-6 ${className}`}>
         <h1 className='card-title fw-bold fs-2qx pt-6'>MITRE ATT&CK MATRIX</h1>
         <div className='card-body pt-3 pb-6'>
-        <div className='table-responsive border-start border-end border-white'>
-          <table className='table align-baseline gx-1 gy-4 table-striped border border-dark'>
+        <div className='table-responsive border-start border-end border-gray-100'>
+          <table className='table align-baseline gx-1 gy-4 table-striped border border-gray-900'>
             <thead>
-			   <tr className='fs-6 fw-semebold text-white bg-dark text-center'>
-			    	<th className='min-w-175px border-end border-white'>Initial-Access</th>
-			    	<th className='min-w-175px border-end border-white'>Execution</th>
-			    	<th className='min-w-175px border-end border-white'>Persistence</th>
-			    	<th className='min-w-175px border-end border-white'>Privilege-Escalation</th>
-			    	<th className='min-w-175px border-end border-white'>Defense-Evasion</th>
-			    	<th className='min-w-175px border-end border-white'>Discovery</th>
-			    	<th className='min-w-175px border-end border-white'>Lateral-Movement</th>
-			    	<th className='min-w-175px border-end border-white'>Command-and-Control</th>
-			    	<th className='min-w-175px border-end border-white'>Exfiltration</th>
-			    	<th className='min-w-175px border-end border-white'>Impact</th>
+			   <tr className='fs-6 fw-semebold text-gray-100 bg-dark text-center'>
+			    	<th className='min-w-175px border-end border-gray-100'>Initial-Access</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Execution</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Persistence</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Privilege-Escalation</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Defense-Evasion</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Discovery</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Lateral-Movement</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Command-and-Control</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Exfiltration</th>
+			    	<th className='min-w-175px border-end border-gray-100'>Impact</th>
                </tr>
             </thead>
             <tbody>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1566</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Phishing</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1566</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Phishing</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Distribute directly via exploit kits and spam campaigns</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1059.003</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: Windows Command Shell</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1059.003</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Command and Scripting Interpreter: Windows Command Shell</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Use batch scripts with various command</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1547.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1547.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create a file named "startup_vrun.bat"</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1547.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1547.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create a file name "startup_vrun.bat"</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1564.006</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Hide Artifacts: Run Virtual Instance</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1564.006</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Hide Artifacts: Run Virtual Instance</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Use VirtualBox and Window 7 virtual machine to run</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1057</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Process Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1057</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Process Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Gather all of the running systme process</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1021.002</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Remote Services: Remote Desktop Protocol</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1021.002</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Remote Services: Remote Desktop Protocol</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Involve lateral movement within a network using Cobalt Strike BEACON and stolen credentials</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1071.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Application Layer Protocol: Web Protocols</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1071.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Application Layer Protocol: Web Protocols</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Communicate to hard-coded IP address</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1048</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1048</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Exfiltration Over Alternative Protocol</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Exfiltrate data to FTP server</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1489</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Service Stop</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1489</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Service Stop</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Stop SQL service</div>
 								</div>
 							</div>
@@ -169,132 +169,132 @@ const MAZE: React.FC<Propx> = ({className}) => {
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1133</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>External Remote Services</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1133</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>External Remote Services</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Log into an internet-facing system via RDP</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1106</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Native API</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1106</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Native API</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Use several Windows API functions</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1053.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1053.005</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create scheduled tasks</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1055.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1055.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Inject the malware DLL into a target process</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1562.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Impair Defenses: Disable or Modify Tools</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1562.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Impair Defenses: Disable or Modify Tools</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Disable dynamic analysis and other security tools</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1082</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Information Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1082</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>System Information Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Check the language of the system</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1568</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Dynamic Resolution</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1568</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Dynamic Resolution</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Forge POST strings with a random choice from a list</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1529</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Shutdown/Reboot</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1529</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>System Shutdown/Reboot</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Shutdown command on a victim machine</div>
 								</div>
 							</div>
@@ -302,128 +302,128 @@ const MAZE: React.FC<Propx> = ({className}) => {
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1078</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Valid Accounts</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1078</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Valid Accounts</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Log into a Citrix web portal account with weak password</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1053.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1053.005</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create scheduled tasks</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1136</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Create Account</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1136</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Create Account</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create a new domain account</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1053.005</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1053.005</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Scheduled Task/Job: Scheduled Task</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create scheduled tasks</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1070</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Indicator Removal</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1070</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Indicator Removal</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Delete shadow volumes copies</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1614.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Location Discovery: System Language Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1614.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>System Location Discovery: System Language Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Terminate execution if the language matches</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1490</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Inhibit System Recovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1490</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Inhibit System Recovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Delete the shadow volumes copies</div>
 								</div>
 							</div>
@@ -431,116 +431,116 @@ const MAZE: React.FC<Propx> = ({className}) => {
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1047</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Windows Management Instrumentation</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1047</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Windows Management Instrumentation</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Use WMI to attempt to delet ethe shadow volumes copies</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1036.004</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Masquerading: Masquerade Task or Service</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1036.004</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Masquerading: Masquerade Task or Service</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Create scheduled tasks masquerading</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1049</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Network Connections Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1049</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>System Network Connections Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Enumerate the network resource by using functions</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1486</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1486</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Data Encrypted for Impact</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Disrupte systems by encrypting files</div>
 								</div>
 							</div>
@@ -548,432 +548,432 @@ const MAZE: React.FC<Propx> = ({className}) => {
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1027</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Obfuscated Files or Information</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1027</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Obfuscated Files or Information</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Decrypted strings and other important information</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1083</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>File and Directory Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1083</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>File and Directory Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Conduct reconnaissance activity</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1027.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Obfuscated Files or Information: Binary Padding</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1027.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Obfuscated Files or Information: Binary Padding</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Insert large blocks of junk code</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1135</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Network Share Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1135</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Network Share Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Use batch script to perliminary network reconnaissance</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1055.001</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1055.001</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Process Injection: Dynamic-link Library Injection</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Inject the malware DLL</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1482</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>Domain Trust Discovery</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1482</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>Domain Trust Discovery</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Execute a large number of reconnaissance scripts</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				</tr>
 				<tr className=''>				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'>T1218.007</span>
-								<span className='text-dark fw-semibold mb-1 fs-7'>System Binary Proxy Execution: siexec</span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'>T1218.007</span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'>System Binary Proxy Execution: siexec</span>
 							</div>
 							<div className='bg-gray-500 border-start border-danger1 border-3 ps-4 pt-2 pb-1 pe-1 fst-italic'>
-								<div className='text-white fw-semibold d-block fs-7'>
+								<div className='text-gray-100 fw-semibold d-block fs-7'>
 									<div>Deliver components for its ransomware attack</div>
 								</div>
 							</div>
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
 					</td>          
 				
-					<td className='align-items-baseline border-start border-end border-dark'>
+					<td className='align-items-baseline border-start border-end border-gray-900'>
 						<div className='px-2 d-flex flex-column'>
 							<div className='symbol symbol-50px pb-1'>
-								<span className='badge badge-dark text-white fs-8 fw-bold me-2'></span>
-								<span className='text-dark fw-semibold mb-1 fs-7'></span>
+								<span className='badge badge-dark text-gray-100 fs-8 fw-bold me-2'></span>
+								<span className='text-gray-900 fw-semibold mb-1 fs-7'></span>
 							</div>
 							
 						</div>
@@ -984,14 +984,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
         </div>
       </div>
     </div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Initial-Access</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Initial-Access</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1566</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Phishing</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1566</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Phishing</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1006,8 +1006,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1133</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- External Remote Services</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1133</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- External Remote Services</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1022,8 +1022,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1078</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Valid Accounts</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1078</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Valid Accounts</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1035,14 +1035,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Execution</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Execution</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1059.003</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: Windows Command Shell</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1059.003</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Command and Scripting Interpreter: Windows Command Shell</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1057,8 +1057,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1106</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Native API</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1106</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Native API</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1072,7 +1072,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							<div>&deg;&nbsp;C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /out:"#output_file" /target:exe #source_file</div>
 							<div>&deg;&nbsp;%tmp%/T1106.exe</div>
 							
@@ -1086,8 +1086,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1053.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1053.005</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1101,7 +1101,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1113,8 +1113,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1047</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Windows Management Instrumentation</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1047</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Windows Management Instrumentation</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1128,7 +1128,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1137,14 +1137,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Persistence</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Persistence</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1547.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1547.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1159,8 +1159,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1053.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1053.005</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1175,8 +1175,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1136</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Create Account</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1136</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Create Account</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1188,14 +1188,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Privilege-Escalation</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Privilege-Escalation</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1547.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1547.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1210,8 +1210,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1055.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1055.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1226,8 +1226,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1053.005</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1053.005</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Scheduled Task/Job: Scheduled Task</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1239,14 +1239,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Defense-Evasion</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Defense-Evasion</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1564.006</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Hide Artifacts: Run Virtual Instance</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1564.006</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Hide Artifacts: Run Virtual Instance</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1260,7 +1260,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							<div>&deg;&nbsp;"#vboxmanage_exe" createvm --name "#vm_name" --register</div>
 							<div>&deg;&nbsp;"#vboxmanage_exe" modifyvm "#vm_name" --firmware efi</div>
 							<div>&deg;&nbsp;"#vboxmanage_exe" startvm "#vm_name"</div>
@@ -1275,8 +1275,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1562.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Impair Defenses: Disable or Modify Tools</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1562.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Impair Defenses: Disable or Modify Tools</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1291,8 +1291,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1070</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Indicator Removal</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1070</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Indicator Removal</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1307,8 +1307,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1036.004</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Masquerading: Masquerade Task or Service</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1036.004</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Masquerading: Masquerade Task or Service</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1323,8 +1323,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1027</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Obfuscated Files or Information</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1027</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Obfuscated Files or Information</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1338,7 +1338,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							<div>&deg;&nbsp;$OriginalCommand = '#powershell_command'</div>
 							<div>&deg;&nbsp;$Bytes = [System.Text.Encoding]::Unicode.GetBytes($OriginalCommand)</div>
 							<div>&deg;&nbsp;$EncodedCommand =[Convert]::ToBase64String($Bytes)</div>
@@ -1355,8 +1355,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1027.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Obfuscated Files or Information: Binary Padding</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1027.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Obfuscated Files or Information: Binary Padding</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1371,8 +1371,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1055.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1055.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Process Injection: Dynamic-link Library Injection</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1387,8 +1387,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1218.007</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Binary Proxy Execution: siexec</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1218.007</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- System Binary Proxy Execution: siexec</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1400,14 +1400,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Discovery</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Discovery</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1057</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Process Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1057</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Process Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1421,7 +1421,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1433,8 +1433,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1082</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Information Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1082</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- System Information Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1449,8 +1449,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1614.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Location Discovery: System Language Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1614.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- System Location Discovery: System Language Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1465,8 +1465,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1049</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Network Connections Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1049</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- System Network Connections Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1481,8 +1481,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1083</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- File and Directory Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1083</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- File and Directory Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1497,8 +1497,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1135</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Network Share Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1135</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Network Share Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1512,7 +1512,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1524,8 +1524,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1482</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Domain Trust Discovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1482</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Domain Trust Discovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1539,7 +1539,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1548,14 +1548,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Lateral-Movement</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Lateral-Movement</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1021.002</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Remote Services: Remote Desktop Protocol</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1021.002</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Remote Services: Remote Desktop Protocol</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1567,14 +1567,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Command-and-Control</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Command-and-Control</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1071.001</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Application Layer Protocol: Web Protocols</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1071.001</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Application Layer Protocol: Web Protocols</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1588,7 +1588,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>psh</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							<div>&deg;&nbsp;Invoke-WebRequest #domain -UserAgent "HttpBrowser/1.0" | out-null</div>
 							<div>&deg;&nbsp;Invoke-WebRequest #domain -UserAgent "Wget/1.9+cvs-stable (Red Hat modified)" | out-null</div>
 							<div>&deg;&nbsp;Invoke-WebRequest #domain -UserAgent "Opera/8.81 (Windows NT 6.0; U; en)" | out-null</div>
@@ -1604,8 +1604,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1568</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Dynamic Resolution</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1568</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Dynamic Resolution</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1617,14 +1617,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Exfiltration</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Exfiltration</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1048</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Exfiltration Over Alternative Protocol</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1048</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Exfiltration Over Alternative Protocol</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1636,14 +1636,14 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			</div>
 		</div>
 	</div>
-	<div className='fs-1 fw-bold text-dark pt-1 ps-3'>Impact</div>
+	<div className='fs-1 fw-bold text-gray-900 pt-1 ps-3'>Impact</div>
 	<div className='row g-5 g-xl-8 pt-4'>
 		<div className='col-xl-6'>
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1489</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Service Stop</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1489</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Service Stop</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1657,7 +1657,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1669,8 +1669,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1529</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- System Shutdown/Reboot</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1529</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- System Shutdown/Reboot</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1684,7 +1684,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1696,8 +1696,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1490</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Inhibit System Recovery</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1490</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Inhibit System Recovery</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1711,7 +1711,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						<span className='badge badge-light-primary fs-7 fw-bold my-2'>cmd</span>
 						<span>&nbsp;&nbsp;</span>
 					
-						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>
+						<div className='fs-5 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>
 							
 						</div>
 					</div>
@@ -1723,8 +1723,8 @@ const MAZE: React.FC<Propx> = ({className}) => {
 			<div className='card card-xl-stretch mb-xl-8'>
 				<div className='card-header align-items-center border-0 mt-4'>
 					<div className='symbol symbol-50px pb-1'>
-						<span className='badge badge-dark text-white fs-5 fw-bold me-1'>T1486</span>
-						<span className='text-dark fw-bold mb-1 fs-3'>- Data Encrypted for Impact</span>
+						<span className='badge badge-dark text-gray-100 fs-5 fw-bold me-1'>T1486</span>
+						<span className='text-gray-900 fw-bold mb-1 fs-3'>- Data Encrypted for Impact</span>
 					</div>
 				</div>
 				<div className='card-body pt-3'>
@@ -1740,7 +1740,7 @@ const MAZE: React.FC<Propx> = ({className}) => {
 						
 					</div>
 					<div className='fs-2 fw-bold pb-3'>Added Extension</div>
-					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-dark fst-italic'>random</div>
+					<div className='fs-4 fw-semibold mt-2 mb-2 ms-5 text-gray-900 fst-italic'>random</div>
 						
 				</div>
 			</div>
